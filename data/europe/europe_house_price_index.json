@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "source": "Eurostat",
+    "scope": "Europe",
+    "database": "prc_hpi_a",
+    "url": "https://ec.europa.eu/eurostat",
+    "code": "prc_hpi_a",
+    "key": "europe_house_price_index",
+    "description": "House price index, annual average",
+    "summary": "Annual index of dwelling prices paid by households, set to 100 in 2015. National statistical offices report transactions to Eurostat, which publishes one average for each calendar year.",
+    "category": "House prices and rents",
+    "units": "index, 2015=100",
+    "reversedScale": true,
+    "dataSize": 29,
+    "retrievedAt": "2026-11-10T18:01:48Z"
+  },
+  "data": [
+    {
+      "country": "Austria",
+      "code": "AUT",
+      "value": 167.06,
+      "year": 2025
+    },
+    {
+      "country": "Belgium",
+      "code": "BEL",
+      "value": 144.86,
+      "year": 2025
+    },
+    {
+      "country": "Bulgaria",
+      "code": "BGR",
+      "value": 249.23,
+      "year": 2025
+    },
+    {
+      "country": "Croatia",
+      "code": "HRV",
+      "value": 227.09,
+      "year": 2025
+    },
+    {
+      "country": "Cyprus",
+      "code": "CYP",
+      "value": 150.89,
+      "year": 2025
+    },
+    {
+      "country": "Czechia",
+      "code": "CZE",
+      "value": 245.4,
+      "year": 2025
+    },
+    {
+      "country": "Denmark",
+      "code": "DNK",
+      "value": 152.84,
+      "year": 2025
+    },
+    {
+      "country": "Estonia",
+      "code": "EST",
+      "value": 220.72,
+      "year": 2025
+    },
+    {
+      "country": "Finland",
+      "code": "FIN",
+      "value": 99.03,
+      "year": 2025
+    },
+    {
+      "country": "France",
+      "code": "FRA",
+      "value": 127.26,
+      "year": 2025
+    },
+    {
+      "country": "Germany",
+      "code": "DEU",
+      "value": 152.7,
+      "year": 2025
+    },
+    {
+      "country": "Hungary",
+      "code": "HUN",
+      "value": 366.62,
+      "year": 2025
+    },
+    {
+      "country": "Iceland",
+      "code": "ISL",
+      "value": 263.1,
+      "year": 2025
+    },
+    {
+      "country": "Ireland",
+      "code": "IRL",
+      "value": 197.19,
+      "year": 2025
+    },
+    {
+      "country": "Italy",
+      "code": "ITA",
+      "value": 116.2,
+      "year": 2025
+    },
+    {
+      "country": "Latvia",
+      "code": "LVA",
+      "value": 214.05,
+      "year": 2025
+    },
+    {
+      "country": "Lithuania",
+      "code": "LTU",
+      "value": 258.11,
+      "year": 2025
+    },
+    {
+      "country": "Luxembourg",
+      "code": "LUX",
+      "value": 165.14,
+      "year": 2025
+    },
+    {
+      "country": "Malta",
+      "code": "MLT",
+      "value": 173.55,
+      "year": 2025
+    },
+    {
+      "country": "Netherlands",
+      "code": "NLD",
+      "value": 215.15,
+      "year": 2025
+    },
+    {
+      "country": "Norway",
+      "code": "NOR",
+      "value": 161.66,
+      "year": 2025
+    },
+    {
+      "country": "Poland",
+      "code": "POL",
+      "value": 216.8,
+      "year": 2025
+    },
+    {
+      "country": "Portugal",
+      "code": "PRT",
+      "value": 263.85,
+      "year": 2025
+    },
+    {
+      "country": "Romania",
+      "code": "ROU",
+      "value": 164.82,
+      "year": 2025
+    },
+    {
+      "country": "Slovakia",
+      "code": "SVK",
+      "value": 204.22,
+      "year": 2025
+    },
+    {
+      "country": "Slovenia",
+      "code": "SVN",
+      "value": 214.9,
+      "year": 2025
+    },
+    {
+      "country": "Spain",
+      "code": "ESP",
+      "value": 180.6,
+      "year": 2025
+    },
+    {
+      "country": "Sweden",
+      "code": "SWE",
+      "value": 133.41,
+      "year": 2025
+    },
+    {
+      "country": "Türkiye",
+      "code": "TUR",
+      "value": 1721.53,
+      "year": 2024
+    }
+  ]
+}

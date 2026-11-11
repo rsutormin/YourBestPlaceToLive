@@ -1,0 +1,247 @@
+{
+  "metadata": {
+    "source": "OECD",
+    "scope": "World",
+    "database": "DSD_TAX_WAGES_COMP@DF_TW_COMP",
+    "url": "https://data-explorer.oecd.org/",
+    "code": "AV_TW/S_C0/AW100",
+    "key": "tax_wedge",
+    "description": "Average tax wedge, single person at the average wage",
+    "summary": "Income tax plus employee and employer social contributions for a childless single person earning the average wage, as a share of labour costs. The OECD calculates this in Taxing Wages.",
+    "category": "Tax burden on wages",
+    "units": "percentage of labour costs",
+    "reversedScale": true,
+    "dataSize": 38,
+    "retrievedAt": "2026-11-11T08:40:00Z"
+  },
+  "data": [
+    {
+      "country": "Australia",
+      "code": "AUS",
+      "value": 27.9043,
+      "year": 2025
+    },
+    {
+      "country": "Austria",
+      "code": "AUT",
+      "value": 47.0884,
+      "year": 2025
+    },
+    {
+      "country": "Belgium",
+      "code": "BEL",
+      "value": 52.4822,
+      "year": 2025
+    },
+    {
+      "country": "Canada",
+      "code": "CAN",
+      "value": 32.1229,
+      "year": 2025
+    },
+    {
+      "country": "Chile",
+      "code": "CHL",
+      "value": 7.4585,
+      "year": 2025
+    },
+    {
+      "country": "Colombia",
+      "code": "COL",
+      "value": 0.0,
+      "year": 2025
+    },
+    {
+      "country": "Costa Rica",
+      "code": "CRI",
+      "value": 27.6586,
+      "year": 2025
+    },
+    {
+      "country": "Czechia",
+      "code": "CZE",
+      "value": 41.2002,
+      "year": 2025
+    },
+    {
+      "country": "Denmark",
+      "code": "DNK",
+      "value": 35.757,
+      "year": 2025
+    },
+    {
+      "country": "Estonia",
+      "code": "EST",
+      "value": 42.6368,
+      "year": 2025
+    },
+    {
+      "country": "Finland",
+      "code": "FIN",
+      "value": 42.4799,
+      "year": 2025
+    },
+    {
+      "country": "France",
+      "code": "FRA",
+      "value": 47.1781,
+      "year": 2025
+    },
+    {
+      "country": "Germany",
+      "code": "DEU",
+      "value": 49.2631,
+      "year": 2025
+    },
+    {
+      "country": "Greece",
+      "code": "GRC",
+      "value": 39.337,
+      "year": 2025
+    },
+    {
+      "country": "Hungary",
+      "code": "HUN",
+      "value": 41.1504,
+      "year": 2025
+    },
+    {
+      "country": "Iceland",
+      "code": "ISL",
+      "value": 31.5141,
+      "year": 2025
+    },
+    {
+      "country": "Ireland",
+      "code": "IRL",
+      "value": 32.6328,
+      "year": 2025
+    },
+    {
+      "country": "Israel",
+      "code": "ISR",
+      "value": 26.0683,
+      "year": 2025
+    },
+    {
+      "country": "Italy",
+      "code": "ITA",
+      "value": 45.7574,
+      "year": 2025
+    },
+    {
+      "country": "Japan",
+      "code": "JPN",
+      "value": 33.12,
+      "year": 2025
+    },
+    {
+      "country": "Korea",
+      "code": "KOR",
+      "value": 24.8496,
+      "year": 2025
+    },
+    {
+      "country": "Latvia",
+      "code": "LVA",
+      "value": 40.1368,
+      "year": 2025
+    },
+    {
+      "country": "Lithuania",
+      "code": "LTU",
+      "value": 39.7942,
+      "year": 2025
+    },
+    {
+      "country": "Luxembourg",
+      "code": "LUX",
+      "value": 40.1604,
+      "year": 2025
+    },
+    {
+      "country": "Mexico",
+      "code": "MEX",
+      "value": 21.6511,
+      "year": 2025
+    },
+    {
+      "country": "Netherlands",
+      "code": "NLD",
+      "value": 35.9393,
+      "year": 2025
+    },
+    {
+      "country": "New Zealand",
+      "code": "NZL",
+      "value": 20.8149,
+      "year": 2025
+    },
+    {
+      "country": "Norway",
+      "code": "NOR",
+      "value": 36.3915,
+      "year": 2025
+    },
+    {
+      "country": "Poland",
+      "code": "POL",
+      "value": 35.0261,
+      "year": 2025
+    },
+    {
+      "country": "Portugal",
+      "code": "PRT",
+      "value": 39.3374,
+      "year": 2025
+    },
+    {
+      "country": "Slovak Republic",
+      "code": "SVK",
+      "value": 42.7183,
+      "year": 2025
+    },
+    {
+      "country": "Slovenia",
+      "code": "SVN",
+      "value": 45.2952,
+      "year": 2025
+    },
+    {
+      "country": "Spain",
+      "code": "ESP",
+      "value": 41.4441,
+      "year": 2025
+    },
+    {
+      "country": "Sweden",
+      "code": "SWE",
+      "value": 41.1358,
+      "year": 2025
+    },
+    {
+      "country": "Switzerland",
+      "code": "CHE",
+      "value": 22.9794,
+      "year": 2025
+    },
+    {
+      "country": "Türkiye",
+      "code": "TUR",
+      "value": 40.3343,
+      "year": 2025
+    },
+    {
+      "country": "United Kingdom",
+      "code": "GBR",
+      "value": 32.3789,
+      "year": 2025
+    },
+    {
+      "country": "United States",
+      "code": "USA",
+      "value": 29.9771,
+      "year": 2025
+    }
+  ]
+}

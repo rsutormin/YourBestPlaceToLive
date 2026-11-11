@@ -1,0 +1,120 @@
+World Bank Open Data
+
+The JSON files in the data directory are taken from World Bank Open Data
+(World Development Indicators) and redistributed under the Creative Commons
+Attribution 4.0 International license (CC-BY 4.0):
+
+https://creativecommons.org/licenses/by/4.0/
+
+Files:
+
+- data/fixed_broadband_subscriptions.json
+- data/gdp_per_capita_ppp.json
+- data/government_education_expenditure_gdp.json
+- data/government_health_expenditure_gdp.json
+- data/homicide_rate.json
+- data/inflation_rate.json
+- data/internet_users.json
+- data/mobile_subscriptions.json
+
+Source: World Bank Open Data, https://data.worldbank.org/
+
+The values are copied from the World Bank and restructured into JSON. The
+World Bank does not endorse this project.
+
+
+
+Our World in Data
+
+The following JSON files are taken from Our World in Data and redistributed
+under the same Creative Commons Attribution 4.0 International license
+(CC-BY 4.0):
+
+https://creativecommons.org/licenses/by/4.0/
+
+Files:
+
+- data/adult_literacy_rate.json
+- data/co2_emissions_per_capita.json
+- data/infant_mortality_rate.json
+- data/life_expectancy.json
+- data/life_satisfaction.json
+- data/mean_years_of_schooling.json
+- data/pm25_exposure.json
+
+Source: Our World in Data, https://ourworldindata.org/
+
+Life satisfaction is the Cantril ladder score from the Gallup World Poll, as
+published by Our World in Data. The values are restructured into JSON. Our
+World in Data and Gallup do not endorse this project.
+
+
+
+Eurostat
+
+The following JSON files are taken from Eurostat and redistributed under the
+Creative Commons Attribution 4.0 International license (CC-BY 4.0). The source
+is Eurostat.
+
+https://creativecommons.org/licenses/by/4.0/
+https://ec.europa.eu/eurostat
+
+Files:
+
+- data/europe/europe_air_passengers.json
+- data/europe/europe_average_hourly_wage.json
+- data/europe/europe_house_price_index.json
+- data/europe/europe_initial_residence_permits.json
+- data/europe/europe_minimum_wage.json
+- data/europe/europe_motorway_length.json
+- data/europe/europe_rail_passengers.json
+- data/europe/europe_railway_length.json
+- data/europe/europe_rental_cost_index.json
+- data/europe/europe_work_permits.json
+
+The values are restructured into JSON. The European Commission does not
+endorse this project.
+
+
+
+OECD
+
+The following JSON files are taken from the OECD and redistributed with
+attribution to the OECD. OECD data and publications are subject to the OECD
+Terms and Conditions.
+
+https://www.oecd.org/en/about/terms-and-conditions.html
+https://data-explorer.oecd.org/
+https://www.oecd.org/en/about/programmes/pisa/
+
+Files:
+
+- data/average_annual_income_per_capita.json
+- data/overtime_workers_percentage.json
+- data/pisa_mathematics.json
+- data/pisa_reading.json
+- data/pisa_science.json
+- data/tax_wedge.json
+
+Tax wedge, the percentage of employees working long hours, and household
+income are from the OECD Data Explorer. PISA mean scores are from PISA 2025 Results (Volume I), Annex B1.
+The values are restructured into JSON. The OECD does not endorse this project.
+
+
+
+Bank for International Settlements
+
+The following JSON files are taken from the BIS selected residential property
+price statistics and redistributed with attribution to the Bank for
+International Settlements. Use of BIS statistics is subject to the BIS Terms
+of Permitted Use of Statistics.
+
+https://www.bis.org/terms_statistics.htm
+https://www.bis.org/statistics/pp.htm
+
+Files:
+
+- data/real_house_price_index.json
+
+The values are restructured into JSON. The Bank for International Settlements
+does not endorse this project.

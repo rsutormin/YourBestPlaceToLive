@@ -1,0 +1,241 @@
+{
+  "metadata": {
+    "source": "OECD",
+    "scope": "World",
+    "database": "DSD_NAAG@DF_NAAG_V",
+    "url": "https://data-explorer.oecd.org/",
+    "code": "B7GS1M_POP/USD_PPP_PS",
+    "key": "average_annual_income_per_capita",
+    "description": "Gross adjusted disposable income per capita, PPP converted",
+    "summary": "Household income left after taxes and transfers, plus the value of public services, per person in comparable US dollars. The OECD calculates it from each country's national accounts.",
+    "category": "Average annual income",
+    "units": "US dollars per person",
+    "reversedScale": false,
+    "dataSize": 37,
+    "retrievedAt": "2026-11-11T08:40:00Z"
+  },
+  "data": [
+    {
+      "country": "Australia",
+      "code": "AUS",
+      "value": 56162.2778,
+      "year": 2024
+    },
+    {
+      "country": "Austria",
+      "code": "AUT",
+      "value": 57347.0592,
+      "year": 2025
+    },
+    {
+      "country": "Belgium",
+      "code": "BEL",
+      "value": 55351.0496,
+      "year": 2025
+    },
+    {
+      "country": "Brazil",
+      "code": "BRA",
+      "value": 13928.4635,
+      "year": 2021
+    },
+    {
+      "country": "Canada",
+      "code": "CAN",
+      "value": 48020.7583,
+      "year": 2025
+    },
+    {
+      "country": "Chile",
+      "code": "CHL",
+      "value": 26586.4145,
+      "year": 2024
+    },
+    {
+      "country": "China (People’s Republic of)",
+      "code": "CHN",
+      "value": 14077.3989,
+      "year": 2021
+    },
+    {
+      "country": "Colombia",
+      "code": "COL",
+      "value": 20846.2064,
+      "year": 2024
+    },
+    {
+      "country": "Costa Rica",
+      "code": "CRI",
+      "value": 17893.2787,
+      "year": 2021
+    },
+    {
+      "country": "Czechia",
+      "code": "CZE",
+      "value": 43818.4921,
+      "year": 2025
+    },
+    {
+      "country": "Denmark",
+      "code": "DNK",
+      "value": 51061.8256,
+      "year": 2025
+    },
+    {
+      "country": "Estonia",
+      "code": "EST",
+      "value": 35136.5834,
+      "year": 2025
+    },
+    {
+      "country": "Finland",
+      "code": "FIN",
+      "value": 49246.578,
+      "year": 2025
+    },
+    {
+      "country": "France",
+      "code": "FRA",
+      "value": 53339.0295,
+      "year": 2025
+    },
+    {
+      "country": "Germany",
+      "code": "DEU",
+      "value": 63844.0677,
+      "year": 2025
+    },
+    {
+      "country": "Greece",
+      "code": "GRC",
+      "value": 34880.5615,
+      "year": 2025
+    },
+    {
+      "country": "Hungary",
+      "code": "HUN",
+      "value": 38475.6594,
+      "year": 2025
+    },
+    {
+      "country": "Iceland",
+      "code": "ISL",
+      "value": 52709.3794,
+      "year": 2025
+    },
+    {
+      "country": "Ireland",
+      "code": "IRL",
+      "value": 50645.6628,
+      "year": 2025
+    },
+    {
+      "country": "Italy",
+      "code": "ITA",
+      "value": 47788.8518,
+      "year": 2025
+    },
+    {
+      "country": "Japan",
+      "code": "JPN",
+      "value": 40481.9771,
+      "year": 2024
+    },
+    {
+      "country": "Korea",
+      "code": "KOR",
+      "value": 41571.5178,
+      "year": 2025
+    },
+    {
+      "country": "Latvia",
+      "code": "LVA",
+      "value": 33020.6827,
+      "year": 2025
+    },
+    {
+      "country": "Lithuania",
+      "code": "LTU",
+      "value": 41819.7741,
+      "year": 2025
+    },
+    {
+      "country": "Luxembourg",
+      "code": "LUX",
+      "value": 73107.6134,
+      "year": 2025
+    },
+    {
+      "country": "Mexico",
+      "code": "MEX",
+      "value": 23311.0207,
+      "year": 2024
+    },
+    {
+      "country": "Netherlands",
+      "code": "NLD",
+      "value": 58625.0082,
+      "year": 2025
+    },
+    {
+      "country": "New Zealand",
+      "code": "NZL",
+      "value": 43348.2164,
+      "year": 2023
+    },
+    {
+      "country": "Poland",
+      "code": "POL",
+      "value": 41927.2518,
+      "year": 2025
+    },
+    {
+      "country": "Portugal",
+      "code": "PRT",
+      "value": 43222.8473,
+      "year": 2025
+    },
+    {
+      "country": "Slovak Republic",
+      "code": "SVK",
+      "value": 36191.7977,
+      "year": 2025
+    },
+    {
+      "country": "Slovenia",
+      "code": "SVN",
+      "value": 43203.491,
+      "year": 2025
+    },
+    {
+      "country": "Spain",
+      "code": "ESP",
+      "value": 45144.0685,
+      "year": 2025
+    },
+    {
+      "country": "Sweden",
+      "code": "SWE",
+      "value": 48815.7107,
+      "year": 2025
+    },
+    {
+      "country": "Türkiye",
+      "code": "TUR",
+      "value": 33471.3482,
+      "year": 2024
+    },
+    {
+      "country": "United Kingdom",
+      "code": "GBR",
+      "value": 50551.1507,
+      "year": 2025
+    },
+    {
+      "country": "United States",
+      "code": "USA",
+      "value": 71299.7163,
+      "year": 2024
+    }
+  ]
+}

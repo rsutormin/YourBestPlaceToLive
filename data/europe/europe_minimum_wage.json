@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "source": "Eurostat",
+    "scope": "Europe",
+    "database": "earn_mw_cur",
+    "url": "https://ec.europa.eu/eurostat",
+    "code": "earn_mw_cur",
+    "key": "europe_minimum_wage",
+    "description": "Monthly minimum wage",
+    "summary": "Statutory gross minimum wage for a full-time worker, converted to euros per month. National labour laws set the rate, and Eurostat records the latest figure published in each year.",
+    "category": "Minimum and average wages",
+    "units": "euro per month",
+    "reversedScale": false,
+    "dataSize": 30,
+    "retrievedAt": "2026-11-10T18:01:48Z"
+  },
+  "data": [
+    {
+      "country": "Albania",
+      "code": "ALB",
+      "value": 531.0,
+      "year": 2026
+    },
+    {
+      "country": "Belgium",
+      "code": "BEL",
+      "value": 2234.0,
+      "year": 2026
+    },
+    {
+      "country": "Bulgaria",
+      "code": "BGR",
+      "value": 620.0,
+      "year": 2026
+    },
+    {
+      "country": "Croatia",
+      "code": "HRV",
+      "value": 1050.0,
+      "year": 2026
+    },
+    {
+      "country": "Cyprus",
+      "code": "CYP",
+      "value": 1088.0,
+      "year": 2026
+    },
+    {
+      "country": "Czechia",
+      "code": "CZE",
+      "value": 923.0,
+      "year": 2026
+    },
+    {
+      "country": "Estonia",
+      "code": "EST",
+      "value": 946.0,
+      "year": 2026
+    },
+    {
+      "country": "France",
+      "code": "FRA",
+      "value": 1867.0,
+      "year": 2026
+    },
+    {
+      "country": "Germany",
+      "code": "DEU",
+      "value": 2343.0,
+      "year": 2026
+    },
+    {
+      "country": "Greece",
+      "code": "GRC",
+      "value": 1073.0,
+      "year": 2026
+    },
+    {
+      "country": "Hungary",
+      "code": "HUN",
+      "value": 906.0,
+      "year": 2026
+    },
+    {
+      "country": "Ireland",
+      "code": "IRL",
+      "value": 2391.0,
+      "year": 2026
+    },
+    {
+      "country": "Latvia",
+      "code": "LVA",
+      "value": 780.0,
+      "year": 2026
+    },
+    {
+      "country": "Lithuania",
+      "code": "LTU",
+      "value": 1153.0,
+      "year": 2026
+    },
+    {
+      "country": "Luxembourg",
+      "code": "LUX",
+      "value": 2771.0,
+      "year": 2026
+    },
+    {
+      "country": "Malta",
+      "code": "MLT",
+      "value": 994.0,
+      "year": 2026
+    },
+    {
+      "country": "Moldova",
+      "code": "MDA",
+      "value": 313.0,
+      "year": 2026
+    },
+    {
+      "country": "Montenegro",
+      "code": "MNE",
+      "value": 670.0,
+      "year": 2026
+    },
+    {
+      "country": "Netherlands",
+      "code": "NLD",
+      "value": 2338.0,
+      "year": 2026
+    },
+    {
+      "country": "North Macedonia",
+      "code": "MKD",
+      "value": 624.0,
+      "year": 2026
+    },
+    {
+      "country": "Poland",
+      "code": "POL",
+      "value": 1119.0,
+      "year": 2026
+    },
+    {
+      "country": "Portugal",
+      "code": "PRT",
+      "value": 1073.0,
+      "year": 2026
+    },
+    {
+      "country": "Romania",
+      "code": "ROU",
+      "value": 825.0,
+      "year": 2026
+    },
+    {
+      "country": "Serbia",
+      "code": "SRB",
+      "value": 743.0,
+      "year": 2026
+    },
+    {
+      "country": "Slovakia",
+      "code": "SVK",
+      "value": 915.0,
+      "year": 2026
+    },
+    {
+      "country": "Slovenia",
+      "code": "SVN",
+      "value": 1482.0,
+      "year": 2026
+    },
+    {
+      "country": "Spain",
+      "code": "ESP",
+      "value": 1425.0,
+      "year": 2026
+    },
+    {
+      "country": "Türkiye",
+      "code": "TUR",
+      "value": 621.0,
+      "year": 2026
+    },
+    {
+      "country": "Ukraine",
+      "code": "UKR",
+      "value": 169.0,
+      "year": 2026
+    },
+    {
+      "country": "United Kingdom",
+      "code": "GBR",
+      "value": 1583.0,
+      "year": 2020
+    }
+  ]
+}

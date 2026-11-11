@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yourbestplacetolive-processes"
+version = "0.1.0"
+description = "Data import processes for Your Best Place To Live"
+requires-python = ">=3.9"
+dependencies = [
+    "eurostat>=1.1",
+    "openpyxl>=3.1",
+    "owid-catalog==0.3.11",
+    "pandas>=2.0",
+    "wbgapi>=1.0.12",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+
+[project.scripts]
+import-bis = "importers.bis_importer:main"
+import-eurostat = "importers.eurostat_importer:main"
+import-oecd = "importers.oecd_importer:main"
+import-owid = "importers.owid_importer:main"
+import-world-bank = "importers.world_bank_importer:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

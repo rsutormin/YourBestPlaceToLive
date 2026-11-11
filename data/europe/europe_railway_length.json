@@ -1,0 +1,253 @@
+{
+  "metadata": {
+    "source": "Eurostat",
+    "scope": "Europe",
+    "database": "rail_if_line_tr",
+    "url": "https://ec.europa.eu/eurostat",
+    "code": "rail_if_line_tr",
+    "key": "europe_railway_length",
+    "description": "Length of railway lines",
+    "summary": "Kilometres of railway line in operation, whatever the number of tracks. Infrastructure managers measure the network, and Eurostat publishes the annual length reported by each country.",
+    "category": "Transport connectivity and passenger traffic",
+    "units": "kilometres",
+    "reversedScale": false,
+    "dataSize": 39,
+    "retrievedAt": "2026-11-10T18:01:48Z"
+  },
+  "data": [
+    {
+      "country": "Albania",
+      "code": "ALB",
+      "value": 252.95,
+      "year": 2024
+    },
+    {
+      "country": "Austria",
+      "code": "AUT",
+      "value": 5624.0,
+      "year": 2024
+    },
+    {
+      "country": "Belgium",
+      "code": "BEL",
+      "value": 3615.0,
+      "year": 2024
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "code": "BIH",
+      "value": 1025.0,
+      "year": 2024
+    },
+    {
+      "country": "Bulgaria",
+      "code": "BGR",
+      "value": 4025.0,
+      "year": 2024
+    },
+    {
+      "country": "Croatia",
+      "code": "HRV",
+      "value": 2617.0,
+      "year": 2024
+    },
+    {
+      "country": "Czechia",
+      "code": "CZE",
+      "value": 9514.0,
+      "year": 2024
+    },
+    {
+      "country": "Denmark",
+      "code": "DNK",
+      "value": 2448.0,
+      "year": 2024
+    },
+    {
+      "country": "Estonia",
+      "code": "EST",
+      "value": 1171.0,
+      "year": 2024
+    },
+    {
+      "country": "Finland",
+      "code": "FIN",
+      "value": 5915.0,
+      "year": 2024
+    },
+    {
+      "country": "France",
+      "code": "FRA",
+      "value": 27564.0,
+      "year": 2024
+    },
+    {
+      "country": "Georgia",
+      "code": "GEO",
+      "value": 1114.4,
+      "year": 2024
+    },
+    {
+      "country": "Germany",
+      "code": "DEU",
+      "value": 38783.143,
+      "year": 2021
+    },
+    {
+      "country": "Greece",
+      "code": "GRC",
+      "value": 1818.0,
+      "year": 2024
+    },
+    {
+      "country": "Hungary",
+      "code": "HUN",
+      "value": 7437.0,
+      "year": 2024
+    },
+    {
+      "country": "Ireland",
+      "code": "IRL",
+      "value": 2045.0,
+      "year": 2024
+    },
+    {
+      "country": "Italy",
+      "code": "ITA",
+      "value": 16879.0,
+      "year": 2024
+    },
+    {
+      "country": "Kosovo",
+      "code": "XKX",
+      "value": 246.35,
+      "year": 2022
+    },
+    {
+      "country": "Latvia",
+      "code": "LVA",
+      "value": 1830.9,
+      "year": 2024
+    },
+    {
+      "country": "Liechtenstein",
+      "code": "LIE",
+      "value": 9.0,
+      "year": 2024
+    },
+    {
+      "country": "Lithuania",
+      "code": "LTU",
+      "value": 1924.3,
+      "year": 2024
+    },
+    {
+      "country": "Luxembourg",
+      "code": "LUX",
+      "value": 271.0,
+      "year": 2024
+    },
+    {
+      "country": "Moldova",
+      "code": "MDA",
+      "value": 1151.0,
+      "year": 2024
+    },
+    {
+      "country": "Montenegro",
+      "code": "MNE",
+      "value": 250.5,
+      "year": 2024
+    },
+    {
+      "country": "Netherlands",
+      "code": "NLD",
+      "value": 3043.0,
+      "year": 2024
+    },
+    {
+      "country": "North Macedonia",
+      "code": "MKD",
+      "value": 683.0,
+      "year": 2024
+    },
+    {
+      "country": "Norway",
+      "code": "NOR",
+      "value": 3962.0,
+      "year": 2024
+    },
+    {
+      "country": "Poland",
+      "code": "POL",
+      "value": 19625.0,
+      "year": 2024
+    },
+    {
+      "country": "Portugal",
+      "code": "PRT",
+      "value": 2526.0,
+      "year": 2024
+    },
+    {
+      "country": "Romania",
+      "code": "ROU",
+      "value": 10611.0,
+      "year": 2024
+    },
+    {
+      "country": "Serbia",
+      "code": "SRB",
+      "value": 3357.0,
+      "year": 2024
+    },
+    {
+      "country": "Slovakia",
+      "code": "SVK",
+      "value": 3629.0,
+      "year": 2024
+    },
+    {
+      "country": "Slovenia",
+      "code": "SVN",
+      "value": 1208.0,
+      "year": 2024
+    },
+    {
+      "country": "Spain",
+      "code": "ESP",
+      "value": 16257.0,
+      "year": 2024
+    },
+    {
+      "country": "Sweden",
+      "code": "SWE",
+      "value": 10902.0,
+      "year": 2024
+    },
+    {
+      "country": "Switzerland",
+      "code": "CHE",
+      "value": 5307.0,
+      "year": 2024
+    },
+    {
+      "country": "Türkiye",
+      "code": "TUR",
+      "value": 11417.0,
+      "year": 2024
+    },
+    {
+      "country": "Ukraine",
+      "code": "UKR",
+      "value": 19760.0,
+      "year": 2023
+    },
+    {
+      "country": "United Kingdom",
+      "code": "GBR",
+      "value": 16189.0,
+      "year": 2024
+    }
+  ]
+}

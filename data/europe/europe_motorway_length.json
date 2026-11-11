@@ -1,0 +1,271 @@
+{
+  "metadata": {
+    "source": "Eurostat",
+    "scope": "Europe",
+    "database": "road_if_motorwa",
+    "url": "https://ec.europa.eu/eurostat",
+    "code": "road_if_motorwa",
+    "key": "europe_motorway_length",
+    "description": "Length of motorways",
+    "summary": "Kilometres of motorway open to traffic. National road administrations measure the network once a year, and Eurostat publishes the reported length. It describes infrastructure, not how busy the roads are.",
+    "category": "Transport connectivity and passenger traffic",
+    "units": "kilometres",
+    "reversedScale": false,
+    "dataSize": 42,
+    "retrievedAt": "2026-11-10T18:01:48Z"
+  },
+  "data": [
+    {
+      "country": "Albania",
+      "code": "ALB",
+      "value": 49.0,
+      "year": 2024
+    },
+    {
+      "country": "Austria",
+      "code": "AUT",
+      "value": 1749.0,
+      "year": 2024
+    },
+    {
+      "country": "Belgium",
+      "code": "BEL",
+      "value": 1763.0,
+      "year": 2024
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "code": "BIH",
+      "value": 242.0,
+      "year": 2024
+    },
+    {
+      "country": "Bulgaria",
+      "code": "BGR",
+      "value": 845.0,
+      "year": 2024
+    },
+    {
+      "country": "Croatia",
+      "code": "HRV",
+      "value": 1356.0,
+      "year": 2024
+    },
+    {
+      "country": "Cyprus",
+      "code": "CYP",
+      "value": 271.0,
+      "year": 2023
+    },
+    {
+      "country": "Czechia",
+      "code": "CZE",
+      "value": 1486.0,
+      "year": 2024
+    },
+    {
+      "country": "Denmark",
+      "code": "DNK",
+      "value": 1358.0,
+      "year": 2023
+    },
+    {
+      "country": "Estonia",
+      "code": "EST",
+      "value": 233.0,
+      "year": 2024
+    },
+    {
+      "country": "Finland",
+      "code": "FIN",
+      "value": 948.0,
+      "year": 2024
+    },
+    {
+      "country": "France",
+      "code": "FRA",
+      "value": 11750.826,
+      "year": 2024
+    },
+    {
+      "country": "Georgia",
+      "code": "GEO",
+      "value": 358.0,
+      "year": 2024
+    },
+    {
+      "country": "Germany",
+      "code": "DEU",
+      "value": 13210.0,
+      "year": 2023
+    },
+    {
+      "country": "Greece",
+      "code": "GRC",
+      "value": 2296.0,
+      "year": 2023
+    },
+    {
+      "country": "Hungary",
+      "code": "HUN",
+      "value": 1897.0,
+      "year": 2024
+    },
+    {
+      "country": "Iceland",
+      "code": "ISL",
+      "value": 0.0,
+      "year": 2024
+    },
+    {
+      "country": "Ireland",
+      "code": "IRL",
+      "value": 995.0,
+      "year": 2024
+    },
+    {
+      "country": "Italy",
+      "code": "ITA",
+      "value": 7561.0,
+      "year": 2023
+    },
+    {
+      "country": "Kosovo",
+      "code": "XKX",
+      "value": 137.2,
+      "year": 2024
+    },
+    {
+      "country": "Latvia",
+      "code": "LVA",
+      "value": 0.0,
+      "year": 2024
+    },
+    {
+      "country": "Liechtenstein",
+      "code": "LIE",
+      "value": 0.0,
+      "year": 2024
+    },
+    {
+      "country": "Lithuania",
+      "code": "LTU",
+      "value": 462.0,
+      "year": 2024
+    },
+    {
+      "country": "Luxembourg",
+      "code": "LUX",
+      "value": 167.0,
+      "year": 2024
+    },
+    {
+      "country": "Malta",
+      "code": "MLT",
+      "value": 0.0,
+      "year": 2024
+    },
+    {
+      "country": "Moldova",
+      "code": "MDA",
+      "value": 0.0,
+      "year": 2024
+    },
+    {
+      "country": "Montenegro",
+      "code": "MNE",
+      "value": 0.0,
+      "year": 2024
+    },
+    {
+      "country": "Netherlands",
+      "code": "NLD",
+      "value": 2806.0,
+      "year": 2024
+    },
+    {
+      "country": "North Macedonia",
+      "code": "MKD",
+      "value": 335.0,
+      "year": 2024
+    },
+    {
+      "country": "Norway",
+      "code": "NOR",
+      "value": 634.0,
+      "year": 2024
+    },
+    {
+      "country": "Poland",
+      "code": "POL",
+      "value": 1888.3,
+      "year": 2024
+    },
+    {
+      "country": "Portugal",
+      "code": "PRT",
+      "value": 3113.0,
+      "year": 2024
+    },
+    {
+      "country": "Romania",
+      "code": "ROU",
+      "value": 1137.0,
+      "year": 2024
+    },
+    {
+      "country": "Serbia",
+      "code": "SRB",
+      "value": 999.0,
+      "year": 2024
+    },
+    {
+      "country": "Slovakia",
+      "code": "SVK",
+      "value": 865.8,
+      "year": 2024
+    },
+    {
+      "country": "Slovenia",
+      "code": "SVN",
+      "value": 616.023,
+      "year": 2024
+    },
+    {
+      "country": "Spain",
+      "code": "ESP",
+      "value": 15886.0,
+      "year": 2024
+    },
+    {
+      "country": "Sweden",
+      "code": "SWE",
+      "value": 2218.0,
+      "year": 2024
+    },
+    {
+      "country": "Switzerland",
+      "code": "CHE",
+      "value": 1549.0,
+      "year": 2024
+    },
+    {
+      "country": "Türkiye",
+      "code": "TUR",
+      "value": 3796.0,
+      "year": 2024
+    },
+    {
+      "country": "Ukraine",
+      "code": "UKR",
+      "value": 15.0,
+      "year": 2023
+    },
+    {
+      "country": "United Kingdom",
+      "code": "GBR",
+      "value": 3865.0,
+      "year": 2024
+    }
+  ]
+}

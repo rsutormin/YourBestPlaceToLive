@@ -1,0 +1,211 @@
+{
+  "metadata": {
+    "source": "Eurostat",
+    "scope": "Europe",
+    "database": "migr_resfirst",
+    "url": "https://ec.europa.eu/eurostat",
+    "code": "migr_resfirst/TOTAL",
+    "key": "europe_initial_residence_permits",
+    "description": "First residence permits issued",
+    "summary": "First residence permits granted to non-EU citizens for any reason, not renewals. National immigration authorities issue them, and Eurostat totals the records reported by each country.",
+    "category": "Residence and work permits",
+    "units": "persons",
+    "reversedScale": false,
+    "dataSize": 32,
+    "retrievedAt": "2026-11-10T18:01:48Z"
+  },
+  "data": [
+    {
+      "country": "Austria",
+      "code": "AUT",
+      "value": 55486.0,
+      "year": 2025
+    },
+    {
+      "country": "Belgium",
+      "code": "BEL",
+      "value": 73667.0,
+      "year": 2025
+    },
+    {
+      "country": "Bulgaria",
+      "code": "BGR",
+      "value": 23577.0,
+      "year": 2025
+    },
+    {
+      "country": "Croatia",
+      "code": "HRV",
+      "value": 50963.0,
+      "year": 2025
+    },
+    {
+      "country": "Cyprus",
+      "code": "CYP",
+      "value": 45907.0,
+      "year": 2025
+    },
+    {
+      "country": "Czechia",
+      "code": "CZE",
+      "value": 47526.0,
+      "year": 2025
+    },
+    {
+      "country": "Denmark",
+      "code": "DNK",
+      "value": 49882.0,
+      "year": 2025
+    },
+    {
+      "country": "Estonia",
+      "code": "EST",
+      "value": 5228.0,
+      "year": 2025
+    },
+    {
+      "country": "Finland",
+      "code": "FIN",
+      "value": 44591.0,
+      "year": 2025
+    },
+    {
+      "country": "France",
+      "code": "FRA",
+      "value": 377462.0,
+      "year": 2025
+    },
+    {
+      "country": "Germany",
+      "code": "DEU",
+      "value": 605292.0,
+      "year": 2025
+    },
+    {
+      "country": "Greece",
+      "code": "GRC",
+      "value": 69786.0,
+      "year": 2025
+    },
+    {
+      "country": "Hungary",
+      "code": "HUN",
+      "value": 81834.0,
+      "year": 2025
+    },
+    {
+      "country": "Iceland",
+      "code": "ISL",
+      "value": 3059.0,
+      "year": 2025
+    },
+    {
+      "country": "Ireland",
+      "code": "IRL",
+      "value": 72978.0,
+      "year": 2025
+    },
+    {
+      "country": "Italy",
+      "code": "ITA",
+      "value": 433099.0,
+      "year": 2025
+    },
+    {
+      "country": "Latvia",
+      "code": "LVA",
+      "value": 9073.0,
+      "year": 2025
+    },
+    {
+      "country": "Liechtenstein",
+      "code": "LIE",
+      "value": 857.0,
+      "year": 2025
+    },
+    {
+      "country": "Lithuania",
+      "code": "LTU",
+      "value": 53566.0,
+      "year": 2025
+    },
+    {
+      "country": "Luxembourg",
+      "code": "LUX",
+      "value": 8963.0,
+      "year": 2025
+    },
+    {
+      "country": "Malta",
+      "code": "MLT",
+      "value": 32693.0,
+      "year": 2025
+    },
+    {
+      "country": "Netherlands",
+      "code": "NLD",
+      "value": 120161.0,
+      "year": 2025
+    },
+    {
+      "country": "Norway",
+      "code": "NOR",
+      "value": 25197.0,
+      "year": 2025
+    },
+    {
+      "country": "Poland",
+      "code": "POL",
+      "value": 467314.0,
+      "year": 2025
+    },
+    {
+      "country": "Portugal",
+      "code": "PRT",
+      "value": 310639.0,
+      "year": 2025
+    },
+    {
+      "country": "Romania",
+      "code": "ROU",
+      "value": 74664.0,
+      "year": 2025
+    },
+    {
+      "country": "Serbia",
+      "code": "SRB",
+      "value": 33366.0,
+      "year": 2025
+    },
+    {
+      "country": "Slovakia",
+      "code": "SVK",
+      "value": 23686.0,
+      "year": 2025
+    },
+    {
+      "country": "Slovenia",
+      "code": "SVN",
+      "value": 25329.0,
+      "year": 2025
+    },
+    {
+      "country": "Spain",
+      "code": "ESP",
+      "value": 635438.0,
+      "year": 2025
+    },
+    {
+      "country": "Sweden",
+      "code": "SWE",
+      "value": 61196.0,
+      "year": 2025
+    },
+    {
+      "country": "Switzerland",
+      "code": "CHE",
+      "value": 46272.0,
+      "year": 2025
+    }
+  ]
+}

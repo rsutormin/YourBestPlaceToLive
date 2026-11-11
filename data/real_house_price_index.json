@@ -1,0 +1,361 @@
+{
+  "metadata": {
+    "source": "Bank for International Settlements",
+    "scope": "World",
+    "database": "real_index.csv",
+    "url": "https://www.bis.org/statistics/pp.htm",
+    "code": "real_index",
+    "key": "real_house_price_index",
+    "description": "Real house price index, latest quarter",
+    "summary": "Inflation-adjusted index of residential property prices, set to 100 in 2010. National sources report quarterly prices to the Bank for International Settlements, and the latest quarter of each year is kept.",
+    "category": "House prices",
+    "units": "index, 2010=100",
+    "reversedScale": true,
+    "dataSize": 57,
+    "retrievedAt": "2026-11-11T08:40:04Z"
+  },
+  "data": [
+    {
+      "country": "Australia",
+      "code": "AUS",
+      "value": 141.1636,
+      "year": 2026
+    },
+    {
+      "country": "Austria",
+      "code": "AUT",
+      "value": 136.1003,
+      "year": 2026
+    },
+    {
+      "country": "Belgium",
+      "code": "BEL",
+      "value": 107.6767,
+      "year": 2026
+    },
+    {
+      "country": "Brazil",
+      "code": "BRA",
+      "value": 91.3602,
+      "year": 2026
+    },
+    {
+      "country": "Bulgaria",
+      "code": "BGR",
+      "value": 154.224,
+      "year": 2026
+    },
+    {
+      "country": "Canada",
+      "code": "CAN",
+      "value": 139.2252,
+      "year": 2026
+    },
+    {
+      "country": "Chile",
+      "code": "CHL",
+      "value": 204.5155,
+      "year": 2026
+    },
+    {
+      "country": "China",
+      "code": "CHN",
+      "value": 84.37,
+      "year": 2026
+    },
+    {
+      "country": "Colombia",
+      "code": "COL",
+      "value": 143.1884,
+      "year": 2026
+    },
+    {
+      "country": "Croatia",
+      "code": "HRV",
+      "value": 151.0657,
+      "year": 2026
+    },
+    {
+      "country": "Cyprus",
+      "code": "CYP",
+      "value": 89.8139,
+      "year": 2026
+    },
+    {
+      "country": "Czechia",
+      "code": "CZE",
+      "value": 161.6341,
+      "year": 2026
+    },
+    {
+      "country": "Denmark",
+      "code": "DNK",
+      "value": 136.7838,
+      "year": 2026
+    },
+    {
+      "country": "Estonia",
+      "code": "EST",
+      "value": 195.5321,
+      "year": 2026
+    },
+    {
+      "country": "Finland",
+      "code": "FIN",
+      "value": 76.9756,
+      "year": 2026
+    },
+    {
+      "country": "France",
+      "code": "FRA",
+      "value": 96.3363,
+      "year": 2026
+    },
+    {
+      "country": "Germany",
+      "code": "DEU",
+      "value": 128.4619,
+      "year": 2026
+    },
+    {
+      "country": "Greece",
+      "code": "GRC",
+      "value": 95.8374,
+      "year": 2026
+    },
+    {
+      "country": "Hong Kong",
+      "code": "HKG",
+      "value": 142.5909,
+      "year": 2026
+    },
+    {
+      "country": "Hungary",
+      "code": "HUN",
+      "value": 209.1906,
+      "year": 2026
+    },
+    {
+      "country": "Iceland",
+      "code": "ISL",
+      "value": 199.2699,
+      "year": 2026
+    },
+    {
+      "country": "India",
+      "code": "IND",
+      "value": 161.9391,
+      "year": 2026
+    },
+    {
+      "country": "Indonesia",
+      "code": "IDN",
+      "value": 92.8771,
+      "year": 2026
+    },
+    {
+      "country": "Ireland",
+      "code": "IRL",
+      "value": 144.4714,
+      "year": 2026
+    },
+    {
+      "country": "Israel",
+      "code": "ISR",
+      "value": 180.665,
+      "year": 2026
+    },
+    {
+      "country": "Italy",
+      "code": "ITA",
+      "value": 75.4766,
+      "year": 2026
+    },
+    {
+      "country": "Japan",
+      "code": "JPN",
+      "value": 121.4739,
+      "year": 2025
+    },
+    {
+      "country": "Korea",
+      "code": "KOR",
+      "value": 105.2412,
+      "year": 2026
+    },
+    {
+      "country": "Latvia",
+      "code": "LVA",
+      "value": 172.7102,
+      "year": 2026
+    },
+    {
+      "country": "Lithuania",
+      "code": "LTU",
+      "value": 191.4227,
+      "year": 2026
+    },
+    {
+      "country": "Luxembourg",
+      "code": "LUX",
+      "value": 149.9237,
+      "year": 2026
+    },
+    {
+      "country": "Malaysia",
+      "code": "MYS",
+      "value": 169.6467,
+      "year": 2026
+    },
+    {
+      "country": "Malta",
+      "code": "MLT",
+      "value": 146.2083,
+      "year": 2026
+    },
+    {
+      "country": "Mexico",
+      "code": "MEX",
+      "value": 155.4749,
+      "year": 2026
+    },
+    {
+      "country": "Morocco",
+      "code": "MAR",
+      "value": 78.0012,
+      "year": 2026
+    },
+    {
+      "country": "Netherlands",
+      "code": "NLD",
+      "value": 133.8369,
+      "year": 2026
+    },
+    {
+      "country": "New Zealand",
+      "code": "NZL",
+      "value": 156.5652,
+      "year": 2026
+    },
+    {
+      "country": "North Macedonia",
+      "code": "MKD",
+      "value": 127.0749,
+      "year": 2026
+    },
+    {
+      "country": "Norway",
+      "code": "NOR",
+      "value": 136.9848,
+      "year": 2026
+    },
+    {
+      "country": "Peru",
+      "code": "PER",
+      "value": 114.3388,
+      "year": 2026
+    },
+    {
+      "country": "Philippines",
+      "code": "PHL",
+      "value": 183.3516,
+      "year": 2026
+    },
+    {
+      "country": "Poland",
+      "code": "POL",
+      "value": 122.9464,
+      "year": 2026
+    },
+    {
+      "country": "Portugal",
+      "code": "PRT",
+      "value": 203.7872,
+      "year": 2026
+    },
+    {
+      "country": "Romania",
+      "code": "ROU",
+      "value": 72.4398,
+      "year": 2026
+    },
+    {
+      "country": "Russia",
+      "code": "RUS",
+      "value": 82.6727,
+      "year": 2026
+    },
+    {
+      "country": "Serbia",
+      "code": "SRB",
+      "value": 124.7689,
+      "year": 2026
+    },
+    {
+      "country": "Singapore",
+      "code": "SGP",
+      "value": 120.8897,
+      "year": 2026
+    },
+    {
+      "country": "Slovakia",
+      "code": "SVK",
+      "value": 139.2754,
+      "year": 2026
+    },
+    {
+      "country": "Slovenia",
+      "code": "SVN",
+      "value": 139.5653,
+      "year": 2026
+    },
+    {
+      "country": "South Africa",
+      "code": "ZAF",
+      "value": 89.1061,
+      "year": 2026
+    },
+    {
+      "country": "Spain",
+      "code": "ESP",
+      "value": 105.223,
+      "year": 2026
+    },
+    {
+      "country": "Sweden",
+      "code": "SWE",
+      "value": 135.8883,
+      "year": 2026
+    },
+    {
+      "country": "Switzerland",
+      "code": "CHE",
+      "value": 163.068,
+      "year": 2026
+    },
+    {
+      "country": "Thailand",
+      "code": "THA",
+      "value": 147.3062,
+      "year": 2026
+    },
+    {
+      "country": "Türkiye",
+      "code": "TUR",
+      "value": 211.1649,
+      "year": 2026
+    },
+    {
+      "country": "United Kingdom",
+      "code": "GBR",
+      "value": 108.5357,
+      "year": 2026
+    },
+    {
+      "country": "United States",
+      "code": "USA",
+      "value": 154.2147,
+      "year": 2026
+    }
+  ]
+}

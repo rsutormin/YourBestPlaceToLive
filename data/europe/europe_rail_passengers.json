@@ -1,0 +1,217 @@
+{
+  "metadata": {
+    "source": "Eurostat",
+    "scope": "Europe",
+    "database": "rail_pa_total",
+    "url": "https://ec.europa.eu/eurostat",
+    "code": "rail_pa_total",
+    "key": "europe_rail_passengers",
+    "description": "Rail passengers",
+    "summary": "Journeys by rail passengers, published in thousands. One person making two trips counts twice. Railway operators report ticketed travel, and Eurostat compiles the annual total.",
+    "category": "Transport connectivity and passenger traffic",
+    "units": "thousand passengers",
+    "reversedScale": false,
+    "dataSize": 33,
+    "retrievedAt": "2026-11-10T18:01:48Z"
+  },
+  "data": [
+    {
+      "country": "Austria",
+      "code": "AUT",
+      "value": 344229.0,
+      "year": 2025
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "code": "BIH",
+      "value": 420.0,
+      "year": 2025
+    },
+    {
+      "country": "Bulgaria",
+      "code": "BGR",
+      "value": 20979.0,
+      "year": 2025
+    },
+    {
+      "country": "Croatia",
+      "code": "HRV",
+      "value": 26395.0,
+      "year": 2025
+    },
+    {
+      "country": "Czechia",
+      "code": "CZE",
+      "value": 191670.0,
+      "year": 2025
+    },
+    {
+      "country": "Denmark",
+      "code": "DNK",
+      "value": 213435.0,
+      "year": 2025
+    },
+    {
+      "country": "Estonia",
+      "code": "EST",
+      "value": 7692.0,
+      "year": 2025
+    },
+    {
+      "country": "Finland",
+      "code": "FIN",
+      "value": 89720.0,
+      "year": 2025
+    },
+    {
+      "country": "France",
+      "code": "FRA",
+      "value": 1311625.0,
+      "year": 2025
+    },
+    {
+      "country": "Germany",
+      "code": "DEU",
+      "value": 2953561.0,
+      "year": 2025
+    },
+    {
+      "country": "Greece",
+      "code": "GRC",
+      "value": 14361.0,
+      "year": 2025
+    },
+    {
+      "country": "Hungary",
+      "code": "HUN",
+      "value": 342420.0,
+      "year": 2025
+    },
+    {
+      "country": "Ireland",
+      "code": "IRL",
+      "value": 55039.0,
+      "year": 2025
+    },
+    {
+      "country": "Italy",
+      "code": "ITA",
+      "value": 844111.0,
+      "year": 2025
+    },
+    {
+      "country": "Kosovo",
+      "code": "XKX",
+      "value": 88.0,
+      "year": 2025
+    },
+    {
+      "country": "Latvia",
+      "code": "LVA",
+      "value": 21399.0,
+      "year": 2025
+    },
+    {
+      "country": "Liechtenstein",
+      "code": "LIE",
+      "value": 1879.0,
+      "year": 2025
+    },
+    {
+      "country": "Lithuania",
+      "code": "LTU",
+      "value": 5398.0,
+      "year": 2025
+    },
+    {
+      "country": "Luxembourg",
+      "code": "LUX",
+      "value": 31441.0,
+      "year": 2025
+    },
+    {
+      "country": "Montenegro",
+      "code": "MNE",
+      "value": 863.0,
+      "year": 2024
+    },
+    {
+      "country": "Netherlands",
+      "code": "NLD",
+      "value": 388016.0,
+      "year": 2025
+    },
+    {
+      "country": "North Macedonia",
+      "code": "MKD",
+      "value": 178.0,
+      "year": 2025
+    },
+    {
+      "country": "Norway",
+      "code": "NOR",
+      "value": 84144.0,
+      "year": 2025
+    },
+    {
+      "country": "Poland",
+      "code": "POL",
+      "value": 431761.0,
+      "year": 2025
+    },
+    {
+      "country": "Portugal",
+      "code": "PRT",
+      "value": 240758.0,
+      "year": 2025
+    },
+    {
+      "country": "Romania",
+      "code": "ROU",
+      "value": 64371.0,
+      "year": 2025
+    },
+    {
+      "country": "Slovakia",
+      "code": "SVK",
+      "value": 74238.0,
+      "year": 2025
+    },
+    {
+      "country": "Slovenia",
+      "code": "SVN",
+      "value": 19865.0,
+      "year": 2025
+    },
+    {
+      "country": "Spain",
+      "code": "ESP",
+      "value": 695385.0,
+      "year": 2025
+    },
+    {
+      "country": "Sweden",
+      "code": "SWE",
+      "value": 243308.0,
+      "year": 2025
+    },
+    {
+      "country": "Switzerland",
+      "code": "CHE",
+      "value": 669395.0,
+      "year": 2025
+    },
+    {
+      "country": "Türkiye",
+      "code": "TUR",
+      "value": 21733.0,
+      "year": 2025
+    },
+    {
+      "country": "Ukraine",
+      "code": "UKR",
+      "value": 62995.0,
+      "year": 2025
+    }
+  ]
+}

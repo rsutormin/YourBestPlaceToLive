@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Best Place To Live</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Your Best Place To Live</h1>
+    </header>
+    <div class="layout">
+      <section class="map-pane" aria-label="World map">
+        <div id="map"></div>
+      </section>
+      <aside class="panel" aria-label="Metrics and countries">
+        <div class="tabs" role="tablist" aria-label="Panel">
+          <button
+            class="tab"
+            id="tab-metrics"
+            type="button"
+            role="tab"
+            aria-selected="true"
+            aria-controls="metrics-panel"
+          >
+            Metrics
+          </button>
+          <button
+            class="tab"
+            id="tab-countries"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-controls="countries-panel"
+            tabindex="-1"
+          >
+            Countries
+          </button>
+        </div>
+        <div id="metrics-panel" class="tab-panel" role="tabpanel" aria-labelledby="tab-metrics">
+          <label class="field" for="metric-select">
+            Metric
+            <select id="metric-select">
+              <option value="">Choose a metric</option>
+            </select>
+          </label>
+          <div id="metric-detail"></div>
+        </div>
+        <div id="countries-panel" class="tab-panel" role="tabpanel" aria-labelledby="tab-countries" hidden></div>
+      </aside>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
