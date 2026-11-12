@@ -2,17 +2,23 @@ import pytest
 
 from importers.bis_importer import CATEGORIES as BIS_CATEGORIES
 from importers.eurostat_importer import CATEGORIES as EUROSTAT_CATEGORIES
+from importers.heritage_importer import CATEGORIES as HERITAGE_CATEGORIES
 from importers.oecd_importer import CATEGORIES as OECD_CATEGORIES
 from importers.open_meteo_importer import CATEGORIES as OPEN_METEO_CATEGORIES
 from importers.owid_importer import CATEGORIES as OWID_CATEGORIES
+from importers.vdem_importer import CATEGORIES as VDEM_CATEGORIES
+from importers.wikipedia_importer import CATEGORIES as WIKIPEDIA_CATEGORIES
 from importers.world_bank_importer import CATEGORIES as WORLD_BANK_CATEGORIES
 
 
 EXPORTED = (
     ("World Bank", WORLD_BANK_CATEGORIES),
     ("Eurostat", EUROSTAT_CATEGORIES),
+    ("Heritage Foundation", HERITAGE_CATEGORIES),
     ("OECD", OECD_CATEGORIES),
     ("OWID", OWID_CATEGORIES),
+    ("V-Dem", VDEM_CATEGORIES),
+    ("Wikipedia", WIKIPEDIA_CATEGORIES),
     ("BIS", BIS_CATEGORIES),
     ("Open-Meteo", OPEN_METEO_CATEGORIES),
 )

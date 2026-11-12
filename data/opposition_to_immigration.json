@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "source": "Wikipedia",
+    "scope": "World",
+    "database": "Opposition to immigration",
+    "url": "https://en.wikipedia.org/wiki/Opposition_to_immigration",
+    "code": "fewer_or_no_immigrants_percent",
+    "key": "opposition_to_immigration",
+    "description": "Want fewer or no immigrants",
+    "summary": "Share of adults who say their country should let in fewer immigrants or none at all. Figures are the fewer-or-none column of the cross-country survey table on the English Wikipedia page about opposition to immigration.",
+    "category": "Immigration",
+    "units": "%",
+    "reversedScale": true,
+    "importance": 0.5,
+    "dataSize": 27,
+    "retrievedAt": "2026-11-12T15:23:08Z"
+  },
+  "data": [
+    {
+      "country": "Argentina",
+      "code": "ARG",
+      "value": 61.0,
+      "year": 2018
+    },
+    {
+      "country": "Australia",
+      "code": "AUS",
+      "value": 38.0,
+      "year": 2018
+    },
+    {
+      "country": "Brazil",
+      "code": "BRA",
+      "value": 37.0,
+      "year": 2018
+    },
+    {
+      "country": "Canada",
+      "code": "CAN",
+      "value": 27.0,
+      "year": 2018
+    },
+    {
+      "country": "France",
+      "code": "FRA",
+      "value": 41.0,
+      "year": 2018
+    },
+    {
+      "country": "Germany",
+      "code": "DEU",
+      "value": 58.0,
+      "year": 2018
+    },
+    {
+      "country": "Greece",
+      "code": "GRC",
+      "value": 82.0,
+      "year": 2018
+    },
+    {
+      "country": "Hungary",
+      "code": "HUN",
+      "value": 72.0,
+      "year": 2018
+    },
+    {
+      "country": "India",
+      "code": "IND",
+      "value": 45.0,
+      "year": 2018
+    },
+    {
+      "country": "Indonesia",
+      "code": "IDN",
+      "value": 54.0,
+      "year": 2018
+    },
+    {
+      "country": "Israel",
+      "code": "ISR",
+      "value": 73.0,
+      "year": 2018
+    },
+    {
+      "country": "Italy",
+      "code": "ITA",
+      "value": 71.0,
+      "year": 2018
+    },
+    {
+      "country": "Japan",
+      "code": "JPN",
+      "value": 13.0,
+      "year": 2018
+    },
+    {
+      "country": "Kenya",
+      "code": "KEN",
+      "value": 60.0,
+      "year": 2018
+    },
+    {
+      "country": "Mexico",
+      "code": "MEX",
+      "value": 44.0,
+      "year": 2018
+    },
+    {
+      "country": "Netherlands",
+      "code": "NLD",
+      "value": 39.0,
+      "year": 2018
+    },
+    {
+      "country": "Nigeria",
+      "code": "NGA",
+      "value": 50.0,
+      "year": 2018
+    },
+    {
+      "country": "Philippines",
+      "code": "PHL",
+      "value": 32.0,
+      "year": 2018
+    },
+    {
+      "country": "Poland",
+      "code": "POL",
+      "value": 49.0,
+      "year": 2018
+    },
+    {
+      "country": "Russia",
+      "code": "RUS",
+      "value": 67.0,
+      "year": 2018
+    },
+    {
+      "country": "South Africa",
+      "code": "ZAF",
+      "value": 65.0,
+      "year": 2018
+    },
+    {
+      "country": "South Korea",
+      "code": "KOR",
+      "value": 28.0,
+      "year": 2018
+    },
+    {
+      "country": "Spain",
+      "code": "ESP",
+      "value": 30.0,
+      "year": 2018
+    },
+    {
+      "country": "Sweden",
+      "code": "SWE",
+      "value": 52.0,
+      "year": 2018
+    },
+    {
+      "country": "Tunisia",
+      "code": "TUN",
+      "value": 42.0,
+      "year": 2018
+    },
+    {
+      "country": "United Kingdom",
+      "code": "GBR",
+      "value": 37.0,
+      "year": 2018
+    },
+    {
+      "country": "United States",
+      "code": "USA",
+      "value": 29.0,
+      "year": 2018
+    }
+  ]
+}

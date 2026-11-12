@@ -875,6 +875,1130 @@
   },
   {
     "metadata": {
+      "source": "Heritage Foundation",
+      "scope": "World",
+      "database": "Index of Economic Freedom",
+      "url": "https://www.heritage.org/index/",
+      "code": "hf_business",
+      "key": "business_freedom",
+      "description": "Business freedom",
+      "summary": "Ease of opening, running, and closing a company, scored from 0 to 100 in the Heritage Foundation Index of Economic Freedom. The business freedom component uses regulatory quality, infrastructure, and inclusion measures.",
+      "category": "Economic freedom",
+      "units": "0-100",
+      "reversedScale": false,
+      "importance": 0.5,
+      "dataSize": 184,
+      "retrievedAt": "2026-11-12T15:57:31Z"
+    },
+    "data": [
+      {
+        "country": "Afghanistan",
+        "code": "AFG",
+        "value": 33.7,
+        "year": 2026
+      },
+      {
+        "country": "Albania",
+        "code": "ALB",
+        "value": 76.6,
+        "year": 2026
+      },
+      {
+        "country": "Algeria",
+        "code": "DZA",
+        "value": 59.3,
+        "year": 2026
+      },
+      {
+        "country": "Angola",
+        "code": "AGO",
+        "value": 42.8,
+        "year": 2026
+      },
+      {
+        "country": "Argentina",
+        "code": "ARG",
+        "value": 56.8,
+        "year": 2026
+      },
+      {
+        "country": "Armenia",
+        "code": "ARM",
+        "value": 72.9,
+        "year": 2026
+      },
+      {
+        "country": "Australia",
+        "code": "AUS",
+        "value": 92.3,
+        "year": 2026
+      },
+      {
+        "country": "Austria",
+        "code": "AUT",
+        "value": 78.7,
+        "year": 2026
+      },
+      {
+        "country": "Azerbaijan",
+        "code": "AZE",
+        "value": 71.2,
+        "year": 2026
+      },
+      {
+        "country": "Bahrain",
+        "code": "BHR",
+        "value": 75.9,
+        "year": 2026
+      },
+      {
+        "country": "Bangladesh",
+        "code": "BGD",
+        "value": 52.7,
+        "year": 2026
+      },
+      {
+        "country": "Barbados",
+        "code": "BRB",
+        "value": 72.3,
+        "year": 2026
+      },
+      {
+        "country": "Belarus",
+        "code": "BLR",
+        "value": 50.3,
+        "year": 2026
+      },
+      {
+        "country": "Belgium",
+        "code": "BEL",
+        "value": 82.5,
+        "year": 2026
+      },
+      {
+        "country": "Belize",
+        "code": "BLZ",
+        "value": 67.2,
+        "year": 2026
+      },
+      {
+        "country": "Benin",
+        "code": "BEN",
+        "value": 53.3,
+        "year": 2026
+      },
+      {
+        "country": "Bhutan",
+        "code": "BTN",
+        "value": 67.8,
+        "year": 2026
+      },
+      {
+        "country": "Bolivia",
+        "code": "BOL",
+        "value": 53.6,
+        "year": 2026
+      },
+      {
+        "country": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "value": 65.1,
+        "year": 2026
+      },
+      {
+        "country": "Botswana",
+        "code": "BWA",
+        "value": 61.5,
+        "year": 2026
+      },
+      {
+        "country": "Brazil",
+        "code": "BRA",
+        "value": 65.7,
+        "year": 2026
+      },
+      {
+        "country": "Brunei",
+        "code": "BRN",
+        "value": 75.3,
+        "year": 2026
+      },
+      {
+        "country": "Bulgaria",
+        "code": "BGR",
+        "value": 78.2,
+        "year": 2026
+      },
+      {
+        "country": "Burkina Faso",
+        "code": "BFA",
+        "value": 37.8,
+        "year": 2026
+      },
+      {
+        "country": "Burma",
+        "code": "MMR",
+        "value": 37.9,
+        "year": 2026
+      },
+      {
+        "country": "Burundi",
+        "code": "BDI",
+        "value": 27.2,
+        "year": 2026
+      },
+      {
+        "country": "Cabo Verde",
+        "code": "CPV",
+        "value": 78.9,
+        "year": 2026
+      },
+      {
+        "country": "Cambodia",
+        "code": "KHM",
+        "value": 60.8,
+        "year": 2026
+      },
+      {
+        "country": "Cameroon",
+        "code": "CMR",
+        "value": 48.6,
+        "year": 2026
+      },
+      {
+        "country": "Canada",
+        "code": "CAN",
+        "value": 84.2,
+        "year": 2026
+      },
+      {
+        "country": "Central African Republic",
+        "code": "CAF",
+        "value": 26.5,
+        "year": 2026
+      },
+      {
+        "country": "Chad",
+        "code": "TCD",
+        "value": 27.4,
+        "year": 2026
+      },
+      {
+        "country": "Chile",
+        "code": "CHL",
+        "value": 78.5,
+        "year": 2026
+      },
+      {
+        "country": "China",
+        "code": "CHN",
+        "value": 68.7,
+        "year": 2026
+      },
+      {
+        "country": "Colombia",
+        "code": "COL",
+        "value": 71.2,
+        "year": 2026
+      },
+      {
+        "country": "Comoros",
+        "code": "COM",
+        "value": 55.3,
+        "year": 2026
+      },
+      {
+        "country": "Costa Rica",
+        "code": "CRI",
+        "value": 79.9,
+        "year": 2026
+      },
+      {
+        "country": "Croatia",
+        "code": "HRV",
+        "value": 79.6,
+        "year": 2026
+      },
+      {
+        "country": "Cuba",
+        "code": "CUB",
+        "value": 41.4,
+        "year": 2026
+      },
+      {
+        "country": "Cyprus",
+        "code": "CYP",
+        "value": 82.3,
+        "year": 2026
+      },
+      {
+        "country": "Czech Republic",
+        "code": "CZE",
+        "value": 76.8,
+        "year": 2026
+      },
+      {
+        "country": "Côte d’Ivoire",
+        "code": "CIV",
+        "value": 68.3,
+        "year": 2026
+      },
+      {
+        "country": "Democratic Republic of Congo",
+        "code": "COD",
+        "value": 32.3,
+        "year": 2026
+      },
+      {
+        "country": "Denmark",
+        "code": "DNK",
+        "value": 90.4,
+        "year": 2026
+      },
+      {
+        "country": "Djibouti",
+        "code": "DJI",
+        "value": 52.9,
+        "year": 2026
+      },
+      {
+        "country": "Dominica",
+        "code": "DMA",
+        "value": 66.2,
+        "year": 2026
+      },
+      {
+        "country": "Dominican Republic",
+        "code": "DOM",
+        "value": 71.4,
+        "year": 2026
+      },
+      {
+        "country": "Ecuador",
+        "code": "ECU",
+        "value": 64.3,
+        "year": 2026
+      },
+      {
+        "country": "Egypt",
+        "code": "EGY",
+        "value": 51.4,
+        "year": 2026
+      },
+      {
+        "country": "El Salvador",
+        "code": "SLV",
+        "value": 65.7,
+        "year": 2026
+      },
+      {
+        "country": "Equatorial Guinea",
+        "code": "GNQ",
+        "value": 35.9,
+        "year": 2026
+      },
+      {
+        "country": "Eritrea",
+        "code": "ERI",
+        "value": 30.7,
+        "year": 2026
+      },
+      {
+        "country": "Estonia",
+        "code": "EST",
+        "value": 82.8,
+        "year": 2026
+      },
+      {
+        "country": "Eswatini",
+        "code": "SWZ",
+        "value": 49.9,
+        "year": 2026
+      },
+      {
+        "country": "Ethiopia",
+        "code": "ETH",
+        "value": 44.5,
+        "year": 2026
+      },
+      {
+        "country": "Fiji",
+        "code": "FJI",
+        "value": 69.5,
+        "year": 2026
+      },
+      {
+        "country": "Finland",
+        "code": "FIN",
+        "value": 85.3,
+        "year": 2026
+      },
+      {
+        "country": "France",
+        "code": "FRA",
+        "value": 78.4,
+        "year": 2026
+      },
+      {
+        "country": "Gabon",
+        "code": "GAB",
+        "value": 63.6,
+        "year": 2026
+      },
+      {
+        "country": "Georgia",
+        "code": "GEO",
+        "value": 76.6,
+        "year": 2026
+      },
+      {
+        "country": "Germany",
+        "code": "DEU",
+        "value": 79.8,
+        "year": 2026
+      },
+      {
+        "country": "Ghana",
+        "code": "GHA",
+        "value": 64.5,
+        "year": 2026
+      },
+      {
+        "country": "Greece",
+        "code": "GRC",
+        "value": 77.8,
+        "year": 2026
+      },
+      {
+        "country": "Guatemala",
+        "code": "GTM",
+        "value": 65.7,
+        "year": 2026
+      },
+      {
+        "country": "Guinea",
+        "code": "GIN",
+        "value": 44.8,
+        "year": 2026
+      },
+      {
+        "country": "Guinea-Bissau",
+        "code": "GNB",
+        "value": 34.6,
+        "year": 2026
+      },
+      {
+        "country": "Guyana",
+        "code": "GUY",
+        "value": 70.9,
+        "year": 2026
+      },
+      {
+        "country": "Haiti",
+        "code": "HTI",
+        "value": 30.7,
+        "year": 2026
+      },
+      {
+        "country": "Honduras",
+        "code": "HND",
+        "value": 59.4,
+        "year": 2026
+      },
+      {
+        "country": "Hungary",
+        "code": "HUN",
+        "value": 70.8,
+        "year": 2026
+      },
+      {
+        "country": "Iceland",
+        "code": "ISL",
+        "value": 86.8,
+        "year": 2026
+      },
+      {
+        "country": "India",
+        "code": "IND",
+        "value": 67.4,
+        "year": 2026
+      },
+      {
+        "country": "Indonesia",
+        "code": "IDN",
+        "value": 69.2,
+        "year": 2026
+      },
+      {
+        "country": "Iran",
+        "code": "IRN",
+        "value": 37.4,
+        "year": 2026
+      },
+      {
+        "country": "Iraq",
+        "code": "IRQ",
+        "value": 42.8,
+        "year": 2026
+      },
+      {
+        "country": "Ireland",
+        "code": "IRL",
+        "value": 85.5,
+        "year": 2026
+      },
+      {
+        "country": "Israel",
+        "code": "ISR",
+        "value": 72.4,
+        "year": 2026
+      },
+      {
+        "country": "Italy",
+        "code": "ITA",
+        "value": 74.5,
+        "year": 2026
+      },
+      {
+        "country": "Jamaica",
+        "code": "JAM",
+        "value": 68.5,
+        "year": 2026
+      },
+      {
+        "country": "Japan",
+        "code": "JPN",
+        "value": 77.8,
+        "year": 2026
+      },
+      {
+        "country": "Jordan",
+        "code": "JOR",
+        "value": 62.7,
+        "year": 2026
+      },
+      {
+        "country": "Kazakhstan",
+        "code": "KAZ",
+        "value": 64.9,
+        "year": 2026
+      },
+      {
+        "country": "Kenya",
+        "code": "KEN",
+        "value": 61.5,
+        "year": 2026
+      },
+      {
+        "country": "Kiribati",
+        "code": "KIR",
+        "value": 60.2,
+        "year": 2026
+      },
+      {
+        "country": "Kosovo",
+        "code": "XKX",
+        "value": 55.4,
+        "year": 2026
+      },
+      {
+        "country": "Kuwait",
+        "code": "KWT",
+        "value": 57.4,
+        "year": 2026
+      },
+      {
+        "country": "Kyrgyz Republic",
+        "code": "KGZ",
+        "value": 58.2,
+        "year": 2026
+      },
+      {
+        "country": "Laos",
+        "code": "LAO",
+        "value": 54.2,
+        "year": 2026
+      },
+      {
+        "country": "Latvia",
+        "code": "LVA",
+        "value": 80.7,
+        "year": 2026
+      },
+      {
+        "country": "Lebanon",
+        "code": "LBN",
+        "value": 47.6,
+        "year": 2026
+      },
+      {
+        "country": "Lesotho",
+        "code": "LSO",
+        "value": 50.6,
+        "year": 2026
+      },
+      {
+        "country": "Liberia",
+        "code": "LBR",
+        "value": 38.0,
+        "year": 2026
+      },
+      {
+        "country": "Libya",
+        "code": "LBY",
+        "value": 32.4,
+        "year": 2026
+      },
+      {
+        "country": "Liechtenstein",
+        "code": "LIE",
+        "value": 83.6,
+        "year": 2026
+      },
+      {
+        "country": "Lithuania",
+        "code": "LTU",
+        "value": 84.2,
+        "year": 2026
+      },
+      {
+        "country": "Luxembourg",
+        "code": "LUX",
+        "value": 89.5,
+        "year": 2026
+      },
+      {
+        "country": "Madagascar",
+        "code": "MDG",
+        "value": 37.3,
+        "year": 2026
+      },
+      {
+        "country": "Malawi",
+        "code": "MWI",
+        "value": 34.1,
+        "year": 2026
+      },
+      {
+        "country": "Malaysia",
+        "code": "MYS",
+        "value": 79.6,
+        "year": 2026
+      },
+      {
+        "country": "Maldives",
+        "code": "MDV",
+        "value": 49.7,
+        "year": 2026
+      },
+      {
+        "country": "Mali",
+        "code": "MLI",
+        "value": 40.8,
+        "year": 2026
+      },
+      {
+        "country": "Malta",
+        "code": "MLT",
+        "value": 83.2,
+        "year": 2026
+      },
+      {
+        "country": "Mauritania",
+        "code": "MRT",
+        "value": 38.7,
+        "year": 2026
+      },
+      {
+        "country": "Mauritius",
+        "code": "MUS",
+        "value": 81.5,
+        "year": 2026
+      },
+      {
+        "country": "Mexico",
+        "code": "MEX",
+        "value": 67.0,
+        "year": 2026
+      },
+      {
+        "country": "Micronesia",
+        "code": "FSM",
+        "value": 56.7,
+        "year": 2026
+      },
+      {
+        "country": "Moldova",
+        "code": "MDA",
+        "value": 68.3,
+        "year": 2026
+      },
+      {
+        "country": "Mongolia",
+        "code": "MNG",
+        "value": 68.4,
+        "year": 2026
+      },
+      {
+        "country": "Montenegro",
+        "code": "MNE",
+        "value": 68.4,
+        "year": 2026
+      },
+      {
+        "country": "Morocco",
+        "code": "MAR",
+        "value": 72.1,
+        "year": 2026
+      },
+      {
+        "country": "Mozambique",
+        "code": "MOZ",
+        "value": 40.2,
+        "year": 2026
+      },
+      {
+        "country": "Namibia",
+        "code": "NAM",
+        "value": 58.0,
+        "year": 2026
+      },
+      {
+        "country": "Nepal",
+        "code": "NPL",
+        "value": 60.8,
+        "year": 2026
+      },
+      {
+        "country": "Netherlands",
+        "code": "NLD",
+        "value": 85.0,
+        "year": 2026
+      },
+      {
+        "country": "New Zealand",
+        "code": "NZL",
+        "value": 89.1,
+        "year": 2026
+      },
+      {
+        "country": "Nicaragua",
+        "code": "NIC",
+        "value": 54.4,
+        "year": 2026
+      },
+      {
+        "country": "Niger",
+        "code": "NER",
+        "value": 32.4,
+        "year": 2026
+      },
+      {
+        "country": "Nigeria",
+        "code": "NGA",
+        "value": 50.3,
+        "year": 2026
+      },
+      {
+        "country": "North Korea",
+        "code": "PRK",
+        "value": 5.0,
+        "year": 2026
+      },
+      {
+        "country": "North Macedonia",
+        "code": "MKD",
+        "value": 72.2,
+        "year": 2026
+      },
+      {
+        "country": "Norway",
+        "code": "NOR",
+        "value": 91.2,
+        "year": 2026
+      },
+      {
+        "country": "Oman",
+        "code": "OMN",
+        "value": 67.8,
+        "year": 2026
+      },
+      {
+        "country": "Pakistan",
+        "code": "PAK",
+        "value": 54.4,
+        "year": 2026
+      },
+      {
+        "country": "Panama",
+        "code": "PAN",
+        "value": 72.6,
+        "year": 2026
+      },
+      {
+        "country": "Papua New Guinea",
+        "code": "PNG",
+        "value": 34.2,
+        "year": 2026
+      },
+      {
+        "country": "Paraguay",
+        "code": "PRY",
+        "value": 72.0,
+        "year": 2026
+      },
+      {
+        "country": "Peru",
+        "code": "PER",
+        "value": 73.1,
+        "year": 2026
+      },
+      {
+        "country": "Philippines",
+        "code": "PHL",
+        "value": 69.2,
+        "year": 2026
+      },
+      {
+        "country": "Poland",
+        "code": "POL",
+        "value": 77.5,
+        "year": 2026
+      },
+      {
+        "country": "Portugal",
+        "code": "PRT",
+        "value": 83.1,
+        "year": 2026
+      },
+      {
+        "country": "Qatar",
+        "code": "QAT",
+        "value": 68.0,
+        "year": 2026
+      },
+      {
+        "country": "Republic of Congo",
+        "code": "COG",
+        "value": 35.8,
+        "year": 2026
+      },
+      {
+        "country": "Romania",
+        "code": "ROU",
+        "value": 74.4,
+        "year": 2026
+      },
+      {
+        "country": "Russia",
+        "code": "RUS",
+        "value": 51.4,
+        "year": 2026
+      },
+      {
+        "country": "Rwanda",
+        "code": "RWA",
+        "value": 60.1,
+        "year": 2026
+      },
+      {
+        "country": "Saint Lucia",
+        "code": "LCA",
+        "value": 71.9,
+        "year": 2026
+      },
+      {
+        "country": "Saint Vincent and The Grenadines",
+        "code": "VCT",
+        "value": 67.3,
+        "year": 2026
+      },
+      {
+        "country": "Samoa",
+        "code": "WSM",
+        "value": 63.7,
+        "year": 2026
+      },
+      {
+        "country": "Saudi Arabia",
+        "code": "SAU",
+        "value": 71.2,
+        "year": 2026
+      },
+      {
+        "country": "Senegal",
+        "code": "SEN",
+        "value": 55.2,
+        "year": 2026
+      },
+      {
+        "country": "Serbia",
+        "code": "SRB",
+        "value": 73.6,
+        "year": 2026
+      },
+      {
+        "country": "Seychelles",
+        "code": "SYC",
+        "value": 71.3,
+        "year": 2026
+      },
+      {
+        "country": "Sierra Leone",
+        "code": "SLE",
+        "value": 44.8,
+        "year": 2026
+      },
+      {
+        "country": "Singapore",
+        "code": "SGP",
+        "value": 90.6,
+        "year": 2026
+      },
+      {
+        "country": "Slovakia",
+        "code": "SVK",
+        "value": 71.1,
+        "year": 2026
+      },
+      {
+        "country": "Slovenia",
+        "code": "SVN",
+        "value": 78.7,
+        "year": 2026
+      },
+      {
+        "country": "Solomon Islands",
+        "code": "SLB",
+        "value": 52.3,
+        "year": 2026
+      },
+      {
+        "country": "Somalia",
+        "code": "SOM",
+        "value": 25.9,
+        "year": 2026
+      },
+      {
+        "country": "South Africa",
+        "code": "ZAF",
+        "value": 67.9,
+        "year": 2026
+      },
+      {
+        "country": "South Korea",
+        "code": "KOR",
+        "value": 81.5,
+        "year": 2026
+      },
+      {
+        "country": "Spain",
+        "code": "ESP",
+        "value": 82.6,
+        "year": 2026
+      },
+      {
+        "country": "Sri Lanka",
+        "code": "LKA",
+        "value": 60.1,
+        "year": 2026
+      },
+      {
+        "country": "Sudan",
+        "code": "SDN",
+        "value": 27.3,
+        "year": 2026
+      },
+      {
+        "country": "Suriname",
+        "code": "SUR",
+        "value": 56.9,
+        "year": 2026
+      },
+      {
+        "country": "Sweden",
+        "code": "SWE",
+        "value": 84.8,
+        "year": 2026
+      },
+      {
+        "country": "Switzerland",
+        "code": "CHE",
+        "value": 86.3,
+        "year": 2026
+      },
+      {
+        "country": "Syria",
+        "code": "SYR",
+        "value": 33.8,
+        "year": 2026
+      },
+      {
+        "country": "São Tomé and Príncipe",
+        "code": "STP",
+        "value": 59.9,
+        "year": 2026
+      },
+      {
+        "country": "Taiwan",
+        "code": "TWN",
+        "value": 78.6,
+        "year": 2026
+      },
+      {
+        "country": "Tajikistan",
+        "code": "TJK",
+        "value": 60.6,
+        "year": 2026
+      },
+      {
+        "country": "Tanzania",
+        "code": "TZA",
+        "value": 48.1,
+        "year": 2026
+      },
+      {
+        "country": "Thailand",
+        "code": "THA",
+        "value": 69.9,
+        "year": 2026
+      },
+      {
+        "country": "The Bahamas",
+        "code": "BHS",
+        "value": 69.4,
+        "year": 2026
+      },
+      {
+        "country": "The Gambia",
+        "code": "GMB",
+        "value": 50.1,
+        "year": 2026
+      },
+      {
+        "country": "Timor-Leste",
+        "code": "TLS",
+        "value": 62.7,
+        "year": 2026
+      },
+      {
+        "country": "Togo",
+        "code": "TGO",
+        "value": 60.1,
+        "year": 2026
+      },
+      {
+        "country": "Tonga",
+        "code": "TON",
+        "value": 59.2,
+        "year": 2026
+      },
+      {
+        "country": "Trinidad and Tobago",
+        "code": "TTO",
+        "value": 67.1,
+        "year": 2026
+      },
+      {
+        "country": "Tunisia",
+        "code": "TUN",
+        "value": 59.4,
+        "year": 2026
+      },
+      {
+        "country": "Turkey",
+        "code": "TUR",
+        "value": 61.6,
+        "year": 2026
+      },
+      {
+        "country": "Turkmenistan",
+        "code": "TKM",
+        "value": 37.5,
+        "year": 2026
+      },
+      {
+        "country": "Uganda",
+        "code": "UGA",
+        "value": 50.2,
+        "year": 2026
+      },
+      {
+        "country": "Ukraine",
+        "code": "UKR",
+        "value": 57.4,
+        "year": 2026
+      },
+      {
+        "country": "United Arab Emirates",
+        "code": "ARE",
+        "value": 84.5,
+        "year": 2026
+      },
+      {
+        "country": "United Kingdom",
+        "code": "GBR",
+        "value": 83.6,
+        "year": 2026
+      },
+      {
+        "country": "United States",
+        "code": "USA",
+        "value": 88.6,
+        "year": 2026
+      },
+      {
+        "country": "Uruguay",
+        "code": "URY",
+        "value": 83.8,
+        "year": 2026
+      },
+      {
+        "country": "Uzbekistan",
+        "code": "UZB",
+        "value": 62.5,
+        "year": 2026
+      },
+      {
+        "country": "Vanuatu",
+        "code": "VUT",
+        "value": 50.3,
+        "year": 2026
+      },
+      {
+        "country": "Venezuela",
+        "code": "VEN",
+        "value": 31.1,
+        "year": 2026
+      },
+      {
+        "country": "Vietnam",
+        "code": "VNM",
+        "value": 70.0,
+        "year": 2026
+      },
+      {
+        "country": "Yemen",
+        "code": "YEM",
+        "value": 31.3,
+        "year": 2026
+      },
+      {
+        "country": "Zambia",
+        "code": "ZMB",
+        "value": 53.4,
+        "year": 2026
+      },
+      {
+        "country": "Zimbabwe",
+        "code": "ZWE",
+        "value": 42.0,
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "metadata": {
       "source": "Our World in Data",
       "scope": "World",
       "database": "owid_co2",
@@ -2168,6 +3292,3156 @@
         "code": "ZWE",
         "value": 0.5426,
         "year": 2022
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "source": "World Bank Open Data",
+      "scope": "World",
+      "database": "World Development Indicators",
+      "url": "https://data.worldbank.org/",
+      "code": "PA.NUS.GDP.PLI / NY.GDP.PCAP.CD",
+      "key": "cost_burden_index",
+      "description": "Relative cost-of-living burden",
+      "summary": "Relative cost of living: the World Bank price level index, with the United States set to 1, divided by GDP per capita in current US dollars and scaled by 1,000. A higher value means local prices claim more of average income.",
+      "category": "Purchasing power parity and inflation",
+      "units": "per $1,000 of GDP per capita",
+      "reversedScale": true,
+      "importance": 1.0,
+      "dataSize": 195,
+      "retrievedAt": "2026-11-12T15:47:31Z"
+    },
+    "data": [
+      {
+        "country": "Afghanistan",
+        "code": "AFG",
+        "value": 0.4472,
+        "year": 2024
+      },
+      {
+        "country": "Albania",
+        "code": "ALB",
+        "value": 0.0354,
+        "year": 2025
+      },
+      {
+        "country": "Algeria",
+        "code": "DZA",
+        "value": 0.0538,
+        "year": 2025
+      },
+      {
+        "country": "Andorra",
+        "code": "AND",
+        "value": 0.0126,
+        "year": 2025
+      },
+      {
+        "country": "Angola",
+        "code": "AGO",
+        "value": 0.0975,
+        "year": 2025
+      },
+      {
+        "country": "Antigua and Barbuda",
+        "code": "ATG",
+        "value": 0.0279,
+        "year": 2025
+      },
+      {
+        "country": "Argentina",
+        "code": "ARG",
+        "value": 0.0307,
+        "year": 2025
+      },
+      {
+        "country": "Armenia",
+        "code": "ARM",
+        "value": 0.0404,
+        "year": 2025
+      },
+      {
+        "country": "Aruba",
+        "code": "ABW",
+        "value": 0.0193,
+        "year": 2024
+      },
+      {
+        "country": "Australia",
+        "code": "AUS",
+        "value": 0.0139,
+        "year": 2025
+      },
+      {
+        "country": "Austria",
+        "code": "AUT",
+        "value": 0.013,
+        "year": 2025
+      },
+      {
+        "country": "Azerbaijan",
+        "code": "AZE",
+        "value": 0.0383,
+        "year": 2025
+      },
+      {
+        "country": "Bahamas, The",
+        "code": "BHS",
+        "value": 0.0242,
+        "year": 2024
+      },
+      {
+        "country": "Bahrain",
+        "code": "BHR",
+        "value": 0.0141,
+        "year": 2025
+      },
+      {
+        "country": "Bangladesh",
+        "code": "BGD",
+        "value": 0.0985,
+        "year": 2025
+      },
+      {
+        "country": "Barbados",
+        "code": "BRB",
+        "value": 0.0386,
+        "year": 2025
+      },
+      {
+        "country": "Belarus",
+        "code": "BLR",
+        "value": 0.0288,
+        "year": 2025
+      },
+      {
+        "country": "Belgium",
+        "code": "BEL",
+        "value": 0.0134,
+        "year": 2025
+      },
+      {
+        "country": "Belize",
+        "code": "BLZ",
+        "value": 0.0668,
+        "year": 2025
+      },
+      {
+        "country": "Benin",
+        "code": "BEN",
+        "value": 0.2076,
+        "year": 2025
+      },
+      {
+        "country": "Bermuda",
+        "code": "BMU",
+        "value": 0.0084,
+        "year": 2024
+      },
+      {
+        "country": "Bhutan",
+        "code": "BTN",
+        "value": 0.051,
+        "year": 2025
+      },
+      {
+        "country": "Bolivia",
+        "code": "BOL",
+        "value": 0.0777,
+        "year": 2025
+      },
+      {
+        "country": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "value": 0.0387,
+        "year": 2025
+      },
+      {
+        "country": "Botswana",
+        "code": "BWA",
+        "value": 0.0483,
+        "year": 2025
+      },
+      {
+        "country": "Brazil",
+        "code": "BRA",
+        "value": 0.0427,
+        "year": 2025
+      },
+      {
+        "country": "Brunei Darussalam",
+        "code": "BRN",
+        "value": 0.0108,
+        "year": 2025
+      },
+      {
+        "country": "Bulgaria",
+        "code": "BGR",
+        "value": 0.0225,
+        "year": 2025
+      },
+      {
+        "country": "Burkina Faso",
+        "code": "BFA",
+        "value": 0.3256,
+        "year": 2025
+      },
+      {
+        "country": "Burundi",
+        "code": "BDI",
+        "value": 0.8012,
+        "year": 2025
+      },
+      {
+        "country": "Cabo Verde",
+        "code": "CPV",
+        "value": 0.0822,
+        "year": 2025
+      },
+      {
+        "country": "Cambodia",
+        "code": "KHM",
+        "value": 0.1171,
+        "year": 2025
+      },
+      {
+        "country": "Cameroon",
+        "code": "CMR",
+        "value": 0.1728,
+        "year": 2025
+      },
+      {
+        "country": "Canada",
+        "code": "CAN",
+        "value": 0.015,
+        "year": 2025
+      },
+      {
+        "country": "Cayman Islands",
+        "code": "CYM",
+        "value": 0.0108,
+        "year": 2024
+      },
+      {
+        "country": "Central African Republic",
+        "code": "CAF",
+        "value": 0.7611,
+        "year": 2025
+      },
+      {
+        "country": "Chad",
+        "code": "TCD",
+        "value": 0.3445,
+        "year": 2025
+      },
+      {
+        "country": "Chile",
+        "code": "CHL",
+        "value": 0.0265,
+        "year": 2025
+      },
+      {
+        "country": "China",
+        "code": "CHN",
+        "value": 0.0341,
+        "year": 2025
+      },
+      {
+        "country": "Colombia",
+        "code": "COL",
+        "value": 0.0442,
+        "year": 2025
+      },
+      {
+        "country": "Comoros",
+        "code": "COM",
+        "value": 0.2359,
+        "year": 2025
+      },
+      {
+        "country": "Congo, Dem. Rep.",
+        "code": "COD",
+        "value": 0.5209,
+        "year": 2025
+      },
+      {
+        "country": "Congo, Rep.",
+        "code": "COG",
+        "value": 0.138,
+        "year": 2025
+      },
+      {
+        "country": "Costa Rica",
+        "code": "CRI",
+        "value": 0.0296,
+        "year": 2025
+      },
+      {
+        "country": "Cote d'Ivoire",
+        "code": "CIV",
+        "value": 0.1218,
+        "year": 2025
+      },
+      {
+        "country": "Croatia",
+        "code": "HRV",
+        "value": 0.0196,
+        "year": 2025
+      },
+      {
+        "country": "Curacao",
+        "code": "CUW",
+        "value": 0.0305,
+        "year": 2024
+      },
+      {
+        "country": "Cyprus",
+        "code": "CYP",
+        "value": 0.0155,
+        "year": 2025
+      },
+      {
+        "country": "Czechia",
+        "code": "CZE",
+        "value": 0.0165,
+        "year": 2025
+      },
+      {
+        "country": "Denmark",
+        "code": "DNK",
+        "value": 0.012,
+        "year": 2025
+      },
+      {
+        "country": "Djibouti",
+        "code": "DJI",
+        "value": 0.1183,
+        "year": 2025
+      },
+      {
+        "country": "Dominica",
+        "code": "DMA",
+        "value": 0.044,
+        "year": 2025
+      },
+      {
+        "country": "Dominican Republic",
+        "code": "DOM",
+        "value": 0.0348,
+        "year": 2025
+      },
+      {
+        "country": "Ecuador",
+        "code": "ECU",
+        "value": 0.0597,
+        "year": 2025
+      },
+      {
+        "country": "Egypt, Arab Rep.",
+        "code": "EGY",
+        "value": 0.0495,
+        "year": 2025
+      },
+      {
+        "country": "El Salvador",
+        "code": "SLV",
+        "value": 0.0709,
+        "year": 2025
+      },
+      {
+        "country": "Equatorial Guinea",
+        "code": "GNQ",
+        "value": 0.062,
+        "year": 2025
+      },
+      {
+        "country": "Estonia",
+        "code": "EST",
+        "value": 0.0192,
+        "year": 2025
+      },
+      {
+        "country": "Eswatini",
+        "code": "SWZ",
+        "value": 0.0798,
+        "year": 2025
+      },
+      {
+        "country": "Ethiopia",
+        "code": "ETH",
+        "value": 0.2761,
+        "year": 2025
+      },
+      {
+        "country": "Faroe Islands",
+        "code": "FRO",
+        "value": 0.0122,
+        "year": 2024
+      },
+      {
+        "country": "Fiji",
+        "code": "FJI",
+        "value": 0.0612,
+        "year": 2025
+      },
+      {
+        "country": "Finland",
+        "code": "FIN",
+        "value": 0.0152,
+        "year": 2025
+      },
+      {
+        "country": "France",
+        "code": "FRA",
+        "value": 0.0156,
+        "year": 2025
+      },
+      {
+        "country": "Gabon",
+        "code": "GAB",
+        "value": 0.045,
+        "year": 2025
+      },
+      {
+        "country": "Gambia, The",
+        "code": "GMB",
+        "value": 0.2699,
+        "year": 2025
+      },
+      {
+        "country": "Georgia",
+        "code": "GEO",
+        "value": 0.034,
+        "year": 2025
+      },
+      {
+        "country": "Germany",
+        "code": "DEU",
+        "value": 0.0133,
+        "year": 2025
+      },
+      {
+        "country": "Ghana",
+        "code": "GHA",
+        "value": 0.1161,
+        "year": 2025
+      },
+      {
+        "country": "Greece",
+        "code": "GRC",
+        "value": 0.0221,
+        "year": 2025
+      },
+      {
+        "country": "Grenada",
+        "code": "GRD",
+        "value": 0.0468,
+        "year": 2025
+      },
+      {
+        "country": "Guatemala",
+        "code": "GTM",
+        "value": 0.0658,
+        "year": 2025
+      },
+      {
+        "country": "Guinea",
+        "code": "GIN",
+        "value": 0.2026,
+        "year": 2025
+      },
+      {
+        "country": "Guinea-Bissau",
+        "code": "GNB",
+        "value": 0.3037,
+        "year": 2025
+      },
+      {
+        "country": "Guyana",
+        "code": "GUY",
+        "value": 0.0102,
+        "year": 2025
+      },
+      {
+        "country": "Haiti",
+        "code": "HTI",
+        "value": 0.3191,
+        "year": 2025
+      },
+      {
+        "country": "Honduras",
+        "code": "HND",
+        "value": 0.127,
+        "year": 2025
+      },
+      {
+        "country": "Hong Kong SAR, China",
+        "code": "HKG",
+        "value": 0.0124,
+        "year": 2025
+      },
+      {
+        "country": "Hungary",
+        "code": "HUN",
+        "value": 0.0201,
+        "year": 2025
+      },
+      {
+        "country": "Iceland",
+        "code": "ISL",
+        "value": 0.012,
+        "year": 2025
+      },
+      {
+        "country": "India",
+        "code": "IND",
+        "value": 0.0851,
+        "year": 2025
+      },
+      {
+        "country": "Indonesia",
+        "code": "IDN",
+        "value": 0.0566,
+        "year": 2025
+      },
+      {
+        "country": "Iran, Islamic Rep.",
+        "code": "IRN",
+        "value": 0.0508,
+        "year": 2025
+      },
+      {
+        "country": "Iraq",
+        "code": "IRQ",
+        "value": 0.0701,
+        "year": 2025
+      },
+      {
+        "country": "Ireland",
+        "code": "IRL",
+        "value": 0.0064,
+        "year": 2025
+      },
+      {
+        "country": "Israel",
+        "code": "ISR",
+        "value": 0.0167,
+        "year": 2025
+      },
+      {
+        "country": "Italy",
+        "code": "ITA",
+        "value": 0.0159,
+        "year": 2025
+      },
+      {
+        "country": "Jamaica",
+        "code": "JAM",
+        "value": 0.0752,
+        "year": 2025
+      },
+      {
+        "country": "Japan",
+        "code": "JPN",
+        "value": 0.018,
+        "year": 2025
+      },
+      {
+        "country": "Jordan",
+        "code": "JOR",
+        "value": 0.0792,
+        "year": 2025
+      },
+      {
+        "country": "Kazakhstan",
+        "code": "KAZ",
+        "value": 0.0226,
+        "year": 2025
+      },
+      {
+        "country": "Kenya",
+        "code": "KEN",
+        "value": 0.1425,
+        "year": 2025
+      },
+      {
+        "country": "Kiribati",
+        "code": "KIR",
+        "value": 0.254,
+        "year": 2025
+      },
+      {
+        "country": "Korea, Rep.",
+        "code": "KOR",
+        "value": 0.0158,
+        "year": 2025
+      },
+      {
+        "country": "Kosovo",
+        "code": "XKX",
+        "value": 0.0518,
+        "year": 2025
+      },
+      {
+        "country": "Kuwait",
+        "code": "KWT",
+        "value": 0.0177,
+        "year": 2025
+      },
+      {
+        "country": "Kyrgyz Republic",
+        "code": "KGZ",
+        "value": 0.1085,
+        "year": 2025
+      },
+      {
+        "country": "Lao PDR",
+        "code": "LAO",
+        "value": 0.0963,
+        "year": 2025
+      },
+      {
+        "country": "Latvia",
+        "code": "LVA",
+        "value": 0.0217,
+        "year": 2025
+      },
+      {
+        "country": "Lebanon",
+        "code": "LBN",
+        "value": 0.0839,
+        "year": 2024
+      },
+      {
+        "country": "Lesotho",
+        "code": "LSO",
+        "value": 0.3141,
+        "year": 2025
+      },
+      {
+        "country": "Liberia",
+        "code": "LBR",
+        "value": 0.5048,
+        "year": 2025
+      },
+      {
+        "country": "Libya",
+        "code": "LBY",
+        "value": 0.0605,
+        "year": 2025
+      },
+      {
+        "country": "Lithuania",
+        "code": "LTU",
+        "value": 0.0176,
+        "year": 2025
+      },
+      {
+        "country": "Luxembourg",
+        "code": "LUX",
+        "value": 0.0064,
+        "year": 2025
+      },
+      {
+        "country": "Macao SAR, China",
+        "code": "MAC",
+        "value": 0.0073,
+        "year": 2025
+      },
+      {
+        "country": "Madagascar",
+        "code": "MDG",
+        "value": 0.5122,
+        "year": 2025
+      },
+      {
+        "country": "Malawi",
+        "code": "MWI",
+        "value": 0.5265,
+        "year": 2025
+      },
+      {
+        "country": "Malaysia",
+        "code": "MYS",
+        "value": 0.0241,
+        "year": 2025
+      },
+      {
+        "country": "Maldives",
+        "code": "MDV",
+        "value": 0.035,
+        "year": 2025
+      },
+      {
+        "country": "Mali",
+        "code": "MLI",
+        "value": 0.2855,
+        "year": 2025
+      },
+      {
+        "country": "Malta",
+        "code": "MLT",
+        "value": 0.0138,
+        "year": 2025
+      },
+      {
+        "country": "Marshall Islands",
+        "code": "MHL",
+        "value": 0.1116,
+        "year": 2025
+      },
+      {
+        "country": "Mauritania",
+        "code": "MRT",
+        "value": 0.1303,
+        "year": 2025
+      },
+      {
+        "country": "Mauritius",
+        "code": "MUS",
+        "value": 0.0297,
+        "year": 2025
+      },
+      {
+        "country": "Mexico",
+        "code": "MEX",
+        "value": 0.0387,
+        "year": 2025
+      },
+      {
+        "country": "Micronesia, Fed. Sts.",
+        "code": "FSM",
+        "value": 0.2172,
+        "year": 2025
+      },
+      {
+        "country": "Moldova",
+        "code": "MDA",
+        "value": 0.05,
+        "year": 2025
+      },
+      {
+        "country": "Mongolia",
+        "code": "MNG",
+        "value": 0.0481,
+        "year": 2025
+      },
+      {
+        "country": "Montenegro",
+        "code": "MNE",
+        "value": 0.0282,
+        "year": 2025
+      },
+      {
+        "country": "Morocco",
+        "code": "MAR",
+        "value": 0.09,
+        "year": 2025
+      },
+      {
+        "country": "Mozambique",
+        "code": "MOZ",
+        "value": 0.5889,
+        "year": 2025
+      },
+      {
+        "country": "Myanmar",
+        "code": "MMR",
+        "value": 0.1663,
+        "year": 2025
+      },
+      {
+        "country": "Namibia",
+        "code": "NAM",
+        "value": 0.0834,
+        "year": 2025
+      },
+      {
+        "country": "Naoero",
+        "code": "NRU",
+        "value": 0.0704,
+        "year": 2025
+      },
+      {
+        "country": "Nepal",
+        "code": "NPL",
+        "value": 0.1619,
+        "year": 2025
+      },
+      {
+        "country": "Netherlands",
+        "code": "NLD",
+        "value": 0.0115,
+        "year": 2025
+      },
+      {
+        "country": "New Zealand",
+        "code": "NZL",
+        "value": 0.0174,
+        "year": 2025
+      },
+      {
+        "country": "Nicaragua",
+        "code": "NIC",
+        "value": 0.1077,
+        "year": 2025
+      },
+      {
+        "country": "Niger",
+        "code": "NER",
+        "value": 0.4593,
+        "year": 2025
+      },
+      {
+        "country": "Nigeria",
+        "code": "NGA",
+        "value": 0.1049,
+        "year": 2025
+      },
+      {
+        "country": "North Macedonia",
+        "code": "MKD",
+        "value": 0.0357,
+        "year": 2025
+      },
+      {
+        "country": "Norway",
+        "code": "NOR",
+        "value": 0.0096,
+        "year": 2025
+      },
+      {
+        "country": "Oman",
+        "code": "OMN",
+        "value": 0.0236,
+        "year": 2025
+      },
+      {
+        "country": "Pakistan",
+        "code": "PAK",
+        "value": 0.1521,
+        "year": 2025
+      },
+      {
+        "country": "Palau",
+        "code": "PLW",
+        "value": 0.0434,
+        "year": 2025
+      },
+      {
+        "country": "Panama",
+        "code": "PAN",
+        "value": 0.0228,
+        "year": 2025
+      },
+      {
+        "country": "Papua New Guinea",
+        "code": "PNG",
+        "value": 0.1918,
+        "year": 2025
+      },
+      {
+        "country": "Paraguay",
+        "code": "PRY",
+        "value": 0.0496,
+        "year": 2025
+      },
+      {
+        "country": "Peru",
+        "code": "PER",
+        "value": 0.0531,
+        "year": 2025
+      },
+      {
+        "country": "Philippines",
+        "code": "PHL",
+        "value": 0.0795,
+        "year": 2025
+      },
+      {
+        "country": "Poland",
+        "code": "POL",
+        "value": 0.0184,
+        "year": 2025
+      },
+      {
+        "country": "Portugal",
+        "code": "PRT",
+        "value": 0.0188,
+        "year": 2025
+      },
+      {
+        "country": "Puerto Rico (US)",
+        "code": "PRI",
+        "value": 0.0192,
+        "year": 2025
+      },
+      {
+        "country": "Qatar",
+        "code": "QAT",
+        "value": 0.0078,
+        "year": 2025
+      },
+      {
+        "country": "Romania",
+        "code": "ROU",
+        "value": 0.0196,
+        "year": 2025
+      },
+      {
+        "country": "Russian Federation",
+        "code": "RUS",
+        "value": 0.0202,
+        "year": 2025
+      },
+      {
+        "country": "Rwanda",
+        "code": "RWA",
+        "value": 0.2401,
+        "year": 2025
+      },
+      {
+        "country": "Samoa",
+        "code": "WSM",
+        "value": 0.1073,
+        "year": 2025
+      },
+      {
+        "country": "Sao Tome and Principe",
+        "code": "STP",
+        "value": 0.1565,
+        "year": 2025
+      },
+      {
+        "country": "Saudi Arabia",
+        "code": "SAU",
+        "value": 0.0136,
+        "year": 2025
+      },
+      {
+        "country": "Senegal",
+        "code": "SEN",
+        "value": 0.183,
+        "year": 2025
+      },
+      {
+        "country": "Serbia",
+        "code": "SRB",
+        "value": 0.0295,
+        "year": 2025
+      },
+      {
+        "country": "Seychelles",
+        "code": "SYC",
+        "value": 0.0279,
+        "year": 2025
+      },
+      {
+        "country": "Sierra Leone",
+        "code": "SLE",
+        "value": 0.269,
+        "year": 2025
+      },
+      {
+        "country": "Singapore",
+        "code": "SGP",
+        "value": 0.0061,
+        "year": 2025
+      },
+      {
+        "country": "Sint Maarten (Dutch part)",
+        "code": "SXM",
+        "value": 0.0177,
+        "year": 2025
+      },
+      {
+        "country": "Slovak Republic",
+        "code": "SVK",
+        "value": 0.0203,
+        "year": 2025
+      },
+      {
+        "country": "Slovenia",
+        "code": "SVN",
+        "value": 0.0169,
+        "year": 2025
+      },
+      {
+        "country": "Solomon Islands",
+        "code": "SLB",
+        "value": 0.3587,
+        "year": 2025
+      },
+      {
+        "country": "Somalia, Fed. Rep.",
+        "code": "SOM",
+        "value": 0.6087,
+        "year": 2025
+      },
+      {
+        "country": "South Africa",
+        "code": "ZAF",
+        "value": 0.0629,
+        "year": 2025
+      },
+      {
+        "country": "Spain",
+        "code": "ESP",
+        "value": 0.0167,
+        "year": 2025
+      },
+      {
+        "country": "Sri Lanka",
+        "code": "LKA",
+        "value": 0.0586,
+        "year": 2025
+      },
+      {
+        "country": "St. Kitts and Nevis",
+        "code": "KNA",
+        "value": 0.0272,
+        "year": 2025
+      },
+      {
+        "country": "St. Lucia",
+        "code": "LCA",
+        "value": 0.0349,
+        "year": 2025
+      },
+      {
+        "country": "St. Vincent and the Grenadines",
+        "code": "VCT",
+        "value": 0.0439,
+        "year": 2025
+      },
+      {
+        "country": "Sudan",
+        "code": "SDN",
+        "value": 0.4561,
+        "year": 2025
+      },
+      {
+        "country": "Suriname",
+        "code": "SUR",
+        "value": 0.0441,
+        "year": 2025
+      },
+      {
+        "country": "Sweden",
+        "code": "SWE",
+        "value": 0.0138,
+        "year": 2025
+      },
+      {
+        "country": "Switzerland",
+        "code": "CHE",
+        "value": 0.0098,
+        "year": 2025
+      },
+      {
+        "country": "Tajikistan",
+        "code": "TJK",
+        "value": 0.1688,
+        "year": 2025
+      },
+      {
+        "country": "Tanzania",
+        "code": "TZA",
+        "value": 0.2237,
+        "year": 2025
+      },
+      {
+        "country": "Thailand",
+        "code": "THA",
+        "value": 0.0381,
+        "year": 2025
+      },
+      {
+        "country": "Timor-Leste",
+        "code": "TLS",
+        "value": 0.2079,
+        "year": 2025
+      },
+      {
+        "country": "Togo",
+        "code": "TGO",
+        "value": 0.2451,
+        "year": 2025
+      },
+      {
+        "country": "Tonga",
+        "code": "TON",
+        "value": 0.1153,
+        "year": 2025
+      },
+      {
+        "country": "Trinidad and Tobago",
+        "code": "TTO",
+        "value": 0.0269,
+        "year": 2025
+      },
+      {
+        "country": "Tunisia",
+        "code": "TUN",
+        "value": 0.0656,
+        "year": 2025
+      },
+      {
+        "country": "Turkiye",
+        "code": "TUR",
+        "value": 0.0221,
+        "year": 2025
+      },
+      {
+        "country": "Turkmenistan",
+        "code": "TKM",
+        "value": 0.0442,
+        "year": 2025
+      },
+      {
+        "country": "Turks and Caicos Islands",
+        "code": "TCA",
+        "value": 0.0263,
+        "year": 2024
+      },
+      {
+        "country": "Tuvalu",
+        "code": "TUV",
+        "value": 0.1479,
+        "year": 2025
+      },
+      {
+        "country": "Uganda",
+        "code": "UGA",
+        "value": 0.2867,
+        "year": 2025
+      },
+      {
+        "country": "Ukraine",
+        "code": "UKR",
+        "value": 0.0529,
+        "year": 2025
+      },
+      {
+        "country": "United Arab Emirates",
+        "code": "ARE",
+        "value": 0.0126,
+        "year": 2024
+      },
+      {
+        "country": "United Kingdom",
+        "code": "GBR",
+        "value": 0.0155,
+        "year": 2025
+      },
+      {
+        "country": "United States",
+        "code": "USA",
+        "value": 0.0111,
+        "year": 2025
+      },
+      {
+        "country": "Uruguay",
+        "code": "URY",
+        "value": 0.0261,
+        "year": 2025
+      },
+      {
+        "country": "Uzbekistan",
+        "code": "UZB",
+        "value": 0.0735,
+        "year": 2025
+      },
+      {
+        "country": "Vanuatu",
+        "code": "VUT",
+        "value": 0.221,
+        "year": 2025
+      },
+      {
+        "country": "Viet Nam",
+        "code": "VNM",
+        "value": 0.0553,
+        "year": 2025
+      },
+      {
+        "country": "West Bank and Gaza",
+        "code": "PSE",
+        "value": 0.2,
+        "year": 2025
+      },
+      {
+        "country": "Zambia",
+        "code": "ZMB",
+        "value": 0.2283,
+        "year": 2025
+      },
+      {
+        "country": "Zimbabwe",
+        "code": "ZWE",
+        "value": 0.1545,
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "source": "Heritage Foundation",
+      "scope": "World",
+      "database": "Index of Economic Freedom",
+      "url": "https://www.heritage.org/index/",
+      "code": "overall_score",
+      "key": "economic_freedom",
+      "description": "Economic freedom score",
+      "summary": "Heritage Foundation Index of Economic Freedom overall score, from 0 to 100, averaging property rights, tax burden, government size, and open markets. Higher scores mean fewer policy barriers to work, investment, and trade.",
+      "category": "Economic freedom",
+      "units": "0-100",
+      "reversedScale": false,
+      "importance": 0.75,
+      "dataSize": 176,
+      "retrievedAt": "2026-11-12T15:57:31Z"
+    },
+    "data": [
+      {
+        "country": "Albania",
+        "code": "ALB",
+        "value": 68.0,
+        "year": 2026
+      },
+      {
+        "country": "Algeria",
+        "code": "DZA",
+        "value": 45.8,
+        "year": 2026
+      },
+      {
+        "country": "Angola",
+        "code": "AGO",
+        "value": 54.4,
+        "year": 2026
+      },
+      {
+        "country": "Argentina",
+        "code": "ARG",
+        "value": 57.4,
+        "year": 2026
+      },
+      {
+        "country": "Armenia",
+        "code": "ARM",
+        "value": 67.1,
+        "year": 2026
+      },
+      {
+        "country": "Australia",
+        "code": "AUS",
+        "value": 80.1,
+        "year": 2026
+      },
+      {
+        "country": "Austria",
+        "code": "AUT",
+        "value": 69.8,
+        "year": 2026
+      },
+      {
+        "country": "Azerbaijan",
+        "code": "AZE",
+        "value": 64.3,
+        "year": 2026
+      },
+      {
+        "country": "Bahrain",
+        "code": "BHR",
+        "value": 65.7,
+        "year": 2026
+      },
+      {
+        "country": "Bangladesh",
+        "code": "BGD",
+        "value": 54.8,
+        "year": 2026
+      },
+      {
+        "country": "Barbados",
+        "code": "BRB",
+        "value": 70.4,
+        "year": 2026
+      },
+      {
+        "country": "Belarus",
+        "code": "BLR",
+        "value": 49.1,
+        "year": 2026
+      },
+      {
+        "country": "Belgium",
+        "code": "BEL",
+        "value": 69.2,
+        "year": 2026
+      },
+      {
+        "country": "Belize",
+        "code": "BLZ",
+        "value": 64.7,
+        "year": 2026
+      },
+      {
+        "country": "Benin",
+        "code": "BEN",
+        "value": 60.0,
+        "year": 2026
+      },
+      {
+        "country": "Bhutan",
+        "code": "BTN",
+        "value": 57.5,
+        "year": 2026
+      },
+      {
+        "country": "Bolivia",
+        "code": "BOL",
+        "value": 42.4,
+        "year": 2026
+      },
+      {
+        "country": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "value": 63.1,
+        "year": 2026
+      },
+      {
+        "country": "Botswana",
+        "code": "BWA",
+        "value": 67.7,
+        "year": 2026
+      },
+      {
+        "country": "Brazil",
+        "code": "BRA",
+        "value": 52.4,
+        "year": 2026
+      },
+      {
+        "country": "Brunei",
+        "code": "BRN",
+        "value": 67.5,
+        "year": 2026
+      },
+      {
+        "country": "Bulgaria",
+        "code": "BGR",
+        "value": 68.9,
+        "year": 2026
+      },
+      {
+        "country": "Burkina Faso",
+        "code": "BFA",
+        "value": 49.1,
+        "year": 2026
+      },
+      {
+        "country": "Burma",
+        "code": "MMR",
+        "value": 44.5,
+        "year": 2026
+      },
+      {
+        "country": "Burundi",
+        "code": "BDI",
+        "value": 40.2,
+        "year": 2026
+      },
+      {
+        "country": "Cabo Verde",
+        "code": "CPV",
+        "value": 71.4,
+        "year": 2026
+      },
+      {
+        "country": "Cambodia",
+        "code": "KHM",
+        "value": 58.7,
+        "year": 2026
+      },
+      {
+        "country": "Cameroon",
+        "code": "CMR",
+        "value": 52.0,
+        "year": 2026
+      },
+      {
+        "country": "Canada",
+        "code": "CAN",
+        "value": 75.6,
+        "year": 2026
+      },
+      {
+        "country": "Central African Republic",
+        "code": "CAF",
+        "value": 43.1,
+        "year": 2026
+      },
+      {
+        "country": "Chad",
+        "code": "TCD",
+        "value": 51.2,
+        "year": 2026
+      },
+      {
+        "country": "Chile",
+        "code": "CHL",
+        "value": 74.3,
+        "year": 2026
+      },
+      {
+        "country": "China",
+        "code": "CHN",
+        "value": 48.3,
+        "year": 2026
+      },
+      {
+        "country": "Colombia",
+        "code": "COL",
+        "value": 59.8,
+        "year": 2026
+      },
+      {
+        "country": "Comoros",
+        "code": "COM",
+        "value": 52.7,
+        "year": 2026
+      },
+      {
+        "country": "Costa Rica",
+        "code": "CRI",
+        "value": 69.1,
+        "year": 2026
+      },
+      {
+        "country": "Croatia",
+        "code": "HRV",
+        "value": 67.5,
+        "year": 2026
+      },
+      {
+        "country": "Cuba",
+        "code": "CUB",
+        "value": 25.2,
+        "year": 2026
+      },
+      {
+        "country": "Cyprus",
+        "code": "CYP",
+        "value": 74.1,
+        "year": 2026
+      },
+      {
+        "country": "Czech Republic",
+        "code": "CZE",
+        "value": 73.2,
+        "year": 2026
+      },
+      {
+        "country": "Côte d’Ivoire",
+        "code": "CIV",
+        "value": 58.1,
+        "year": 2026
+      },
+      {
+        "country": "Democratic Republic of Congo",
+        "code": "COD",
+        "value": 47.0,
+        "year": 2026
+      },
+      {
+        "country": "Denmark",
+        "code": "DNK",
+        "value": 79.0,
+        "year": 2026
+      },
+      {
+        "country": "Djibouti",
+        "code": "DJI",
+        "value": 56.3,
+        "year": 2026
+      },
+      {
+        "country": "Dominica",
+        "code": "DMA",
+        "value": 56.1,
+        "year": 2026
+      },
+      {
+        "country": "Dominican Republic",
+        "code": "DOM",
+        "value": 63.8,
+        "year": 2026
+      },
+      {
+        "country": "Ecuador",
+        "code": "ECU",
+        "value": 55.6,
+        "year": 2026
+      },
+      {
+        "country": "Egypt",
+        "code": "EGY",
+        "value": 50.3,
+        "year": 2026
+      },
+      {
+        "country": "El Salvador",
+        "code": "SLV",
+        "value": 57.7,
+        "year": 2026
+      },
+      {
+        "country": "Equatorial Guinea",
+        "code": "GNQ",
+        "value": 47.4,
+        "year": 2026
+      },
+      {
+        "country": "Eritrea",
+        "code": "ERI",
+        "value": 39.6,
+        "year": 2026
+      },
+      {
+        "country": "Estonia",
+        "code": "EST",
+        "value": 78.7,
+        "year": 2026
+      },
+      {
+        "country": "Eswatini",
+        "code": "SWZ",
+        "value": 57.5,
+        "year": 2026
+      },
+      {
+        "country": "Ethiopia",
+        "code": "ETH",
+        "value": 48.1,
+        "year": 2026
+      },
+      {
+        "country": "Fiji",
+        "code": "FJI",
+        "value": 59.5,
+        "year": 2026
+      },
+      {
+        "country": "Finland",
+        "code": "FIN",
+        "value": 76.6,
+        "year": 2026
+      },
+      {
+        "country": "France",
+        "code": "FRA",
+        "value": 64.6,
+        "year": 2026
+      },
+      {
+        "country": "Gabon",
+        "code": "GAB",
+        "value": 56.6,
+        "year": 2026
+      },
+      {
+        "country": "Georgia",
+        "code": "GEO",
+        "value": 69.6,
+        "year": 2026
+      },
+      {
+        "country": "Germany",
+        "code": "DEU",
+        "value": 71.7,
+        "year": 2026
+      },
+      {
+        "country": "Ghana",
+        "code": "GHA",
+        "value": 57.3,
+        "year": 2026
+      },
+      {
+        "country": "Greece",
+        "code": "GRC",
+        "value": 63.2,
+        "year": 2026
+      },
+      {
+        "country": "Guatemala",
+        "code": "GTM",
+        "value": 63.5,
+        "year": 2026
+      },
+      {
+        "country": "Guinea",
+        "code": "GIN",
+        "value": 53.1,
+        "year": 2026
+      },
+      {
+        "country": "Guinea-Bissau",
+        "code": "GNB",
+        "value": 43.2,
+        "year": 2026
+      },
+      {
+        "country": "Guyana",
+        "code": "GUY",
+        "value": 58.7,
+        "year": 2026
+      },
+      {
+        "country": "Haiti",
+        "code": "HTI",
+        "value": 46.1,
+        "year": 2026
+      },
+      {
+        "country": "Honduras",
+        "code": "HND",
+        "value": 59.1,
+        "year": 2026
+      },
+      {
+        "country": "Hungary",
+        "code": "HUN",
+        "value": 62.5,
+        "year": 2026
+      },
+      {
+        "country": "Iceland",
+        "code": "ISL",
+        "value": 75.0,
+        "year": 2026
+      },
+      {
+        "country": "India",
+        "code": "IND",
+        "value": 52.5,
+        "year": 2026
+      },
+      {
+        "country": "Indonesia",
+        "code": "IDN",
+        "value": 65.1,
+        "year": 2026
+      },
+      {
+        "country": "Iran",
+        "code": "IRN",
+        "value": 41.8,
+        "year": 2026
+      },
+      {
+        "country": "Ireland",
+        "code": "IRL",
+        "value": 83.3,
+        "year": 2026
+      },
+      {
+        "country": "Israel",
+        "code": "ISR",
+        "value": 68.4,
+        "year": 2026
+      },
+      {
+        "country": "Italy",
+        "code": "ITA",
+        "value": 63.3,
+        "year": 2026
+      },
+      {
+        "country": "Jamaica",
+        "code": "JAM",
+        "value": 68.2,
+        "year": 2026
+      },
+      {
+        "country": "Japan",
+        "code": "JPN",
+        "value": 70.3,
+        "year": 2026
+      },
+      {
+        "country": "Jordan",
+        "code": "JOR",
+        "value": 59.3,
+        "year": 2026
+      },
+      {
+        "country": "Kazakhstan",
+        "code": "KAZ",
+        "value": 64.2,
+        "year": 2026
+      },
+      {
+        "country": "Kenya",
+        "code": "KEN",
+        "value": 55.5,
+        "year": 2026
+      },
+      {
+        "country": "Kiribati",
+        "code": "KIR",
+        "value": 50.8,
+        "year": 2026
+      },
+      {
+        "country": "Kosovo",
+        "code": "XKX",
+        "value": 62.4,
+        "year": 2026
+      },
+      {
+        "country": "Kuwait",
+        "code": "KWT",
+        "value": 59.9,
+        "year": 2026
+      },
+      {
+        "country": "Kyrgyz Republic",
+        "code": "KGZ",
+        "value": 56.0,
+        "year": 2026
+      },
+      {
+        "country": "Laos",
+        "code": "LAO",
+        "value": 50.9,
+        "year": 2026
+      },
+      {
+        "country": "Latvia",
+        "code": "LVA",
+        "value": 71.6,
+        "year": 2026
+      },
+      {
+        "country": "Lebanon",
+        "code": "LBN",
+        "value": 43.1,
+        "year": 2026
+      },
+      {
+        "country": "Lesotho",
+        "code": "LSO",
+        "value": 54.9,
+        "year": 2026
+      },
+      {
+        "country": "Liberia",
+        "code": "LBR",
+        "value": 49.8,
+        "year": 2026
+      },
+      {
+        "country": "Lithuania",
+        "code": "LTU",
+        "value": 75.3,
+        "year": 2026
+      },
+      {
+        "country": "Luxembourg",
+        "code": "LUX",
+        "value": 79.7,
+        "year": 2026
+      },
+      {
+        "country": "Madagascar",
+        "code": "MDG",
+        "value": 57.0,
+        "year": 2026
+      },
+      {
+        "country": "Malawi",
+        "code": "MWI",
+        "value": 50.7,
+        "year": 2026
+      },
+      {
+        "country": "Malaysia",
+        "code": "MYS",
+        "value": 68.0,
+        "year": 2026
+      },
+      {
+        "country": "Maldives",
+        "code": "MDV",
+        "value": 47.6,
+        "year": 2026
+      },
+      {
+        "country": "Mali",
+        "code": "MLI",
+        "value": 52.1,
+        "year": 2026
+      },
+      {
+        "country": "Malta",
+        "code": "MLT",
+        "value": 68.2,
+        "year": 2026
+      },
+      {
+        "country": "Mauritania",
+        "code": "MRT",
+        "value": 53.9,
+        "year": 2026
+      },
+      {
+        "country": "Mauritius",
+        "code": "MUS",
+        "value": 73.0,
+        "year": 2026
+      },
+      {
+        "country": "Mexico",
+        "code": "MEX",
+        "value": 59.8,
+        "year": 2026
+      },
+      {
+        "country": "Micronesia",
+        "code": "FSM",
+        "value": 62.9,
+        "year": 2026
+      },
+      {
+        "country": "Moldova",
+        "code": "MDA",
+        "value": 58.1,
+        "year": 2026
+      },
+      {
+        "country": "Mongolia",
+        "code": "MNG",
+        "value": 63.9,
+        "year": 2026
+      },
+      {
+        "country": "Montenegro",
+        "code": "MNE",
+        "value": 63.8,
+        "year": 2026
+      },
+      {
+        "country": "Morocco",
+        "code": "MAR",
+        "value": 61.8,
+        "year": 2026
+      },
+      {
+        "country": "Mozambique",
+        "code": "MOZ",
+        "value": 49.6,
+        "year": 2026
+      },
+      {
+        "country": "Namibia",
+        "code": "NAM",
+        "value": 60.2,
+        "year": 2026
+      },
+      {
+        "country": "Nepal",
+        "code": "NPL",
+        "value": 52.9,
+        "year": 2026
+      },
+      {
+        "country": "Netherlands",
+        "code": "NLD",
+        "value": 78.5,
+        "year": 2026
+      },
+      {
+        "country": "New Zealand",
+        "code": "NZL",
+        "value": 77.8,
+        "year": 2026
+      },
+      {
+        "country": "Nicaragua",
+        "code": "NIC",
+        "value": 53.6,
+        "year": 2026
+      },
+      {
+        "country": "Niger",
+        "code": "NER",
+        "value": 51.0,
+        "year": 2026
+      },
+      {
+        "country": "Nigeria",
+        "code": "NGA",
+        "value": 54.8,
+        "year": 2026
+      },
+      {
+        "country": "North Korea",
+        "code": "PRK",
+        "value": 3.1,
+        "year": 2026
+      },
+      {
+        "country": "North Macedonia",
+        "code": "MKD",
+        "value": 63.3,
+        "year": 2026
+      },
+      {
+        "country": "Norway",
+        "code": "NOR",
+        "value": 78.8,
+        "year": 2026
+      },
+      {
+        "country": "Oman",
+        "code": "OMN",
+        "value": 68.5,
+        "year": 2026
+      },
+      {
+        "country": "Pakistan",
+        "code": "PAK",
+        "value": 48.9,
+        "year": 2026
+      },
+      {
+        "country": "Panama",
+        "code": "PAN",
+        "value": 64.9,
+        "year": 2026
+      },
+      {
+        "country": "Papua New Guinea",
+        "code": "PNG",
+        "value": 54.3,
+        "year": 2026
+      },
+      {
+        "country": "Paraguay",
+        "code": "PRY",
+        "value": 66.4,
+        "year": 2026
+      },
+      {
+        "country": "Peru",
+        "code": "PER",
+        "value": 66.3,
+        "year": 2026
+      },
+      {
+        "country": "Philippines",
+        "code": "PHL",
+        "value": 62.9,
+        "year": 2026
+      },
+      {
+        "country": "Poland",
+        "code": "POL",
+        "value": 68.5,
+        "year": 2026
+      },
+      {
+        "country": "Portugal",
+        "code": "PRT",
+        "value": 71.2,
+        "year": 2026
+      },
+      {
+        "country": "Qatar",
+        "code": "QAT",
+        "value": 70.2,
+        "year": 2026
+      },
+      {
+        "country": "Republic of Congo",
+        "code": "COG",
+        "value": 48.6,
+        "year": 2026
+      },
+      {
+        "country": "Romania",
+        "code": "ROU",
+        "value": 65.4,
+        "year": 2026
+      },
+      {
+        "country": "Russia",
+        "code": "RUS",
+        "value": 50.3,
+        "year": 2026
+      },
+      {
+        "country": "Rwanda",
+        "code": "RWA",
+        "value": 56.5,
+        "year": 2026
+      },
+      {
+        "country": "Saint Lucia",
+        "code": "LCA",
+        "value": 67.5,
+        "year": 2026
+      },
+      {
+        "country": "Saint Vincent and The Grenadines",
+        "code": "VCT",
+        "value": 60.0,
+        "year": 2026
+      },
+      {
+        "country": "Samoa",
+        "code": "WSM",
+        "value": 68.0,
+        "year": 2026
+      },
+      {
+        "country": "Saudi Arabia",
+        "code": "SAU",
+        "value": 65.4,
+        "year": 2026
+      },
+      {
+        "country": "Senegal",
+        "code": "SEN",
+        "value": 53.2,
+        "year": 2026
+      },
+      {
+        "country": "Serbia",
+        "code": "SRB",
+        "value": 65.0,
+        "year": 2026
+      },
+      {
+        "country": "Seychelles",
+        "code": "SYC",
+        "value": 66.5,
+        "year": 2026
+      },
+      {
+        "country": "Sierra Leone",
+        "code": "SLE",
+        "value": 49.6,
+        "year": 2026
+      },
+      {
+        "country": "Singapore",
+        "code": "SGP",
+        "value": 84.4,
+        "year": 2026
+      },
+      {
+        "country": "Slovakia",
+        "code": "SVK",
+        "value": 67.7,
+        "year": 2026
+      },
+      {
+        "country": "Slovenia",
+        "code": "SVN",
+        "value": 69.7,
+        "year": 2026
+      },
+      {
+        "country": "Solomon Islands",
+        "code": "SLB",
+        "value": 53.7,
+        "year": 2026
+      },
+      {
+        "country": "South Africa",
+        "code": "ZAF",
+        "value": 58.6,
+        "year": 2026
+      },
+      {
+        "country": "South Korea",
+        "code": "KOR",
+        "value": 73.7,
+        "year": 2026
+      },
+      {
+        "country": "Spain",
+        "code": "ESP",
+        "value": 66.8,
+        "year": 2026
+      },
+      {
+        "country": "Sri Lanka",
+        "code": "LKA",
+        "value": 50.3,
+        "year": 2026
+      },
+      {
+        "country": "Sudan",
+        "code": "SDN",
+        "value": 32.5,
+        "year": 2026
+      },
+      {
+        "country": "Suriname",
+        "code": "SUR",
+        "value": 53.0,
+        "year": 2026
+      },
+      {
+        "country": "Sweden",
+        "code": "SWE",
+        "value": 77.8,
+        "year": 2026
+      },
+      {
+        "country": "Switzerland",
+        "code": "CHE",
+        "value": 83.7,
+        "year": 2026
+      },
+      {
+        "country": "São Tomé and Príncipe",
+        "code": "STP",
+        "value": 60.6,
+        "year": 2026
+      },
+      {
+        "country": "Taiwan",
+        "code": "TWN",
+        "value": 79.8,
+        "year": 2026
+      },
+      {
+        "country": "Tajikistan",
+        "code": "TJK",
+        "value": 52.5,
+        "year": 2026
+      },
+      {
+        "country": "Tanzania",
+        "code": "TZA",
+        "value": 59.0,
+        "year": 2026
+      },
+      {
+        "country": "Thailand",
+        "code": "THA",
+        "value": 62.2,
+        "year": 2026
+      },
+      {
+        "country": "The Bahamas",
+        "code": "BHS",
+        "value": 65.1,
+        "year": 2026
+      },
+      {
+        "country": "The Gambia",
+        "code": "GMB",
+        "value": 56.3,
+        "year": 2026
+      },
+      {
+        "country": "Timor-Leste",
+        "code": "TLS",
+        "value": 47.9,
+        "year": 2026
+      },
+      {
+        "country": "Togo",
+        "code": "TGO",
+        "value": 51.6,
+        "year": 2026
+      },
+      {
+        "country": "Tonga",
+        "code": "TON",
+        "value": 58.9,
+        "year": 2026
+      },
+      {
+        "country": "Trinidad and Tobago",
+        "code": "TTO",
+        "value": 62.4,
+        "year": 2026
+      },
+      {
+        "country": "Tunisia",
+        "code": "TUN",
+        "value": 48.1,
+        "year": 2026
+      },
+      {
+        "country": "Turkey",
+        "code": "TUR",
+        "value": 55.0,
+        "year": 2026
+      },
+      {
+        "country": "Turkmenistan",
+        "code": "TKM",
+        "value": 47.0,
+        "year": 2026
+      },
+      {
+        "country": "Uganda",
+        "code": "UGA",
+        "value": 52.4,
+        "year": 2026
+      },
+      {
+        "country": "United Arab Emirates",
+        "code": "ARE",
+        "value": 71.9,
+        "year": 2026
+      },
+      {
+        "country": "United Kingdom",
+        "code": "GBR",
+        "value": 70.4,
+        "year": 2026
+      },
+      {
+        "country": "United States",
+        "code": "USA",
+        "value": 72.8,
+        "year": 2026
+      },
+      {
+        "country": "Uruguay",
+        "code": "URY",
+        "value": 69.8,
+        "year": 2026
+      },
+      {
+        "country": "Uzbekistan",
+        "code": "UZB",
+        "value": 60.3,
+        "year": 2026
+      },
+      {
+        "country": "Vanuatu",
+        "code": "VUT",
+        "value": 61.1,
+        "year": 2026
+      },
+      {
+        "country": "Venezuela",
+        "code": "VEN",
+        "value": 27.3,
+        "year": 2026
+      },
+      {
+        "country": "Vietnam",
+        "code": "VNM",
+        "value": 64.4,
+        "year": 2026
+      },
+      {
+        "country": "Zambia",
+        "code": "ZMB",
+        "value": 51.9,
+        "year": 2026
+      },
+      {
+        "country": "Zimbabwe",
+        "code": "ZWE",
+        "value": 35.2,
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "source": "Wikipedia",
+      "scope": "World",
+      "database": "List of countries by English-speaking population",
+      "url": "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population",
+      "code": "total_english_speakers_percent",
+      "key": "english_speaking_population",
+      "description": "Percent of English-speaking population",
+      "summary": "Share of people who can speak English, including those who learned it as an additional language. Figures are the total percentages compiled on the English Wikipedia list of countries by English-speaking population.",
+      "category": "Language",
+      "units": "%",
+      "reversedScale": false,
+      "importance": 0.5,
+      "dataSize": 144,
+      "retrievedAt": "2026-11-12T15:23:08Z"
+    },
+    "data": [
+      {
+        "country": "Afghanistan",
+        "code": "AFG",
+        "value": 6.0,
+        "year": 2026
+      },
+      {
+        "country": "Algeria",
+        "code": "DZA",
+        "value": 7.0,
+        "year": 2026
+      },
+      {
+        "country": "American Samoa",
+        "code": "ASM",
+        "value": 47.21,
+        "year": 2020
+      },
+      {
+        "country": "Andorra",
+        "code": "AND",
+        "value": 20.63,
+        "year": 2022
+      },
+      {
+        "country": "Anguilla",
+        "code": "AIA",
+        "value": 92.31,
+        "year": 2003
+      },
+      {
+        "country": "Antigua and Barbuda",
+        "code": "ATG",
+        "value": 80.0,
+        "year": 2003
+      },
+      {
+        "country": "Argentina",
+        "code": "ARG",
+        "value": 6.52,
+        "year": 2026
+      },
+      {
+        "country": "Armenia",
+        "code": "ARM",
+        "value": 4.93,
+        "year": 2022
+      },
+      {
+        "country": "Aruba",
+        "code": "ABW",
+        "value": 42.31,
+        "year": 2003
+      },
+      {
+        "country": "Australia",
+        "code": "AUS",
+        "value": 91.1,
+        "year": 2021
+      },
+      {
+        "country": "Austria",
+        "code": "AUT",
+        "value": 73.08,
+        "year": 2026
+      },
+      {
+        "country": "Azerbaijan",
+        "code": "AZE",
+        "value": 1.29,
+        "year": 2019
+      },
+      {
+        "country": "Bahamas",
+        "code": "BHS",
+        "value": 87.13,
+        "year": 2003
+      },
+      {
+        "country": "Bangladesh",
+        "code": "BGD",
+        "value": 6.53,
+        "year": 2022
+      },
+      {
+        "country": "Barbados",
+        "code": "BRB",
+        "value": 100.0,
+        "year": 2026
+      },
+      {
+        "country": "Belgium",
+        "code": "BEL",
+        "value": 59.05,
+        "year": 2006
+      },
+      {
+        "country": "Belize",
+        "code": "BLZ",
+        "value": 75.46,
+        "year": 2022
+      },
+      {
+        "country": "Bermuda",
+        "code": "BMU",
+        "value": 96.92,
+        "year": 2003
+      },
+      {
+        "country": "Botswana",
+        "code": "BWA",
+        "value": 38.42,
+        "year": 2003
+      },
+      {
+        "country": "Brazil",
+        "code": "BRA",
+        "value": 5.56,
+        "year": 2012
+      },
+      {
+        "country": "British Virgin Islands",
+        "code": "VGB",
+        "value": 86.96,
+        "year": 2003
+      },
+      {
+        "country": "Brunei",
+        "code": "BRN",
+        "value": 37.76,
+        "year": 2003
+      },
+      {
+        "country": "Bulgaria",
+        "code": "BGR",
+        "value": 24.9,
+        "year": 2012
+      },
+      {
+        "country": "Cambodia",
+        "code": "KHM",
+        "value": 22.2,
+        "year": 2026
+      },
+      {
+        "country": "Cameroon",
+        "code": "CMR",
+        "value": 37.99,
+        "year": 2009
+      },
+      {
+        "country": "Canada",
+        "code": "CAN",
+        "value": 82.07,
+        "year": 2016
+      },
+      {
+        "country": "Cayman Islands",
+        "code": "CYM",
+        "value": 88.75,
+        "year": 2021
+      },
+      {
+        "country": "Chile",
+        "code": "CHL",
+        "value": 9.53,
+        "year": 2012
+      },
+      {
+        "country": "China",
+        "code": "CHN",
+        "value": 0.7,
+        "year": 2026
+      },
+      {
+        "country": "Christmas Island",
+        "code": "CXR",
+        "value": 61.11,
+        "year": 2021
+      },
+      {
+        "country": "Cocos (Keeling) Islands",
+        "code": "CCK",
+        "value": 62.39,
+        "year": 2021
+      },
+      {
+        "country": "Colombia",
+        "code": "COL",
+        "value": 4.22,
+        "year": 2014
+      },
+      {
+        "country": "Cook Islands",
+        "code": "COK",
+        "value": 19.8,
+        "year": 2003
+      },
+      {
+        "country": "Costa Rica",
+        "code": "CRI",
+        "value": 8.15,
+        "year": 2017
+      },
+      {
+        "country": "Croatia",
+        "code": "HRV",
+        "value": 39.66,
+        "year": 2024
+      },
+      {
+        "country": "Cyprus",
+        "code": "CYP",
+        "value": 72.56,
+        "year": 2024
+      },
+      {
+        "country": "Czech Republic",
+        "code": "CZE",
+        "value": 50.65,
+        "year": 2026
+      },
+      {
+        "country": "Denmark",
+        "code": "DNK",
+        "value": 86.05,
+        "year": 2012
+      },
+      {
+        "country": "Dominica",
+        "code": "DMA",
+        "value": 94.03,
+        "year": 2003
+      },
+      {
+        "country": "Ecuador",
+        "code": "ECU",
+        "value": 1.55,
+        "year": 2026
+      },
+      {
+        "country": "Egypt",
+        "code": "EGY",
+        "value": 35.0,
+        "year": 2012
+      },
+      {
+        "country": "El Salvador",
+        "code": "SLV",
+        "value": 6.88,
+        "year": 2024
+      },
+      {
+        "country": "Estonia",
+        "code": "EST",
+        "value": 47.03,
+        "year": 2021
+      },
+      {
+        "country": "Eswatini",
+        "code": "SWZ",
+        "value": 48.2,
+        "year": 2003
+      },
+      {
+        "country": "Finland",
+        "code": "FIN",
+        "value": 70.09,
+        "year": 2022
+      },
+      {
+        "country": "France",
+        "code": "FRA",
+        "value": 24.6,
+        "year": 2024
+      },
+      {
+        "country": "Gambia",
+        "code": "GMB",
+        "value": 2.34,
+        "year": 2003
+      },
+      {
+        "country": "Germany",
+        "code": "DEU",
+        "value": 55.74,
+        "year": 2021
+      },
+      {
+        "country": "Ghana",
+        "code": "GHA",
+        "value": 67.19,
+        "year": 2021
+      },
+      {
+        "country": "Gibraltar",
+        "code": "GIB",
+        "value": 93.2,
+        "year": 2012
+      },
+      {
+        "country": "Greece",
+        "code": "GRC",
+        "value": 50.98,
+        "year": 2012
+      },
+      {
+        "country": "Grenada",
+        "code": "GRD",
+        "value": 90.91,
+        "year": 2003
+      },
+      {
+        "country": "Guam",
+        "code": "GUM",
+        "value": 80.44,
+        "year": 2020
+      },
+      {
+        "country": "Guatemala",
+        "code": "GTM",
+        "value": 5.0,
+        "year": 2011
+      },
+      {
+        "country": "Guyana",
+        "code": "GUY",
+        "value": 90.55,
+        "year": 2003
+      },
+      {
+        "country": "Hong Kong",
+        "code": "HKG",
+        "value": 58.75,
+        "year": 2021
+      },
+      {
+        "country": "Hungary",
+        "code": "HUN",
+        "value": 25.29,
+        "year": 2022
+      },
+      {
+        "country": "Iceland",
+        "code": "ISL",
+        "value": 98.0,
+        "year": 2026
+      },
+      {
+        "country": "India",
+        "code": "IND",
+        "value": 19.0,
+        "year": 2021
+      },
+      {
+        "country": "Indonesia",
+        "code": "IDN",
+        "value": 30.8,
+        "year": 2026
+      },
+      {
+        "country": "Iraq",
+        "code": "IRQ",
+        "value": 35.0,
+        "year": 2025
+      },
+      {
+        "country": "Ireland",
+        "code": "IRL",
+        "value": 97.52,
+        "year": 2022
+      },
+      {
+        "country": "Isle of Man",
+        "code": "IMN",
+        "value": 96.09,
+        "year": 2021
+      },
+      {
+        "country": "Israel",
+        "code": "ISR",
+        "value": 31.6,
+        "year": 2020
+      },
+      {
+        "country": "Italy",
+        "code": "ITA",
+        "value": 28.2,
+        "year": 2026
+      },
+      {
+        "country": "Jamaica",
+        "code": "JAM",
+        "value": 97.64,
+        "year": 2003
+      },
+      {
+        "country": "Japan",
+        "code": "JPN",
+        "value": 28.0,
+        "year": 2026
+      },
+      {
+        "country": "Jordan",
+        "code": "JOR",
+        "value": 45.0,
+        "year": 2011
+      },
+      {
+        "country": "Kazakhstan",
+        "code": "KAZ",
+        "value": 15.42,
+        "year": 2009
+      },
+      {
+        "country": "Kenya",
+        "code": "KEN",
+        "value": 78.68,
+        "year": 2003
+      },
+      {
+        "country": "Kiribati",
+        "code": "KIR",
+        "value": 72.91,
+        "year": 2010
+      },
+      {
+        "country": "Latvia",
+        "code": "LVA",
+        "value": 45.89,
+        "year": 2012
+      },
+      {
+        "country": "Lebanon",
+        "code": "LBN",
+        "value": 39.99,
+        "year": 2011
+      },
+      {
+        "country": "Lesotho",
+        "code": "LSO",
+        "value": 27.86,
+        "year": 2003
+      },
+      {
+        "country": "Liberia",
+        "code": "LBR",
+        "value": 82.67,
+        "year": 2003
+      },
+      {
+        "country": "Liechtenstein",
+        "code": "LIE",
+        "value": 15.11,
+        "year": 2026
+      },
+      {
+        "country": "Lithuania",
+        "code": "LTU",
+        "value": 31.09,
+        "year": 2021
+      },
+      {
+        "country": "Luxembourg",
+        "code": "LUX",
+        "value": 25.67,
+        "year": 2021
+      },
+      {
+        "country": "Macao",
+        "code": "MAC",
+        "value": 22.65,
+        "year": 2021
+      },
+      {
+        "country": "Madagascar",
+        "code": "MDG",
+        "value": 18.0,
+        "year": 2026
+      },
+      {
+        "country": "Malawi",
+        "code": "MWI",
+        "value": 3.88,
+        "year": 2003
+      },
+      {
+        "country": "Malaysia",
+        "code": "MYS",
+        "value": 57.34,
+        "year": 2026
+      },
+      {
+        "country": "Malta",
+        "code": "MLT",
+        "value": 88.48,
+        "year": 2021
+      },
+      {
+        "country": "Marshall Islands",
+        "code": "MHL",
+        "value": 98.31,
+        "year": 2003
+      },
+      {
+        "country": "Mauritius",
+        "code": "MUS",
+        "value": 16.38,
+        "year": 2022
+      },
+      {
+        "country": "Mexico",
+        "code": "MEX",
+        "value": 13.0,
+        "year": 2013
+      },
+      {
+        "country": "Micronesia",
+        "code": "FSM",
+        "value": 57.66,
+        "year": 2003
+      },
+      {
+        "country": "Montserrat",
+        "code": "MSR",
+        "value": 67.8,
+        "year": 2003
+      },
+      {
+        "country": "Morocco",
+        "code": "MAR",
+        "value": 18.43,
+        "year": 2026
+      },
+      {
+        "country": "Myanmar",
+        "code": "MMR",
+        "value": 4.45,
+        "year": 2003
+      },
+      {
+        "country": "Namibia",
+        "code": "NAM",
+        "value": 17.24,
+        "year": 2003
+      },
+      {
+        "country": "Nauru",
+        "code": "NRU",
+        "value": 96.67,
+        "year": 2026
+      },
+      {
+        "country": "Nepal",
+        "code": "NPL",
+        "value": 0.35,
+        "year": 2021
+      },
+      {
+        "country": "Netherlands",
+        "code": "NLD",
+        "value": 90.94,
+        "year": 2016
+      },
+      {
+        "country": "New Zealand",
+        "code": "NZL",
+        "value": 97.15,
+        "year": 2023
+      },
+      {
+        "country": "Nigeria",
+        "code": "NGA",
+        "value": 60.64,
+        "year": 2026
+      },
+      {
+        "country": "Norfolk Island",
+        "code": "NFK",
+        "value": 87.34,
+        "year": 2021
+      },
+      {
+        "country": "Northern Mariana Islands",
+        "code": "MNP",
+        "value": 64.83,
+        "year": 2020
+      },
+      {
+        "country": "Norway",
+        "code": "NOR",
+        "value": 87.6,
+        "year": 2026
+      },
+      {
+        "country": "Pakistan",
+        "code": "PAK",
+        "value": 60.91,
+        "year": 2026
+      },
+      {
+        "country": "Palau",
+        "code": "PLW",
+        "value": 92.5,
+        "year": 2003
+      },
+      {
+        "country": "Panama",
+        "code": "PAN",
+        "value": 14.0,
+        "year": 2026
+      },
+      {
+        "country": "Papua New Guinea",
+        "code": "PNG",
+        "value": 70.43,
+        "year": 2011
+      },
+      {
+        "country": "Peru",
+        "code": "PER",
+        "value": 8.0,
+        "year": 2015
+      },
+      {
+        "country": "Philippines",
+        "code": "PHL",
+        "value": 63.74,
+        "year": 2026
+      },
+      {
+        "country": "Poland",
+        "code": "POL",
+        "value": 49.95,
+        "year": 2026
+      },
+      {
+        "country": "Portugal",
+        "code": "PRT",
+        "value": 27.3,
+        "year": 2012
+      },
+      {
+        "country": "Puerto Rico",
+        "code": "PRI",
+        "value": 39.5,
+        "year": 2022
+      },
+      {
+        "country": "Romania",
+        "code": "ROU",
+        "value": 30.98,
+        "year": 2012
+      },
+      {
+        "country": "Russia",
+        "code": "RUS",
+        "value": 3.75,
+        "year": 2021
+      },
+      {
+        "country": "Rwanda",
+        "code": "RWA",
+        "value": 21.24,
+        "year": 2022
+      },
+      {
+        "country": "Saint Kitts and Nevis",
+        "code": "KNA",
+        "value": 78.0,
+        "year": 2003
+      },
+      {
+        "country": "Saint Lucia",
+        "code": "LCA",
+        "value": 43.03,
+        "year": 2003
+      },
+      {
+        "country": "Saint Vincent and the Grenadines",
+        "code": "VCT",
+        "value": 95.0,
+        "year": 2003
+      },
+      {
+        "country": "Samoa",
+        "code": "WSM",
+        "value": 49.86,
+        "year": 2003
+      },
+      {
+        "country": "Seychelles",
+        "code": "SYC",
+        "value": 37.93,
+        "year": 2003
+      },
+      {
+        "country": "Sierra Leone",
+        "code": "SLE",
+        "value": 83.53,
+        "year": 2003
+      },
+      {
+        "country": "Singapore",
+        "code": "SGP",
+        "value": 74.21,
+        "year": 2025
+      },
+      {
+        "country": "Slovakia",
+        "code": "SVK",
+        "value": 25.69,
+        "year": 2021
+      },
+      {
+        "country": "Slovenia",
+        "code": "SVN",
+        "value": 59.02,
+        "year": 2012
+      },
+      {
+        "country": "Solomon Islands",
+        "code": "SLB",
+        "value": 72.88,
+        "year": 2019
+      },
+      {
+        "country": "South Africa",
+        "code": "ZAF",
+        "value": 50.7,
+        "year": 2022
+      },
+      {
+        "country": "Spain",
+        "code": "ESP",
+        "value": 39.0,
+        "year": 2026
+      },
+      {
+        "country": "Sri Lanka",
+        "code": "LKA",
+        "value": 18.32,
+        "year": 2012
+      },
+      {
+        "country": "Suriname",
+        "code": "SUR",
+        "value": 87.09,
+        "year": 2003
+      },
+      {
+        "country": "Sweden",
+        "code": "SWE",
+        "value": 89.0,
+        "year": 2021
+      },
+      {
+        "country": "Switzerland",
+        "code": "CHE",
+        "value": 38.66,
+        "year": 2020
+      },
+      {
+        "country": "Tanzania",
+        "code": "TZA",
+        "value": 21.67,
+        "year": 2022
+      },
+      {
+        "country": "Thailand",
+        "code": "THA",
+        "value": 27.16,
+        "year": 2003
+      },
+      {
+        "country": "Tonga",
+        "code": "TON",
+        "value": 30.0,
+        "year": 2003
+      },
+      {
+        "country": "Trinidad and Tobago",
+        "code": "TTO",
+        "value": 87.74,
+        "year": 2003
+      },
+      {
+        "country": "Tunisia",
+        "code": "TUN",
+        "value": 10.0,
+        "year": 2011
+      },
+      {
+        "country": "Turkey",
+        "code": "TUR",
+        "value": 14.96,
+        "year": 2006
+      },
+      {
+        "country": "Turkmenistan",
+        "code": "TKM",
+        "value": 2.89,
+        "year": 2022
+      },
+      {
+        "country": "U.S. Virgin Islands",
+        "code": "VIR",
+        "value": 91.03,
+        "year": 2003
+      },
+      {
+        "country": "Uganda",
+        "code": "UGA",
+        "value": 44.73,
+        "year": 2016
+      },
+      {
+        "country": "Ukraine",
+        "code": "UKR",
+        "value": 51.0,
+        "year": 2026
+      },
+      {
+        "country": "United Kingdom",
+        "code": "GBR",
+        "value": 98.28,
+        "year": 2021
+      },
+      {
+        "country": "United States",
+        "code": "USA",
+        "value": 95.88,
+        "year": 2022
+      },
+      {
+        "country": "Uruguay",
+        "code": "URY",
+        "value": 24.0,
+        "year": 2019
+      },
+      {
+        "country": "Vanuatu",
+        "code": "VUT",
+        "value": 57.47,
+        "year": 2020
+      },
+      {
+        "country": "Yemen",
+        "code": "YEM",
+        "value": 9.0,
+        "year": 2011
+      },
+      {
+        "country": "Zambia",
+        "code": "ZMB",
+        "value": 16.02,
+        "year": 2003
+      },
+      {
+        "country": "Zimbabwe",
+        "code": "ZWE",
+        "value": 82.07,
+        "year": 2026
       }
     ]
   },
@@ -11039,6 +15313,1412 @@
   },
   {
     "metadata": {
+      "source": "Wikipedia",
+      "scope": "World",
+      "database": "List of sovereign states by immigrant and emigrant population",
+      "url": "https://en.wikipedia.org/wiki/List_of_sovereign_states_by_immigrant_and_emigrant_population",
+      "code": "immigrant_percent_of_population",
+      "key": "immigrant_population_share",
+      "description": "Immigrant share of population",
+      "summary": "Immigrants as a percentage of each country's resident population. The shares come from the United Nations international migrant stock, as compiled on the English Wikipedia list of states by immigrant and emigrant population.",
+      "category": "Immigration",
+      "units": "%",
+      "reversedScale": false,
+      "importance": 0.5,
+      "dataSize": 231,
+      "retrievedAt": "2026-11-12T15:23:08Z"
+    },
+    "data": [
+      {
+        "country": "Afghanistan",
+        "code": "AFG",
+        "value": 0.22,
+        "year": 2024
+      },
+      {
+        "country": "Albania",
+        "code": "ALB",
+        "value": 1.96,
+        "year": 2024
+      },
+      {
+        "country": "Algeria",
+        "code": "DZA",
+        "value": 0.55,
+        "year": 2024
+      },
+      {
+        "country": "American Samoa",
+        "code": "ASM",
+        "value": 47.64,
+        "year": 2024
+      },
+      {
+        "country": "Andorra",
+        "code": "AND",
+        "value": 54.36,
+        "year": 2024
+      },
+      {
+        "country": "Angola",
+        "code": "AGO",
+        "value": 1.85,
+        "year": 2024
+      },
+      {
+        "country": "Anguilla",
+        "code": "AIA",
+        "value": 36.96,
+        "year": 2024
+      },
+      {
+        "country": "Antigua and Barbuda",
+        "code": "ATG",
+        "value": 29.41,
+        "year": 2024
+      },
+      {
+        "country": "Argentina",
+        "code": "ARG",
+        "value": 4.22,
+        "year": 2024
+      },
+      {
+        "country": "Armenia",
+        "code": "ARM",
+        "value": 8.93,
+        "year": 2024
+      },
+      {
+        "country": "Aruba",
+        "code": "ABW",
+        "value": 38.2,
+        "year": 2024
+      },
+      {
+        "country": "Australia",
+        "code": "AUS",
+        "value": 29.37,
+        "year": 2024
+      },
+      {
+        "country": "Austria",
+        "code": "AUT",
+        "value": 25.24,
+        "year": 2024
+      },
+      {
+        "country": "Azerbaijan",
+        "code": "AZE",
+        "value": 2.13,
+        "year": 2024
+      },
+      {
+        "country": "Bahamas",
+        "code": "BHS",
+        "value": 16.9,
+        "year": 2024
+      },
+      {
+        "country": "Bahrain",
+        "code": "BHR",
+        "value": 52.69,
+        "year": 2024
+      },
+      {
+        "country": "Bangladesh",
+        "code": "BGD",
+        "value": 1.71,
+        "year": 2024
+      },
+      {
+        "country": "Barbados",
+        "code": "BRB",
+        "value": 13.14,
+        "year": 2024
+      },
+      {
+        "country": "Belarus",
+        "code": "BLR",
+        "value": 11.58,
+        "year": 2024
+      },
+      {
+        "country": "Belgium",
+        "code": "BEL",
+        "value": 19.69,
+        "year": 2024
+      },
+      {
+        "country": "Belize",
+        "code": "BLZ",
+        "value": 16.45,
+        "year": 2024
+      },
+      {
+        "country": "Benin",
+        "code": "BEN",
+        "value": 3.16,
+        "year": 2024
+      },
+      {
+        "country": "Bermuda",
+        "code": "BMU",
+        "value": 31.49,
+        "year": 2024
+      },
+      {
+        "country": "Bhutan",
+        "code": "BTN",
+        "value": 7.1,
+        "year": 2024
+      },
+      {
+        "country": "Bolivia",
+        "code": "BOL",
+        "value": 1.61,
+        "year": 2024
+      },
+      {
+        "country": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "value": 1.0,
+        "year": 2024
+      },
+      {
+        "country": "Botswana",
+        "code": "BWA",
+        "value": 4.93,
+        "year": 2024
+      },
+      {
+        "country": "Brazil",
+        "code": "BRA",
+        "value": 0.66,
+        "year": 2024
+      },
+      {
+        "country": "British Virgin Islands",
+        "code": "VGB",
+        "value": 62.12,
+        "year": 2024
+      },
+      {
+        "country": "Brunei Darussalam",
+        "code": "BRN",
+        "value": 26.33,
+        "year": 2024
+      },
+      {
+        "country": "Bulgaria",
+        "code": "BGR",
+        "value": 4.65,
+        "year": 2024
+      },
+      {
+        "country": "Burkina Faso",
+        "code": "BFA",
+        "value": 3.07,
+        "year": 2024
+      },
+      {
+        "country": "Burundi",
+        "code": "BDI",
+        "value": 3.14,
+        "year": 2024
+      },
+      {
+        "country": "Cabo Verde",
+        "code": "CPV",
+        "value": 3.36,
+        "year": 2024
+      },
+      {
+        "country": "Cambodia",
+        "code": "KHM",
+        "value": 0.48,
+        "year": 2024
+      },
+      {
+        "country": "Cameroon",
+        "code": "CMR",
+        "value": 2.18,
+        "year": 2024
+      },
+      {
+        "country": "Canada",
+        "code": "CAN",
+        "value": 21.18,
+        "year": 2024
+      },
+      {
+        "country": "Cayman Islands",
+        "code": "CYM",
+        "value": 35.95,
+        "year": 2024
+      },
+      {
+        "country": "Central African Republic",
+        "code": "CAF",
+        "value": 1.46,
+        "year": 2024
+      },
+      {
+        "country": "Chad",
+        "code": "TCD",
+        "value": 6.56,
+        "year": 2024
+      },
+      {
+        "country": "Chile",
+        "code": "CHL",
+        "value": 7.61,
+        "year": 2024
+      },
+      {
+        "country": "China",
+        "code": "CHN",
+        "value": 0.12,
+        "year": 2024
+      },
+      {
+        "country": "Colombia",
+        "code": "COL",
+        "value": 5.77,
+        "year": 2024
+      },
+      {
+        "country": "Comoros",
+        "code": "COM",
+        "value": 1.35,
+        "year": 2024
+      },
+      {
+        "country": "Congo",
+        "code": "COG",
+        "value": 6.28,
+        "year": 2024
+      },
+      {
+        "country": "Cook Islands",
+        "code": "COK",
+        "value": 32.83,
+        "year": 2024
+      },
+      {
+        "country": "Costa Rica",
+        "code": "CRI",
+        "value": 12.1,
+        "year": 2024
+      },
+      {
+        "country": "Croatia",
+        "code": "HRV",
+        "value": 13.65,
+        "year": 2024
+      },
+      {
+        "country": "Cuba",
+        "code": "CUB",
+        "value": 0.02,
+        "year": 2024
+      },
+      {
+        "country": "Curaçao",
+        "code": "CUW",
+        "value": 51.26,
+        "year": 2024
+      },
+      {
+        "country": "Cyprus",
+        "code": "CYP",
+        "value": 20.56,
+        "year": 2024
+      },
+      {
+        "country": "Czechia",
+        "code": "CZE",
+        "value": 9.41,
+        "year": 2024
+      },
+      {
+        "country": "Côte d'Ivoire",
+        "code": "CIV",
+        "value": 9.08,
+        "year": 2024
+      },
+      {
+        "country": "Democratic Republic of the Congo",
+        "code": "COD",
+        "value": 0.96,
+        "year": 2024
+      },
+      {
+        "country": "Denmark",
+        "code": "DNK",
+        "value": 14.06,
+        "year": 2024
+      },
+      {
+        "country": "Djibouti",
+        "code": "DJI",
+        "value": 11.81,
+        "year": 2024
+      },
+      {
+        "country": "Dominica",
+        "code": "DMA",
+        "value": 11.73,
+        "year": 2024
+      },
+      {
+        "country": "Dominican Republic",
+        "code": "DOM",
+        "value": 6.86,
+        "year": 2024
+      },
+      {
+        "country": "Ecuador",
+        "code": "ECU",
+        "value": 4.13,
+        "year": 2024
+      },
+      {
+        "country": "Egypt",
+        "code": "EGY",
+        "value": 9.26,
+        "year": 2024
+      },
+      {
+        "country": "El Salvador",
+        "code": "SLV",
+        "value": 0.72,
+        "year": 2024
+      },
+      {
+        "country": "Equatorial Guinea",
+        "code": "GNQ",
+        "value": 14.92,
+        "year": 2024
+      },
+      {
+        "country": "Eritrea",
+        "code": "ERI",
+        "value": 0.35,
+        "year": 2024
+      },
+      {
+        "country": "Estonia",
+        "code": "EST",
+        "value": 14.9,
+        "year": 2024
+      },
+      {
+        "country": "Eswatini",
+        "code": "SWZ",
+        "value": 2.69,
+        "year": 2024
+      },
+      {
+        "country": "Ethiopia",
+        "code": "ETH",
+        "value": 1.05,
+        "year": 2024
+      },
+      {
+        "country": "Falkland Islands",
+        "code": "FLK",
+        "value": 63.71,
+        "year": 2024
+      },
+      {
+        "country": "Faroe Islands",
+        "code": "FRO",
+        "value": 14.73,
+        "year": 2024
+      },
+      {
+        "country": "Fiji",
+        "code": "FJI",
+        "value": 1.59,
+        "year": 2024
+      },
+      {
+        "country": "Finland",
+        "code": "FIN",
+        "value": 9.09,
+        "year": 2024
+      },
+      {
+        "country": "France",
+        "code": "FRA",
+        "value": 18.8,
+        "year": 2024
+      },
+      {
+        "country": "French Guiana",
+        "code": "GUF",
+        "value": 43.64,
+        "year": 2024
+      },
+      {
+        "country": "French Polynesia",
+        "code": "PYF",
+        "value": 10.77,
+        "year": 2024
+      },
+      {
+        "country": "Gabon",
+        "code": "GAB",
+        "value": 18.21,
+        "year": 2024
+      },
+      {
+        "country": "Gambia",
+        "code": "GMB",
+        "value": 9.75,
+        "year": 2024
+      },
+      {
+        "country": "Georgia",
+        "code": "GEO",
+        "value": 2.2,
+        "year": 2024
+      },
+      {
+        "country": "Germany",
+        "code": "DEU",
+        "value": 21.26,
+        "year": 2024
+      },
+      {
+        "country": "Ghana",
+        "code": "GHA",
+        "value": 1.58,
+        "year": 2024
+      },
+      {
+        "country": "Gibraltar",
+        "code": "GIB",
+        "value": 29.56,
+        "year": 2024
+      },
+      {
+        "country": "Greece",
+        "code": "GRC",
+        "value": 13.73,
+        "year": 2024
+      },
+      {
+        "country": "Greenland",
+        "code": "GRL",
+        "value": 10.24,
+        "year": 2024
+      },
+      {
+        "country": "Grenada",
+        "code": "GRD",
+        "value": 6.73,
+        "year": 2024
+      },
+      {
+        "country": "Guadeloupe",
+        "code": "GLP",
+        "value": 22.65,
+        "year": 2024
+      },
+      {
+        "country": "Guam",
+        "code": "GUM",
+        "value": 54.71,
+        "year": 2024
+      },
+      {
+        "country": "Guatemala",
+        "code": "GTM",
+        "value": 0.51,
+        "year": 2024
+      },
+      {
+        "country": "Guinea",
+        "code": "GIN",
+        "value": 0.82,
+        "year": 2024
+      },
+      {
+        "country": "Guinea-Bissau",
+        "code": "GNB",
+        "value": 0.81,
+        "year": 2024
+      },
+      {
+        "country": "Guyana",
+        "code": "GUY",
+        "value": 5.67,
+        "year": 2024
+      },
+      {
+        "country": "Haiti",
+        "code": "HTI",
+        "value": 0.17,
+        "year": 2024
+      },
+      {
+        "country": "Honduras",
+        "code": "HND",
+        "value": 0.4,
+        "year": 2024
+      },
+      {
+        "country": "Hong Kong",
+        "code": "HKG",
+        "value": 40.7,
+        "year": 2024
+      },
+      {
+        "country": "Hungary",
+        "code": "HUN",
+        "value": 2.64,
+        "year": 2024
+      },
+      {
+        "country": "Iceland",
+        "code": "ISL",
+        "value": 25.05,
+        "year": 2024
+      },
+      {
+        "country": "India",
+        "code": "IND",
+        "value": 0.34,
+        "year": 2024
+      },
+      {
+        "country": "Indonesia",
+        "code": "IDN",
+        "value": 0.16,
+        "year": 2024
+      },
+      {
+        "country": "Iran",
+        "code": "IRN",
+        "value": 4.44,
+        "year": 2024
+      },
+      {
+        "country": "Iraq",
+        "code": "IRQ",
+        "value": 0.8,
+        "year": 2024
+      },
+      {
+        "country": "Ireland",
+        "code": "IRL",
+        "value": 22.28,
+        "year": 2024
+      },
+      {
+        "country": "Isle of Man",
+        "code": "IMN",
+        "value": 51.42,
+        "year": 2024
+      },
+      {
+        "country": "Israel",
+        "code": "ISR",
+        "value": 20.55,
+        "year": 2024
+      },
+      {
+        "country": "Italy",
+        "code": "ITA",
+        "value": 11.12,
+        "year": 2024
+      },
+      {
+        "country": "Jamaica",
+        "code": "JAM",
+        "value": 0.87,
+        "year": 2024
+      },
+      {
+        "country": "Japan",
+        "code": "JPN",
+        "value": 2.77,
+        "year": 2024
+      },
+      {
+        "country": "Jordan",
+        "code": "JOR",
+        "value": 29.66,
+        "year": 2024
+      },
+      {
+        "country": "Kazakhstan",
+        "code": "KAZ",
+        "value": 10.2,
+        "year": 2024
+      },
+      {
+        "country": "Kenya",
+        "code": "KEN",
+        "value": 1.86,
+        "year": 2024
+      },
+      {
+        "country": "Kiribati",
+        "code": "KIR",
+        "value": 2.73,
+        "year": 2024
+      },
+      {
+        "country": "Kuwait",
+        "code": "KWT",
+        "value": 68.08,
+        "year": 2024
+      },
+      {
+        "country": "Kyrgyzstan",
+        "code": "KGZ",
+        "value": 2.68,
+        "year": 2024
+      },
+      {
+        "country": "Laos",
+        "code": "LAO",
+        "value": 0.67,
+        "year": 2024
+      },
+      {
+        "country": "Latvia",
+        "code": "LVA",
+        "value": 12.09,
+        "year": 2024
+      },
+      {
+        "country": "Lebanon",
+        "code": "LBN",
+        "value": 25.91,
+        "year": 2024
+      },
+      {
+        "country": "Lesotho",
+        "code": "LSO",
+        "value": 0.71,
+        "year": 2024
+      },
+      {
+        "country": "Liberia",
+        "code": "LBR",
+        "value": 1.38,
+        "year": 2024
+      },
+      {
+        "country": "Libya",
+        "code": "LBY",
+        "value": 12.04,
+        "year": 2024
+      },
+      {
+        "country": "Liechtenstein",
+        "code": "LIE",
+        "value": 67.45,
+        "year": 2024
+      },
+      {
+        "country": "Lithuania",
+        "code": "LTU",
+        "value": 6.05,
+        "year": 2024
+      },
+      {
+        "country": "Luxembourg",
+        "code": "LUX",
+        "value": 50.49,
+        "year": 2024
+      },
+      {
+        "country": "Macau",
+        "code": "MAC",
+        "value": 62.17,
+        "year": 2024
+      },
+      {
+        "country": "Madagascar",
+        "code": "MDG",
+        "value": 0.12,
+        "year": 2024
+      },
+      {
+        "country": "Malawi",
+        "code": "MWI",
+        "value": 0.9,
+        "year": 2024
+      },
+      {
+        "country": "Malaysia",
+        "code": "MYS",
+        "value": 11.1,
+        "year": 2024
+      },
+      {
+        "country": "Maldives",
+        "code": "MDV",
+        "value": 14.58,
+        "year": 2024
+      },
+      {
+        "country": "Mali",
+        "code": "MLI",
+        "value": 2.43,
+        "year": 2024
+      },
+      {
+        "country": "Malta",
+        "code": "MLT",
+        "value": 34.74,
+        "year": 2024
+      },
+      {
+        "country": "Marshall Islands",
+        "code": "MHL",
+        "value": 7.8,
+        "year": 2024
+      },
+      {
+        "country": "Martinique",
+        "code": "MTQ",
+        "value": 18.94,
+        "year": 2024
+      },
+      {
+        "country": "Mauritania",
+        "code": "MRT",
+        "value": 3.98,
+        "year": 2024
+      },
+      {
+        "country": "Mauritius",
+        "code": "MUS",
+        "value": 2.34,
+        "year": 2024
+      },
+      {
+        "country": "Mayotte",
+        "code": "MYT",
+        "value": 44.03,
+        "year": 2024
+      },
+      {
+        "country": "Mexico",
+        "code": "MEX",
+        "value": 1.32,
+        "year": 2024
+      },
+      {
+        "country": "Micronesia (Fed. States of)",
+        "code": "FSM",
+        "value": 2.74,
+        "year": 2024
+      },
+      {
+        "country": "Monaco",
+        "code": "MCO",
+        "value": 70.55,
+        "year": 2024
+      },
+      {
+        "country": "Mongolia",
+        "code": "MNG",
+        "value": 0.64,
+        "year": 2024
+      },
+      {
+        "country": "Montenegro",
+        "code": "MNE",
+        "value": 14.8,
+        "year": 2024
+      },
+      {
+        "country": "Montserrat",
+        "code": "MSR",
+        "value": 31.97,
+        "year": 2024
+      },
+      {
+        "country": "Morocco",
+        "code": "MAR",
+        "value": 0.3,
+        "year": 2024
+      },
+      {
+        "country": "Mozambique",
+        "code": "MOZ",
+        "value": 1.04,
+        "year": 2024
+      },
+      {
+        "country": "Myanmar",
+        "code": "MMR",
+        "value": 0.15,
+        "year": 2024
+      },
+      {
+        "country": "Namibia",
+        "code": "NAM",
+        "value": 3.84,
+        "year": 2024
+      },
+      {
+        "country": "Nauru",
+        "code": "NRU",
+        "value": 21.82,
+        "year": 2024
+      },
+      {
+        "country": "Nepal",
+        "code": "NPL",
+        "value": 1.57,
+        "year": 2024
+      },
+      {
+        "country": "Netherlands",
+        "code": "NLD",
+        "value": 16.31,
+        "year": 2024
+      },
+      {
+        "country": "New Caledonia",
+        "code": "NCL",
+        "value": 29.0,
+        "year": 2024
+      },
+      {
+        "country": "New Zealand",
+        "code": "NZL",
+        "value": 27.48,
+        "year": 2024
+      },
+      {
+        "country": "Nicaragua",
+        "code": "NIC",
+        "value": 0.64,
+        "year": 2024
+      },
+      {
+        "country": "Niger",
+        "code": "NER",
+        "value": 1.63,
+        "year": 2024
+      },
+      {
+        "country": "Nigeria",
+        "code": "NGA",
+        "value": 0.63,
+        "year": 2024
+      },
+      {
+        "country": "Niue",
+        "code": "NIU",
+        "value": 34.98,
+        "year": 2024
+      },
+      {
+        "country": "North Korea",
+        "code": "PRK",
+        "value": 0.19,
+        "year": 2024
+      },
+      {
+        "country": "North Macedonia",
+        "code": "MKD",
+        "value": 8.28,
+        "year": 2024
+      },
+      {
+        "country": "Northern Mariana Islands",
+        "code": "MNP",
+        "value": 46.48,
+        "year": 2024
+      },
+      {
+        "country": "Norway",
+        "code": "NOR",
+        "value": 17.99,
+        "year": 2024
+      },
+      {
+        "country": "Oman",
+        "code": "OMN",
+        "value": 42.6,
+        "year": 2024
+      },
+      {
+        "country": "Pakistan",
+        "code": "PAK",
+        "value": 1.73,
+        "year": 2024
+      },
+      {
+        "country": "Palau",
+        "code": "PLW",
+        "value": 31.15,
+        "year": 2024
+      },
+      {
+        "country": "Panama",
+        "code": "PAN",
+        "value": 11.75,
+        "year": 2024
+      },
+      {
+        "country": "Papua New Guinea",
+        "code": "PNG",
+        "value": 0.31,
+        "year": 2024
+      },
+      {
+        "country": "Paraguay",
+        "code": "PRY",
+        "value": 2.96,
+        "year": 2024
+      },
+      {
+        "country": "Peru",
+        "code": "PER",
+        "value": 5.35,
+        "year": 2024
+      },
+      {
+        "country": "Philippines",
+        "code": "PHL",
+        "value": 0.08,
+        "year": 2024
+      },
+      {
+        "country": "Poland",
+        "code": "POL",
+        "value": 5.9,
+        "year": 2024
+      },
+      {
+        "country": "Portugal",
+        "code": "PRT",
+        "value": 10.49,
+        "year": 2024
+      },
+      {
+        "country": "Puerto Rico",
+        "code": "PRI",
+        "value": 7.01,
+        "year": 2024
+      },
+      {
+        "country": "Qatar",
+        "code": "QAT",
+        "value": 72.7,
+        "year": 2024
+      },
+      {
+        "country": "Republic of Moldova",
+        "code": "MDA",
+        "value": 7.9,
+        "year": 2024
+      },
+      {
+        "country": "Romania",
+        "code": "ROU",
+        "value": 3.44,
+        "year": 2024
+      },
+      {
+        "country": "Russia",
+        "code": "RUS",
+        "value": 5.21,
+        "year": 2024
+      },
+      {
+        "country": "Rwanda",
+        "code": "RWA",
+        "value": 3.64,
+        "year": 2024
+      },
+      {
+        "country": "Réunion",
+        "code": "REU",
+        "value": 15.06,
+        "year": 2024
+      },
+      {
+        "country": "Saint Helena",
+        "code": "SHN",
+        "value": 8.71,
+        "year": 2024
+      },
+      {
+        "country": "Saint Kitts and Nevis",
+        "code": "KNA",
+        "value": 15.51,
+        "year": 2024
+      },
+      {
+        "country": "Saint Lucia",
+        "code": "LCA",
+        "value": 4.39,
+        "year": 2024
+      },
+      {
+        "country": "Saint Pierre and Miquelon",
+        "code": "SPM",
+        "value": 17.32,
+        "year": 2024
+      },
+      {
+        "country": "Saint Vincent and the Grenadines",
+        "code": "VCT",
+        "value": 4.35,
+        "year": 2024
+      },
+      {
+        "country": "Samoa",
+        "code": "WSM",
+        "value": 1.87,
+        "year": 2024
+      },
+      {
+        "country": "San Marino",
+        "code": "SMR",
+        "value": 17.08,
+        "year": 2024
+      },
+      {
+        "country": "Sao Tome and Principe",
+        "code": "STP",
+        "value": 0.93,
+        "year": 2024
+      },
+      {
+        "country": "Saudi Arabia",
+        "code": "SAU",
+        "value": 38.76,
+        "year": 2024
+      },
+      {
+        "country": "Senegal",
+        "code": "SEN",
+        "value": 1.52,
+        "year": 2024
+      },
+      {
+        "country": "Serbia",
+        "code": "SRB",
+        "value": 10.85,
+        "year": 2024
+      },
+      {
+        "country": "Seychelles",
+        "code": "SYC",
+        "value": 10.81,
+        "year": 2024
+      },
+      {
+        "country": "Sierra Leone",
+        "code": "SLE",
+        "value": 0.55,
+        "year": 2024
+      },
+      {
+        "country": "Singapore",
+        "code": "SGP",
+        "value": 46.51,
+        "year": 2024
+      },
+      {
+        "country": "Sint Maarten",
+        "code": "SXM",
+        "value": 72.91,
+        "year": 2024
+      },
+      {
+        "country": "Slovakia",
+        "code": "SVK",
+        "value": 5.99,
+        "year": 2024
+      },
+      {
+        "country": "Slovenia",
+        "code": "SVN",
+        "value": 14.77,
+        "year": 2024
+      },
+      {
+        "country": "Solomon Islands",
+        "code": "SLB",
+        "value": 0.33,
+        "year": 2024
+      },
+      {
+        "country": "Somalia",
+        "code": "SOM",
+        "value": 0.4,
+        "year": 2024
+      },
+      {
+        "country": "South Africa",
+        "code": "ZAF",
+        "value": 4.17,
+        "year": 2024
+      },
+      {
+        "country": "South Korea",
+        "code": "KOR",
+        "value": 5.19,
+        "year": 2024
+      },
+      {
+        "country": "South Sudan",
+        "code": "SSD",
+        "value": 5.79,
+        "year": 2024
+      },
+      {
+        "country": "Spain",
+        "code": "ESP",
+        "value": 19.19,
+        "year": 2024
+      },
+      {
+        "country": "Sri Lanka",
+        "code": "LKA",
+        "value": 0.19,
+        "year": 2024
+      },
+      {
+        "country": "State of Palestine",
+        "code": "PSE",
+        "value": 4.97,
+        "year": 2024
+      },
+      {
+        "country": "Sudan",
+        "code": "SDN",
+        "value": 4.64,
+        "year": 2024
+      },
+      {
+        "country": "Suriname",
+        "code": "SUR",
+        "value": 8.42,
+        "year": 2024
+      },
+      {
+        "country": "Sweden",
+        "code": "SWE",
+        "value": 21.42,
+        "year": 2024
+      },
+      {
+        "country": "Switzerland",
+        "code": "CHE",
+        "value": 27.5,
+        "year": 2024
+      },
+      {
+        "country": "Syrian Arab Republic",
+        "code": "SYR",
+        "value": 3.5,
+        "year": 2024
+      },
+      {
+        "country": "Taiwan",
+        "code": "TWN",
+        "value": 4.88,
+        "year": 2024
+      },
+      {
+        "country": "Tajikistan",
+        "code": "TJK",
+        "value": 2.64,
+        "year": 2024
+      },
+      {
+        "country": "Thailand",
+        "code": "THA",
+        "value": 4.83,
+        "year": 2024
+      },
+      {
+        "country": "Timor-Leste",
+        "code": "TLS",
+        "value": 0.6,
+        "year": 2024
+      },
+      {
+        "country": "Togo",
+        "code": "TGO",
+        "value": 3.48,
+        "year": 2024
+      },
+      {
+        "country": "Tokelau",
+        "code": "TKL",
+        "value": 49.16,
+        "year": 2024
+      },
+      {
+        "country": "Tonga",
+        "code": "TON",
+        "value": 3.57,
+        "year": 2024
+      },
+      {
+        "country": "Trinidad and Tobago",
+        "code": "TTO",
+        "value": 8.3,
+        "year": 2024
+      },
+      {
+        "country": "Tunisia",
+        "code": "TUN",
+        "value": 0.53,
+        "year": 2024
+      },
+      {
+        "country": "Turkey",
+        "code": "TUR",
+        "value": 8.23,
+        "year": 2024
+      },
+      {
+        "country": "Turkmenistan",
+        "code": "TKM",
+        "value": 2.75,
+        "year": 2024
+      },
+      {
+        "country": "Turks and Caicos Islands",
+        "code": "TCA",
+        "value": 55.98,
+        "year": 2024
+      },
+      {
+        "country": "Tuvalu",
+        "code": "TUV",
+        "value": 2.31,
+        "year": 2024
+      },
+      {
+        "country": "Uganda",
+        "code": "UGA",
+        "value": 4.48,
+        "year": 2024
+      },
+      {
+        "country": "Ukraine",
+        "code": "UKR",
+        "value": 17.65,
+        "year": 2024
+      },
+      {
+        "country": "United Arab Emirates",
+        "code": "ARE",
+        "value": 72.22,
+        "year": 2024
+      },
+      {
+        "country": "United Kingdom",
+        "code": "GBR",
+        "value": 17.05,
+        "year": 2024
+      },
+      {
+        "country": "United Republic of Tanzania",
+        "code": "TZA",
+        "value": 0.68,
+        "year": 2024
+      },
+      {
+        "country": "United States",
+        "code": "USA",
+        "value": 15.32,
+        "year": 2024
+      },
+      {
+        "country": "United States Virgin Islands",
+        "code": "VIR",
+        "value": 65.15,
+        "year": 2024
+      },
+      {
+        "country": "Uruguay",
+        "code": "URY",
+        "value": 4.59,
+        "year": 2024
+      },
+      {
+        "country": "Uzbekistan",
+        "code": "UZB",
+        "value": 3.02,
+        "year": 2024
+      },
+      {
+        "country": "Vanuatu",
+        "code": "VUT",
+        "value": 1.03,
+        "year": 2024
+      },
+      {
+        "country": "Vatican City",
+        "code": "VAT",
+        "value": 56.24,
+        "year": 2024
+      },
+      {
+        "country": "Venezuela",
+        "code": "VEN",
+        "value": 4.43,
+        "year": 2024
+      },
+      {
+        "country": "Vietnam",
+        "code": "VNM",
+        "value": 0.32,
+        "year": 2024
+      },
+      {
+        "country": "Wallis and Futuna Islands",
+        "code": "WLF",
+        "value": 17.49,
+        "year": 2024
+      },
+      {
+        "country": "Western Sahara",
+        "code": "ESH",
+        "value": 0.94,
+        "year": 2024
+      },
+      {
+        "country": "Yemen",
+        "code": "YEM",
+        "value": 1.2,
+        "year": 2024
+      },
+      {
+        "country": "Zambia",
+        "code": "ZMB",
+        "value": 1.27,
+        "year": 2024
+      },
+      {
+        "country": "Zimbabwe",
+        "code": "ZWE",
+        "value": 2.51,
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "metadata": {
       "source": "Our World in Data",
       "scope": "World",
       "database": "un_wpp",
@@ -19171,6 +24851,188 @@
   },
   {
     "metadata": {
+      "source": "Wikipedia",
+      "scope": "World",
+      "database": "Opposition to immigration",
+      "url": "https://en.wikipedia.org/wiki/Opposition_to_immigration",
+      "code": "fewer_or_no_immigrants_percent",
+      "key": "opposition_to_immigration",
+      "description": "Want fewer or no immigrants",
+      "summary": "Share of adults who say their country should let in fewer immigrants or none at all. Figures are the fewer-or-none column of the cross-country survey table on the English Wikipedia page about opposition to immigration.",
+      "category": "Immigration",
+      "units": "%",
+      "reversedScale": true,
+      "importance": 0.5,
+      "dataSize": 27,
+      "retrievedAt": "2026-11-12T15:23:08Z"
+    },
+    "data": [
+      {
+        "country": "Argentina",
+        "code": "ARG",
+        "value": 61.0,
+        "year": 2018
+      },
+      {
+        "country": "Australia",
+        "code": "AUS",
+        "value": 38.0,
+        "year": 2018
+      },
+      {
+        "country": "Brazil",
+        "code": "BRA",
+        "value": 37.0,
+        "year": 2018
+      },
+      {
+        "country": "Canada",
+        "code": "CAN",
+        "value": 27.0,
+        "year": 2018
+      },
+      {
+        "country": "France",
+        "code": "FRA",
+        "value": 41.0,
+        "year": 2018
+      },
+      {
+        "country": "Germany",
+        "code": "DEU",
+        "value": 58.0,
+        "year": 2018
+      },
+      {
+        "country": "Greece",
+        "code": "GRC",
+        "value": 82.0,
+        "year": 2018
+      },
+      {
+        "country": "Hungary",
+        "code": "HUN",
+        "value": 72.0,
+        "year": 2018
+      },
+      {
+        "country": "India",
+        "code": "IND",
+        "value": 45.0,
+        "year": 2018
+      },
+      {
+        "country": "Indonesia",
+        "code": "IDN",
+        "value": 54.0,
+        "year": 2018
+      },
+      {
+        "country": "Israel",
+        "code": "ISR",
+        "value": 73.0,
+        "year": 2018
+      },
+      {
+        "country": "Italy",
+        "code": "ITA",
+        "value": 71.0,
+        "year": 2018
+      },
+      {
+        "country": "Japan",
+        "code": "JPN",
+        "value": 13.0,
+        "year": 2018
+      },
+      {
+        "country": "Kenya",
+        "code": "KEN",
+        "value": 60.0,
+        "year": 2018
+      },
+      {
+        "country": "Mexico",
+        "code": "MEX",
+        "value": 44.0,
+        "year": 2018
+      },
+      {
+        "country": "Netherlands",
+        "code": "NLD",
+        "value": 39.0,
+        "year": 2018
+      },
+      {
+        "country": "Nigeria",
+        "code": "NGA",
+        "value": 50.0,
+        "year": 2018
+      },
+      {
+        "country": "Philippines",
+        "code": "PHL",
+        "value": 32.0,
+        "year": 2018
+      },
+      {
+        "country": "Poland",
+        "code": "POL",
+        "value": 49.0,
+        "year": 2018
+      },
+      {
+        "country": "Russia",
+        "code": "RUS",
+        "value": 67.0,
+        "year": 2018
+      },
+      {
+        "country": "South Africa",
+        "code": "ZAF",
+        "value": 65.0,
+        "year": 2018
+      },
+      {
+        "country": "South Korea",
+        "code": "KOR",
+        "value": 28.0,
+        "year": 2018
+      },
+      {
+        "country": "Spain",
+        "code": "ESP",
+        "value": 30.0,
+        "year": 2018
+      },
+      {
+        "country": "Sweden",
+        "code": "SWE",
+        "value": 52.0,
+        "year": 2018
+      },
+      {
+        "country": "Tunisia",
+        "code": "TUN",
+        "value": 42.0,
+        "year": 2018
+      },
+      {
+        "country": "United Kingdom",
+        "code": "GBR",
+        "value": 37.0,
+        "year": 2018
+      },
+      {
+        "country": "United States",
+        "code": "USA",
+        "value": 29.0,
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "metadata": {
       "source": "OECD",
       "scope": "World",
       "database": "DSD_HW@DF_LNG_WK_HRS / DSD_LFS@DF_LFS",
@@ -22548,6 +28410,1100 @@
         "code": "ZWE",
         "value": 20.1,
         "year": 2024
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "source": "Varieties of Democracy",
+      "scope": "World",
+      "database": "Country-Year Core v16",
+      "url": "https://v-dem.net/data/the-v-dem-dataset/",
+      "code": "v2x_libdem",
+      "key": "political_freedom",
+      "description": "Political freedom",
+      "summary": "V-Dem liberal democracy index, scaled from 0 to 100, combining free elections with civil liberties and the rule of law. The Varieties of Democracy project publishes the country-year scores under the CC BY-SA 4.0 license.",
+      "category": "Political freedom",
+      "units": "0-100",
+      "reversedScale": false,
+      "importance": 1.0,
+      "dataSize": 179,
+      "retrievedAt": "2026-11-12T10:39:09Z"
+    },
+    "data": [
+      {
+        "country": "Afghanistan",
+        "code": "AFG",
+        "value": 1.8,
+        "year": 2025
+      },
+      {
+        "country": "Albania",
+        "code": "ALB",
+        "value": 38.2,
+        "year": 2025
+      },
+      {
+        "country": "Algeria",
+        "code": "DZA",
+        "value": 12.6,
+        "year": 2025
+      },
+      {
+        "country": "Angola",
+        "code": "AGO",
+        "value": 16.3,
+        "year": 2025
+      },
+      {
+        "country": "Argentina",
+        "code": "ARG",
+        "value": 52.4,
+        "year": 2025
+      },
+      {
+        "country": "Armenia",
+        "code": "ARM",
+        "value": 37.1,
+        "year": 2025
+      },
+      {
+        "country": "Australia",
+        "code": "AUS",
+        "value": 79.3,
+        "year": 2025
+      },
+      {
+        "country": "Austria",
+        "code": "AUT",
+        "value": 75.7,
+        "year": 2025
+      },
+      {
+        "country": "Azerbaijan",
+        "code": "AZE",
+        "value": 5.3,
+        "year": 2025
+      },
+      {
+        "country": "Bahrain",
+        "code": "BHR",
+        "value": 6.2,
+        "year": 2025
+      },
+      {
+        "country": "Bangladesh",
+        "code": "BGD",
+        "value": 11.6,
+        "year": 2025
+      },
+      {
+        "country": "Barbados",
+        "code": "BRB",
+        "value": 67.9,
+        "year": 2025
+      },
+      {
+        "country": "Belarus",
+        "code": "BLR",
+        "value": 3.8,
+        "year": 2025
+      },
+      {
+        "country": "Belgium",
+        "code": "BEL",
+        "value": 79.4,
+        "year": 2025
+      },
+      {
+        "country": "Benin",
+        "code": "BEN",
+        "value": 32.3,
+        "year": 2025
+      },
+      {
+        "country": "Bhutan",
+        "code": "BTN",
+        "value": 45.7,
+        "year": 2025
+      },
+      {
+        "country": "Bolivia",
+        "code": "BOL",
+        "value": 35.2,
+        "year": 2025
+      },
+      {
+        "country": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "value": 33.9,
+        "year": 2025
+      },
+      {
+        "country": "Botswana",
+        "code": "BWA",
+        "value": 52.0,
+        "year": 2025
+      },
+      {
+        "country": "Brazil",
+        "code": "BRA",
+        "value": 70.4,
+        "year": 2025
+      },
+      {
+        "country": "Bulgaria",
+        "code": "BGR",
+        "value": 49.9,
+        "year": 2025
+      },
+      {
+        "country": "Burkina Faso",
+        "code": "BFA",
+        "value": 10.3,
+        "year": 2025
+      },
+      {
+        "country": "Burma/Myanmar",
+        "code": "MMR",
+        "value": 1.5,
+        "year": 2025
+      },
+      {
+        "country": "Burundi",
+        "code": "BDI",
+        "value": 6.0,
+        "year": 2025
+      },
+      {
+        "country": "Cambodia",
+        "code": "KHM",
+        "value": 5.1,
+        "year": 2025
+      },
+      {
+        "country": "Cameroon",
+        "code": "CMR",
+        "value": 11.4,
+        "year": 2025
+      },
+      {
+        "country": "Canada",
+        "code": "CAN",
+        "value": 73.6,
+        "year": 2025
+      },
+      {
+        "country": "Cape Verde",
+        "code": "CPV",
+        "value": 63.1,
+        "year": 2025
+      },
+      {
+        "country": "Central African Republic",
+        "code": "CAF",
+        "value": 10.2,
+        "year": 2025
+      },
+      {
+        "country": "Chad",
+        "code": "TCD",
+        "value": 6.2,
+        "year": 2025
+      },
+      {
+        "country": "Chile",
+        "code": "CHL",
+        "value": 78.1,
+        "year": 2025
+      },
+      {
+        "country": "China",
+        "code": "CHN",
+        "value": 3.9,
+        "year": 2025
+      },
+      {
+        "country": "Colombia",
+        "code": "COL",
+        "value": 55.5,
+        "year": 2025
+      },
+      {
+        "country": "Comoros",
+        "code": "COM",
+        "value": 13.2,
+        "year": 2025
+      },
+      {
+        "country": "Costa Rica",
+        "code": "CRI",
+        "value": 80.9,
+        "year": 2025
+      },
+      {
+        "country": "Croatia",
+        "code": "HRV",
+        "value": 59.3,
+        "year": 2025
+      },
+      {
+        "country": "Cuba",
+        "code": "CUB",
+        "value": 5.7,
+        "year": 2025
+      },
+      {
+        "country": "Cyprus",
+        "code": "CYP",
+        "value": 66.4,
+        "year": 2025
+      },
+      {
+        "country": "Czechia",
+        "code": "CZE",
+        "value": 79.4,
+        "year": 2025
+      },
+      {
+        "country": "Democratic Republic of the Congo",
+        "code": "COD",
+        "value": 11.5,
+        "year": 2025
+      },
+      {
+        "country": "Denmark",
+        "code": "DNK",
+        "value": 88.4,
+        "year": 2025
+      },
+      {
+        "country": "Djibouti",
+        "code": "DJI",
+        "value": 11.8,
+        "year": 2025
+      },
+      {
+        "country": "Dominican Republic",
+        "code": "DOM",
+        "value": 50.5,
+        "year": 2025
+      },
+      {
+        "country": "Ecuador",
+        "code": "ECU",
+        "value": 38.6,
+        "year": 2025
+      },
+      {
+        "country": "Egypt",
+        "code": "EGY",
+        "value": 11.5,
+        "year": 2025
+      },
+      {
+        "country": "El Salvador",
+        "code": "SLV",
+        "value": 9.0,
+        "year": 2025
+      },
+      {
+        "country": "Equatorial Guinea",
+        "code": "GNQ",
+        "value": 4.7,
+        "year": 2025
+      },
+      {
+        "country": "Eritrea",
+        "code": "ERI",
+        "value": 0.9,
+        "year": 2025
+      },
+      {
+        "country": "Estonia",
+        "code": "EST",
+        "value": 83.7,
+        "year": 2025
+      },
+      {
+        "country": "Eswatini",
+        "code": "SWZ",
+        "value": 9.7,
+        "year": 2025
+      },
+      {
+        "country": "Ethiopia",
+        "code": "ETH",
+        "value": 10.0,
+        "year": 2025
+      },
+      {
+        "country": "Fiji",
+        "code": "FJI",
+        "value": 39.8,
+        "year": 2025
+      },
+      {
+        "country": "Finland",
+        "code": "FIN",
+        "value": 80.8,
+        "year": 2025
+      },
+      {
+        "country": "France",
+        "code": "FRA",
+        "value": 80.0,
+        "year": 2025
+      },
+      {
+        "country": "Gabon",
+        "code": "GAB",
+        "value": 17.8,
+        "year": 2025
+      },
+      {
+        "country": "Georgia",
+        "code": "GEO",
+        "value": 27.5,
+        "year": 2025
+      },
+      {
+        "country": "Germany",
+        "code": "DEU",
+        "value": 78.2,
+        "year": 2025
+      },
+      {
+        "country": "Ghana",
+        "code": "GHA",
+        "value": 60.6,
+        "year": 2025
+      },
+      {
+        "country": "Greece",
+        "code": "GRC",
+        "value": 56.8,
+        "year": 2025
+      },
+      {
+        "country": "Guatemala",
+        "code": "GTM",
+        "value": 52.3,
+        "year": 2025
+      },
+      {
+        "country": "Guinea",
+        "code": "GIN",
+        "value": 9.5,
+        "year": 2025
+      },
+      {
+        "country": "Guinea-Bissau",
+        "code": "GNB",
+        "value": 9.5,
+        "year": 2025
+      },
+      {
+        "country": "Guyana",
+        "code": "GUY",
+        "value": 32.8,
+        "year": 2025
+      },
+      {
+        "country": "Haiti",
+        "code": "HTI",
+        "value": 9.8,
+        "year": 2025
+      },
+      {
+        "country": "Honduras",
+        "code": "HND",
+        "value": 38.0,
+        "year": 2025
+      },
+      {
+        "country": "Hong Kong",
+        "code": "HKG",
+        "value": 14.2,
+        "year": 2025
+      },
+      {
+        "country": "Hungary",
+        "code": "HUN",
+        "value": 31.5,
+        "year": 2025
+      },
+      {
+        "country": "Iceland",
+        "code": "ISL",
+        "value": 72.0,
+        "year": 2025
+      },
+      {
+        "country": "India",
+        "code": "IND",
+        "value": 26.0,
+        "year": 2025
+      },
+      {
+        "country": "Indonesia",
+        "code": "IDN",
+        "value": 29.6,
+        "year": 2025
+      },
+      {
+        "country": "Iran",
+        "code": "IRN",
+        "value": 10.3,
+        "year": 2025
+      },
+      {
+        "country": "Iraq",
+        "code": "IRQ",
+        "value": 22.0,
+        "year": 2025
+      },
+      {
+        "country": "Ireland",
+        "code": "IRL",
+        "value": 82.2,
+        "year": 2025
+      },
+      {
+        "country": "Israel",
+        "code": "ISR",
+        "value": 58.8,
+        "year": 2025
+      },
+      {
+        "country": "Italy",
+        "code": "ITA",
+        "value": 64.2,
+        "year": 2025
+      },
+      {
+        "country": "Ivory Coast",
+        "code": "CIV",
+        "value": 22.8,
+        "year": 2025
+      },
+      {
+        "country": "Jamaica",
+        "code": "JAM",
+        "value": 67.9,
+        "year": 2025
+      },
+      {
+        "country": "Japan",
+        "code": "JPN",
+        "value": 73.4,
+        "year": 2025
+      },
+      {
+        "country": "Jordan",
+        "code": "JOR",
+        "value": 27.4,
+        "year": 2025
+      },
+      {
+        "country": "Kazakhstan",
+        "code": "KAZ",
+        "value": 13.1,
+        "year": 2025
+      },
+      {
+        "country": "Kenya",
+        "code": "KEN",
+        "value": 44.6,
+        "year": 2025
+      },
+      {
+        "country": "Kosovo",
+        "code": "XKX",
+        "value": 45.7,
+        "year": 2025
+      },
+      {
+        "country": "Kuwait",
+        "code": "KWT",
+        "value": 12.7,
+        "year": 2025
+      },
+      {
+        "country": "Kyrgyzstan",
+        "code": "KGZ",
+        "value": 17.8,
+        "year": 2025
+      },
+      {
+        "country": "Laos",
+        "code": "LAO",
+        "value": 11.0,
+        "year": 2025
+      },
+      {
+        "country": "Latvia",
+        "code": "LVA",
+        "value": 75.1,
+        "year": 2025
+      },
+      {
+        "country": "Lebanon",
+        "code": "LBN",
+        "value": 26.7,
+        "year": 2025
+      },
+      {
+        "country": "Lesotho",
+        "code": "LSO",
+        "value": 51.2,
+        "year": 2025
+      },
+      {
+        "country": "Liberia",
+        "code": "LBR",
+        "value": 41.7,
+        "year": 2025
+      },
+      {
+        "country": "Libya",
+        "code": "LBY",
+        "value": 9.8,
+        "year": 2025
+      },
+      {
+        "country": "Lithuania",
+        "code": "LTU",
+        "value": 71.2,
+        "year": 2025
+      },
+      {
+        "country": "Luxembourg",
+        "code": "LUX",
+        "value": 77.7,
+        "year": 2025
+      },
+      {
+        "country": "Madagascar",
+        "code": "MDG",
+        "value": 18.7,
+        "year": 2025
+      },
+      {
+        "country": "Malawi",
+        "code": "MWI",
+        "value": 46.2,
+        "year": 2025
+      },
+      {
+        "country": "Malaysia",
+        "code": "MYS",
+        "value": 35.5,
+        "year": 2025
+      },
+      {
+        "country": "Maldives",
+        "code": "MDV",
+        "value": 41.6,
+        "year": 2025
+      },
+      {
+        "country": "Mali",
+        "code": "MLI",
+        "value": 15.0,
+        "year": 2025
+      },
+      {
+        "country": "Malta",
+        "code": "MLT",
+        "value": 62.1,
+        "year": 2025
+      },
+      {
+        "country": "Mauritania",
+        "code": "MRT",
+        "value": 12.7,
+        "year": 2025
+      },
+      {
+        "country": "Mauritius",
+        "code": "MUS",
+        "value": 63.9,
+        "year": 2025
+      },
+      {
+        "country": "Mexico",
+        "code": "MEX",
+        "value": 22.1,
+        "year": 2025
+      },
+      {
+        "country": "Moldova",
+        "code": "MDA",
+        "value": 44.9,
+        "year": 2025
+      },
+      {
+        "country": "Mongolia",
+        "code": "MNG",
+        "value": 42.4,
+        "year": 2025
+      },
+      {
+        "country": "Montenegro",
+        "code": "MNE",
+        "value": 50.0,
+        "year": 2025
+      },
+      {
+        "country": "Morocco",
+        "code": "MAR",
+        "value": 25.1,
+        "year": 2025
+      },
+      {
+        "country": "Mozambique",
+        "code": "MOZ",
+        "value": 17.5,
+        "year": 2025
+      },
+      {
+        "country": "Namibia",
+        "code": "NAM",
+        "value": 51.9,
+        "year": 2025
+      },
+      {
+        "country": "Nepal",
+        "code": "NPL",
+        "value": 50.5,
+        "year": 2025
+      },
+      {
+        "country": "Netherlands",
+        "code": "NLD",
+        "value": 77.4,
+        "year": 2025
+      },
+      {
+        "country": "New Zealand",
+        "code": "NZL",
+        "value": 78.7,
+        "year": 2025
+      },
+      {
+        "country": "Nicaragua",
+        "code": "NIC",
+        "value": 1.9,
+        "year": 2025
+      },
+      {
+        "country": "Niger",
+        "code": "NER",
+        "value": 17.7,
+        "year": 2025
+      },
+      {
+        "country": "Nigeria",
+        "code": "NGA",
+        "value": 31.1,
+        "year": 2025
+      },
+      {
+        "country": "North Korea",
+        "code": "PRK",
+        "value": 1.4,
+        "year": 2025
+      },
+      {
+        "country": "North Macedonia",
+        "code": "MKD",
+        "value": 37.4,
+        "year": 2025
+      },
+      {
+        "country": "Norway",
+        "code": "NOR",
+        "value": 84.7,
+        "year": 2025
+      },
+      {
+        "country": "Oman",
+        "code": "OMN",
+        "value": 14.0,
+        "year": 2025
+      },
+      {
+        "country": "Pakistan",
+        "code": "PAK",
+        "value": 17.6,
+        "year": 2025
+      },
+      {
+        "country": "Palestine/Gaza",
+        "code": "PSG",
+        "value": 5.8,
+        "year": 2025
+      },
+      {
+        "country": "Palestine/West Bank",
+        "code": "PSE",
+        "value": 11.4,
+        "year": 2025
+      },
+      {
+        "country": "Panama",
+        "code": "PAN",
+        "value": 57.5,
+        "year": 2025
+      },
+      {
+        "country": "Papua New Guinea",
+        "code": "PNG",
+        "value": 38.4,
+        "year": 2025
+      },
+      {
+        "country": "Paraguay",
+        "code": "PRY",
+        "value": 37.6,
+        "year": 2025
+      },
+      {
+        "country": "Peru",
+        "code": "PER",
+        "value": 50.6,
+        "year": 2025
+      },
+      {
+        "country": "Philippines",
+        "code": "PHL",
+        "value": 29.1,
+        "year": 2025
+      },
+      {
+        "country": "Poland",
+        "code": "POL",
+        "value": 64.5,
+        "year": 2025
+      },
+      {
+        "country": "Portugal",
+        "code": "PRT",
+        "value": 71.7,
+        "year": 2025
+      },
+      {
+        "country": "Qatar",
+        "code": "QAT",
+        "value": 9.1,
+        "year": 2025
+      },
+      {
+        "country": "Republic of the Congo",
+        "code": "COG",
+        "value": 11.5,
+        "year": 2025
+      },
+      {
+        "country": "Romania",
+        "code": "ROU",
+        "value": 46.4,
+        "year": 2025
+      },
+      {
+        "country": "Russia",
+        "code": "RUS",
+        "value": 5.6,
+        "year": 2025
+      },
+      {
+        "country": "Rwanda",
+        "code": "RWA",
+        "value": 9.0,
+        "year": 2025
+      },
+      {
+        "country": "Sao Tome and Principe",
+        "code": "STP",
+        "value": 51.9,
+        "year": 2025
+      },
+      {
+        "country": "Saudi Arabia",
+        "code": "SAU",
+        "value": 4.7,
+        "year": 2025
+      },
+      {
+        "country": "Senegal",
+        "code": "SEN",
+        "value": 48.4,
+        "year": 2025
+      },
+      {
+        "country": "Serbia",
+        "code": "SRB",
+        "value": 20.8,
+        "year": 2025
+      },
+      {
+        "country": "Seychelles",
+        "code": "SYC",
+        "value": 68.0,
+        "year": 2025
+      },
+      {
+        "country": "Sierra Leone",
+        "code": "SLE",
+        "value": 34.8,
+        "year": 2025
+      },
+      {
+        "country": "Singapore",
+        "code": "SGP",
+        "value": 36.0,
+        "year": 2025
+      },
+      {
+        "country": "Slovakia",
+        "code": "SVK",
+        "value": 57.3,
+        "year": 2025
+      },
+      {
+        "country": "Slovenia",
+        "code": "SVN",
+        "value": 58.9,
+        "year": 2025
+      },
+      {
+        "country": "Solomon Islands",
+        "code": "SLB",
+        "value": 53.9,
+        "year": 2025
+      },
+      {
+        "country": "Somalia",
+        "code": "SOM",
+        "value": 12.8,
+        "year": 2025
+      },
+      {
+        "country": "Somaliland",
+        "code": "SML",
+        "value": 29.7,
+        "year": 2025
+      },
+      {
+        "country": "South Africa",
+        "code": "ZAF",
+        "value": 63.3,
+        "year": 2025
+      },
+      {
+        "country": "South Korea",
+        "code": "KOR",
+        "value": 73.9,
+        "year": 2025
+      },
+      {
+        "country": "South Sudan",
+        "code": "SSD",
+        "value": 6.4,
+        "year": 2025
+      },
+      {
+        "country": "Spain",
+        "code": "ESP",
+        "value": 74.1,
+        "year": 2025
+      },
+      {
+        "country": "Sri Lanka",
+        "code": "LKA",
+        "value": 61.3,
+        "year": 2025
+      },
+      {
+        "country": "Sudan",
+        "code": "SDN",
+        "value": 3.4,
+        "year": 2025
+      },
+      {
+        "country": "Suriname",
+        "code": "SUR",
+        "value": 62.6,
+        "year": 2025
+      },
+      {
+        "country": "Sweden",
+        "code": "SWE",
+        "value": 85.3,
+        "year": 2025
+      },
+      {
+        "country": "Switzerland",
+        "code": "CHE",
+        "value": 84.3,
+        "year": 2025
+      },
+      {
+        "country": "Syria",
+        "code": "SYR",
+        "value": 5.4,
+        "year": 2025
+      },
+      {
+        "country": "Taiwan",
+        "code": "TWN",
+        "value": 70.4,
+        "year": 2025
+      },
+      {
+        "country": "Tajikistan",
+        "code": "TJK",
+        "value": 4.3,
+        "year": 2025
+      },
+      {
+        "country": "Tanzania",
+        "code": "TZA",
+        "value": 29.7,
+        "year": 2025
+      },
+      {
+        "country": "Thailand",
+        "code": "THA",
+        "value": 31.4,
+        "year": 2025
+      },
+      {
+        "country": "The Gambia",
+        "code": "GMB",
+        "value": 52.2,
+        "year": 2025
+      },
+      {
+        "country": "Timor-Leste",
+        "code": "TLS",
+        "value": 54.9,
+        "year": 2025
+      },
+      {
+        "country": "Togo",
+        "code": "TGO",
+        "value": 15.7,
+        "year": 2025
+      },
+      {
+        "country": "Trinidad and Tobago",
+        "code": "TTO",
+        "value": 66.8,
+        "year": 2025
+      },
+      {
+        "country": "Tunisia",
+        "code": "TUN",
+        "value": 26.5,
+        "year": 2025
+      },
+      {
+        "country": "Turkmenistan",
+        "code": "TKM",
+        "value": 3.4,
+        "year": 2025
+      },
+      {
+        "country": "Türkiye",
+        "code": "TUR",
+        "value": 11.0,
+        "year": 2025
+      },
+      {
+        "country": "Uganda",
+        "code": "UGA",
+        "value": 16.5,
+        "year": 2025
+      },
+      {
+        "country": "Ukraine",
+        "code": "UKR",
+        "value": 24.0,
+        "year": 2025
+      },
+      {
+        "country": "United Arab Emirates",
+        "code": "ARE",
+        "value": 7.7,
+        "year": 2025
+      },
+      {
+        "country": "United Kingdom",
+        "code": "GBR",
+        "value": 68.9,
+        "year": 2025
+      },
+      {
+        "country": "United States of America",
+        "code": "USA",
+        "value": 57.1,
+        "year": 2025
+      },
+      {
+        "country": "Uruguay",
+        "code": "URY",
+        "value": 79.0,
+        "year": 2025
+      },
+      {
+        "country": "Uzbekistan",
+        "code": "UZB",
+        "value": 7.9,
+        "year": 2025
+      },
+      {
+        "country": "Vanuatu",
+        "code": "VUT",
+        "value": 62.3,
+        "year": 2025
+      },
+      {
+        "country": "Venezuela",
+        "code": "VEN",
+        "value": 4.2,
+        "year": 2025
+      },
+      {
+        "country": "Vietnam",
+        "code": "VNM",
+        "value": 10.2,
+        "year": 2025
+      },
+      {
+        "country": "Yemen",
+        "code": "YEM",
+        "value": 4.3,
+        "year": 2025
+      },
+      {
+        "country": "Zambia",
+        "code": "ZMB",
+        "value": 37.5,
+        "year": 2025
+      },
+      {
+        "country": "Zanzibar",
+        "code": "ZZB",
+        "value": 25.3,
+        "year": 2025
+      },
+      {
+        "country": "Zimbabwe",
+        "code": "ZWE",
+        "value": 14.7,
+        "year": 2025
       }
     ]
   },

@@ -1,5 +1,6 @@
 # Python
 __pycache__/
+data/.world-bank-pages/
 *.py[cod]
 .venv/
 *.egg-info/

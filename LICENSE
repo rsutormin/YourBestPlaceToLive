@@ -118,3 +118,82 @@ Files:
 
 The values are restructured into JSON. The Bank for International Settlements
 does not endorse this project.
+
+
+
+Varieties of Democracy
+
+The following JSON files are derived from the V-Dem Country-Year Core dataset
+and redistributed under the Creative Commons Attribution-ShareAlike 4.0
+International license (CC BY-SA 4.0). Adaptations of this data must be shared
+under the same license.
+
+https://creativecommons.org/licenses/by-sa/4.0/
+https://v-dem.net/data/the-v-dem-dataset/
+
+Files:
+
+- data/political_freedom.json
+
+Source: Coppedge, Michael, John Gerring, Carl Henrik Knutsen, Staffan I.
+Lindberg, Jan Teorell, David Altman, Fabio Angiolillo, Michael Bernhard, Agnes
+Cornell, M. Steven Fish, Linnea Fox, Lisa Gastaldi, Haakon Gjerløw, Adam Glynn,
+Ana Good God, Allen Hicken, Katrin Kinzelbach, Joshua Krusell, Kyle L.
+Marquardt, Kelly McMann, Valeriya Mechkova, Juraj Medzihorsky, Anja Neundorf,
+Pamela Paxton, Daniel Pemstein, Josefine Pernes, Johannes von Römer, Brigitte
+Seim, Rachel Sigman, Svend-Erik Skaaning, Jeffrey Staton, Aksel Sundström,
+Marcus Tannenberg, Eitan Tzelgov, Yi-ting Wang, Tore Wig, Steven Wilson and
+Daniel Ziblatt. 2026. "V-Dem Country-Year Dataset v16" Varieties of Democracy
+(V-Dem) Project. https://doi.org/10.23696/vdemds26
+
+The liberal democracy index is scaled from its published 0 to 1 range to a
+score from 0 to 100. The values are restructured into JSON. The V-Dem
+Institute does not endorse this project.
+
+
+
+Wikipedia
+
+The following JSON files are derived from English Wikipedia and redistributed
+under the Creative Commons Attribution-ShareAlike 4.0 International license
+(CC BY-SA 4.0). Adaptations of this data must be shared under the same license.
+
+https://creativecommons.org/licenses/by-sa/4.0/
+https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population
+https://en.wikipedia.org/wiki/Opposition_to_immigration
+https://en.wikipedia.org/wiki/List_of_sovereign_states_by_immigrant_and_emigrant_population
+
+Files:
+
+- data/english_speaking_population.json
+- data/opposition_to_immigration.json
+- data/immigrant_population_share.json
+
+The English-speaking percentage is the total share, including people who
+speak English as an additional language. The opposition figure is the share
+of respondents who want fewer immigrants or none, from the cross-country
+survey table on the opposition-to-immigration page. The immigrant share is
+the United Nations international migrant stock as a percentage of each
+country's population. The values are restructured into JSON. Wikipedia
+contributors do not endorse this project.
+
+
+
+Heritage Foundation
+
+The following JSON files are taken from the Heritage Foundation Index of
+Economic Freedom and redistributed with attribution. The Index is free to
+use with attribution. The Heritage Foundation retains its rights in the
+Index.
+
+https://www.heritage.org/index/
+https://economicfreedom.heritage.org/
+
+Files:
+
+- data/economic_freedom.json
+- data/business_freedom.json
+
+The overall score and the business freedom component are copied from the
+annual Excel workbooks and restructured into JSON. Scores run from 0 to 100.
+The Heritage Foundation does not endorse this project.

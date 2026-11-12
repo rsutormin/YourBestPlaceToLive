@@ -150,7 +150,7 @@ def test_to_documents_averages_five_full_years(monkeypatch):
     assert sunny["metadata"]["database"] == "ERA5"
     assert sunny["metadata"]["url"] == "https://open-meteo.com/"
     assert sunny["metadata"]["reversedScale"] is False
-    assert sunny["metadata"]["importance"] == 0.5
+    assert sunny["metadata"]["importance"] == 0.25
     assert sunny["metadata"]["units"] == "days"
     assert "(" not in sunny["metadata"]["description"]
     assert "series" not in sunny
