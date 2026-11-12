@@ -62,6 +62,43 @@ describe("createCountryMap", () => {
     expect(onClick).toHaveBeenLastCalledWith(null);
   });
 
+  it("draws a tiny border for a small country and clears that selection from a map click", () => {
+    const { map, onClick } = mount();
+    const singapore = countryLayer(map, "SGP") as L.Polygon;
+    const bounds = singapore.getBounds();
+
+    expect(singapore).toBeInstanceOf(L.Polygon);
+    expect(singapore.options.color).toBe("white");
+    expect(singapore.options.weight).toBe(1);
+    expect(bounds.getNorth() - bounds.getSouth()).toBeLessThan(0.5);
+    expect(bounds.getEast() - bounds.getWest()).toBeLessThan(0.5);
+
+    const selected = map.selectCountry("SGP");
+
+    expect(selected?.country).toMatchObject({ iso_a3: "SGP", name: "Singapore" });
+    expect(singapore.options.color).toBe("#1d4e89");
+    expect(singapore.options.weight).toBe(2);
+
+    map.map.fire("click");
+
+    expect(singapore.options.color).toBe("white");
+    expect(singapore.options.weight).toBe(1);
+    expect(onClick).toHaveBeenLastCalledWith(null);
+  });
+
+  it("clears a list selection that has no country shape when the map is clicked", () => {
+    const { map, onClick } = mount();
+    const france = countryLayer(map, "FRA");
+    map.selectCountry("FRA");
+
+    expect(map.selectCountry("ZZZ")).toBeNull();
+    expect(france.options.color).toBe("white");
+
+    map.map.fire("click");
+
+    expect(onClick).toHaveBeenLastCalledWith(null);
+  });
+
   it("drives hover and selection from country codes without calling the map handlers", () => {
     const { map, onHover, onClick } = mount();
 

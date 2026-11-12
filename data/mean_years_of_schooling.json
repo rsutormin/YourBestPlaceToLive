@@ -11,8 +11,9 @@
     "category": "Education and literacy",
     "units": "years",
     "reversedScale": false,
+    "importance": 0.5,
     "dataSize": 130,
-    "retrievedAt": "2026-11-11T08:39:58Z"
+    "retrievedAt": "2026-11-11T17:39:52Z"
   },
   "data": [
     {

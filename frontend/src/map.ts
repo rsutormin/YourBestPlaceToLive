@@ -62,6 +62,7 @@ export function createCountryMap(
   }).addTo(map);
 
   let selected: L.Polygon | null = null;
+  let selectedCode: string | null = null;
   let highlighted: L.Polygon | null = null;
   let metricColors: ReadonlyMap<string, string> | null = null;
   let layer: L.GeoJSON;
@@ -74,13 +75,15 @@ export function createCountryMap(
     return metricColors.get(properties.iso_a3) ?? null;
   };
 
-  const featureStyle = (feature?: Feature): L.PathOptions => {
+  const featureStyle = (feature?: Feature): L.PolylineOptions => {
     const color = colorFor(feature?.properties as CountryProperties | undefined);
+    // A one-pixel outline disappears when Leaflet simplifies points a pixel apart.
+    const style: L.PolylineOptions = isPixelOutline(feature) ? { ...baseStyle, smoothFactor: 0 } : baseStyle;
     if (!color) {
-      return baseStyle;
+      return style;
     }
     return {
-      ...baseStyle,
+      ...style,
       fillColor: color,
       fillOpacity: metricFillOpacity,
     };
@@ -173,6 +176,7 @@ export function createCountryMap(
             layer.resetStyle(selected);
           }
           selected = path;
+          selectedCode = properties.iso_a3 || null;
           path.setStyle(selectedStyleFor(properties));
           path.bringToFront();
           handlers.onClick(pointerFrom(event, properties));
@@ -182,11 +186,16 @@ export function createCountryMap(
   }).addTo(map);
 
   map.on("click", () => {
-    if (!selected) {
+    if (!selected && selectedCode === null) {
       return;
     }
     const country = selected;
     selected = null;
+    selectedCode = null;
+    if (!country) {
+      handlers.onClick(null);
+      return;
+    }
     layer.resetStyle(country);
     if (highlighted === country) {
       const properties = countryProperties(country);
@@ -246,6 +255,7 @@ export function createCountryMap(
         layer.resetStyle(selected);
       }
       selected = path;
+      selectedCode = code;
       const properties = countryProperties(path);
       if (!path || !properties) {
         return null;
@@ -255,6 +265,28 @@ export function createCountryMap(
       return pointerFromPath(path, properties);
     },
   };
+}
+
+function isPixelOutline(feature?: Feature): boolean {
+  const geometry = feature?.geometry;
+  if (geometry?.type !== "Polygon") {
+    return false;
+  }
+  const ring = geometry.coordinates[0];
+  if (!ring?.length) {
+    return false;
+  }
+  let minLongitude = Infinity;
+  let maxLongitude = -Infinity;
+  let minLatitude = Infinity;
+  let maxLatitude = -Infinity;
+  for (const [longitude, latitude] of ring) {
+    minLongitude = Math.min(minLongitude, longitude ?? Infinity);
+    maxLongitude = Math.max(maxLongitude, longitude ?? -Infinity);
+    minLatitude = Math.min(minLatitude, latitude ?? Infinity);
+    maxLatitude = Math.max(maxLatitude, latitude ?? -Infinity);
+  }
+  return maxLongitude - minLongitude < 0.5 && maxLatitude - minLatitude < 0.5;
 }
 
 function countryProperties(path: L.Polygon | null): CountryProperties | null {

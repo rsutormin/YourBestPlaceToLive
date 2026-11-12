@@ -24,6 +24,7 @@ ISO3 = re.compile(r"^[A-Z]{3}$")
 # Stable app keys sit next to the OWID column names. Names and units are the
 # published labels; keys stay fixed even if those labels change.
 # reversed_scale is true when a higher value means worse conditions.
+# importance is the default slider weight: 0, 0.25, 0.5, 0.75, or 1.
 CATEGORIES = (
     {
         "id": "air_quality_and_emissions",
@@ -35,6 +36,7 @@ CATEGORIES = (
                 "name": "Outdoor air pollution exposure, population-weighted PM2.5",
                 "unit": "µg/m³",
                 "reversed_scale": True,
+                "importance": 1.0,
                 "summary": "Average outdoor exposure to fine particulate matter, weighted by where people live. Satellite and ground measurements are modelled by Washington University and compiled by Our World in Data.",
                 "table": "pm25_air_pollution",
                 "dataset": "pm25_air_pollution",
@@ -46,6 +48,7 @@ CATEGORIES = (
                 "name": "Annual CO₂ emissions, per capita",
                 "unit": "tonnes per person",
                 "reversed_scale": True,
+                "importance": 0.25,
                 "summary": "Carbon dioxide released each year from fossil fuels and industry, divided by population. The Global Carbon Project assembles national energy and cement statistics, and Our World in Data republishes them.",
                 "table": "owid_co2",
                 "dataset": "owid_co2",
@@ -64,6 +67,7 @@ CATEGORIES = (
                 "name": "Period life expectancy at birth",
                 "unit": "years",
                 "reversed_scale": False,
+                "importance": 0.75,
                 "summary": "Average years a newborn would live if current death rates stayed unchanged. The United Nations population estimates calculate it from registered deaths and censuses, and Our World in Data republishes the series.",
                 "table": "life_expectancy_at_birth",
                 "dataset": "life_expectancy",
@@ -75,6 +79,7 @@ CATEGORIES = (
                 "name": "Infant mortality rate",
                 "unit": "% of infants",
                 "reversed_scale": True,
+                "importance": 1.0,
                 "summary": "Share of infants who die before their first birthday. The United Nations World Population Prospects estimates it from vital registration and surveys, and Our World in Data republishes the rate.",
                 "table": "mortality_rate",
                 "dataset": "un_wpp",
@@ -93,6 +98,7 @@ CATEGORIES = (
                 "name": "Average years of schooling",
                 "unit": "years",
                 "reversed_scale": False,
+                "importance": 0.5,
                 "summary": "Average years of formal schooling completed by adults aged 25 and older. UNESCO compiles school enrolment and attainment records, and Our World in Data republishes the national averages.",
                 "table": "education_opri",
                 "dataset": "education_opri",
@@ -104,6 +110,7 @@ CATEGORIES = (
                 "name": "Literacy rate among adults",
                 "unit": "%",
                 "reversed_scale": False,
+                "importance": 0.25,
                 "summary": "Share of people aged 15 and older who can read and write a short statement about everyday life. UNESCO gathers literacy surveys and censuses, and Our World in Data republishes the rate.",
                 "table": "education_sdgs",
                 "dataset": "education_sdgs",
@@ -121,6 +128,7 @@ CATEGORIES = (
                 "name": "Life satisfaction, Cantril ladder, Gallup World Poll",
                 "unit": "0-10",
                 "reversed_scale": False,
+                "importance": 1.0,
                 "summary": "How people rate their life today, on a ladder from 0 to 10. Gallup asks this in its World Poll, and Our World in Data republishes the national average score.",
                 "table": "happiness",
                 "dataset": "happiness",
@@ -214,6 +222,7 @@ class OwidImporter:
                         "category": category["name"],
                         "units": indicator["unit"],
                         "reversedScale": indicator["reversed_scale"],
+                        "importance": indicator["importance"],
                         "dataSize": len(latest),
                         "retrievedAt": retrieved_at,
                     },

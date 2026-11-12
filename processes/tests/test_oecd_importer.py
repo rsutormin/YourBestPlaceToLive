@@ -72,6 +72,7 @@ def test_percentage_metric_divides_matching_country_years(monkeypatch):
     assert set(documents) == {"overtime_workers_percentage"}
     assert percentage["metadata"]["scope"] == "World"
     assert percentage["metadata"]["reversedScale"] is True
+    assert percentage["metadata"]["importance"] == 0.5
     assert percentage["metadata"]["units"] == "percent"
     assert percentage["data"] == [
         {"country": "France", "code": "FRA", "value": 5.0, "year": 2021},

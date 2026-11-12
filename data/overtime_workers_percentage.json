@@ -11,8 +11,9 @@
     "category": "Work-life balance",
     "units": "percent",
     "reversedScale": true,
+    "importance": 0.5,
     "dataSize": 45,
-    "retrievedAt": "2026-11-11T11:37:47Z"
+    "retrievedAt": "2026-11-11T17:39:50Z"
   },
   "data": [
     {

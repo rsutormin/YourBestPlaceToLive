@@ -43,6 +43,7 @@ def test_to_documents_builds_the_real_house_price_index(monkeypatch):
     document = documents[0][1]
     assert document["metadata"]["scope"] == "World"
     assert document["metadata"]["reversedScale"] is True
+    assert document["metadata"]["importance"] == 0.75
     assert document["metadata"]["units"] == "index, 2010=100"
     assert "series" not in document
     assert document["data"] == [

@@ -97,6 +97,7 @@ def test_to_documents_uses_indicator_names_and_latest_values():
     assert "(" not in gdp["metadata"]["description"]
     assert gdp["metadata"]["scope"] == "World"
     assert gdp["metadata"]["reversedScale"] is False
+    assert gdp["metadata"]["importance"] == 0.75
     assert gdp["metadata"]["dataSize"] == 2
     assert inflation["metadata"]["reversedScale"] is True
     assert gdp["data"] == [

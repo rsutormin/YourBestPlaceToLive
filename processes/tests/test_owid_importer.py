@@ -56,6 +56,7 @@ def test_to_documents_builds_world_metrics_without_calling_the_catalog(monkeypat
     assert emissions["metadata"]["scope"] == "World"
     assert emissions["metadata"]["description"] == "Annual CO₂ emissions, per capita"
     assert emissions["metadata"]["reversedScale"] is True
+    assert emissions["metadata"]["importance"] == 0.25
     assert emissions["data"] == [
         {"country": "France", "code": "FRA", "value": 4.5, "year": 2020},
         {"country": "United States", "code": "USA", "value": 14.1235, "year": 2021},

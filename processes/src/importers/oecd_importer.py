@@ -140,6 +140,7 @@ PISA_COUNTRIES = {
 }
 
 # reversed_scale is true when a higher value means worse conditions.
+# importance is the default slider weight: 0, 0.25, 0.5, 0.75, or 1.
 CATEGORIES = (
     {
         "id": "tax_burden",
@@ -152,6 +153,7 @@ CATEGORIES = (
                 "name": "Average tax wedge, single person at the average wage",
                 "unit": "percentage of labour costs",
                 "reversed_scale": True,
+                "importance": 0.75,
                 "summary": "Income tax plus employee and employer social contributions for a childless single person earning the average wage, as a share of labour costs. The OECD calculates this in Taxing Wages.",
                 "url": "https://data-explorer.oecd.org/",
                 "source_url": (
@@ -172,6 +174,7 @@ CATEGORIES = (
                 "name": "Employees usually working 50 or more hours per week",
                 "unit": "thousand persons",
                 "reversed_scale": True,
+                "importance": 0.5,
                 "url": "https://data-explorer.oecd.org/",
                 "source_url": (
                     f"{SDMX_URL}/OECD.ELS.SAE,DSD_HW@DF_LNG_WK_HRS/"
@@ -186,6 +189,7 @@ CATEGORIES = (
                 "name": "Employees usually working 50 or more hours per week, percentage of total employment",
                 "unit": "percent",
                 "reversed_scale": True,
+                "importance": 0.5,
                 "url": "https://data-explorer.oecd.org/",
                 "numerator": "overtime_workers",
                 "denominator": "total_workers",
@@ -204,6 +208,7 @@ CATEGORIES = (
                 "name": "Total employment",
                 "unit": "thousand persons",
                 "reversed_scale": False,
+                "importance": 0.5,
                 "url": "https://data-explorer.oecd.org/",
                 "source_url": f"{SDMX_URL}/OECD.ELS.SAE,DSD_LFS@DF_LFS/.POP.PS._T._T.EMP",
                 "export": False,
@@ -221,6 +226,7 @@ CATEGORIES = (
                 "name": "Gross adjusted disposable income per capita, PPP converted",
                 "unit": "US dollars per person",
                 "reversed_scale": False,
+                "importance": 0.75,
                 "summary": "Household income left after taxes and transfers, plus the value of public services, per person in comparable US dollars. The OECD calculates it from each country's national accounts.",
                 "url": "https://data-explorer.oecd.org/",
                 "source_url": (
@@ -241,6 +247,7 @@ CATEGORIES = (
                 "name": "PISA mean score in mathematics",
                 "unit": "mean score",
                 "reversed_scale": False,
+                "importance": 0.25,
                 "summary": "Average mathematics score of 15-year-old students on the OECD PISA test. Schools are sampled to represent each country, and the comparable trend figures come from the PISA 2025 results annex.",
                 "url": "https://www.oecd.org/en/about/programmes/pisa/",
                 "sheet": "Table I.B1.2a.38",
@@ -252,6 +259,7 @@ CATEGORIES = (
                 "name": "PISA mean score in reading",
                 "unit": "mean score",
                 "reversed_scale": False,
+                "importance": 0.25,
                 "summary": "Average reading score of 15-year-old students on the OECD PISA test. Schools are sampled to represent each country, and the comparable trend figures come from the PISA 2025 results annex.",
                 "url": "https://www.oecd.org/en/about/programmes/pisa/",
                 "sheet": "Table I.B1.2a.37",
@@ -263,6 +271,7 @@ CATEGORIES = (
                 "name": "PISA mean score in science",
                 "unit": "mean score",
                 "reversed_scale": False,
+                "importance": 0.25,
                 "summary": "Average science score of 15-year-old students on the OECD PISA test. Schools are sampled to represent each country, and the comparable trend figures come from the PISA 2025 results annex.",
                 "url": "https://www.oecd.org/en/about/programmes/pisa/",
                 "sheet": "Table I.B1.2a.36",
@@ -377,6 +386,7 @@ class OecdImporter:
                         "category": category["name"],
                         "units": indicator["unit"],
                         "reversedScale": indicator["reversed_scale"],
+                        "importance": indicator["importance"],
                         "dataSize": len(latest),
                         "retrievedAt": retrieved_at,
                     },

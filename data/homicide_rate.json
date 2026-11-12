@@ -11,8 +11,9 @@
     "category": "Crime rate",
     "units": "per 100,000 people",
     "reversedScale": true,
+    "importance": 1.0,
     "dataSize": 136,
-    "retrievedAt": "2026-11-11T08:40:06Z"
+    "retrievedAt": "2026-11-11T17:42:26Z"
   },
   "data": [
     {

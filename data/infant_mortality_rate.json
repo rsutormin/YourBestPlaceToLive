@@ -11,8 +11,9 @@
     "category": "Life expectancy and infant mortality",
     "units": "% of infants",
     "reversedScale": true,
+    "importance": 1.0,
     "dataSize": 236,
-    "retrievedAt": "2026-11-11T08:39:58Z"
+    "retrievedAt": "2026-11-11T17:39:52Z"
   },
   "data": [
     {

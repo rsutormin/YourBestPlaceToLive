@@ -11,8 +11,9 @@
     "category": "School education results",
     "units": "mean score",
     "reversedScale": false,
+    "importance": 0.25,
     "dataSize": 87,
-    "retrievedAt": "2026-11-11T08:40:00Z"
+    "retrievedAt": "2026-11-11T17:39:50Z"
   },
   "data": [
     {

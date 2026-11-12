@@ -11,8 +11,9 @@
     "category": "Government spending on health and education",
     "units": "% of GDP",
     "reversedScale": false,
+    "importance": 0.5,
     "dataSize": 184,
-    "retrievedAt": "2026-11-11T08:40:06Z"
+    "retrievedAt": "2026-11-11T17:42:26Z"
   },
   "data": [
     {

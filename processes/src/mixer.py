@@ -52,9 +52,10 @@ def mix(data_dir: Path | None = None, output_path: Path | None = None) -> Path:
 def main() -> None:
     path = mix()
     documents = json.loads(path.read_text(encoding="utf-8"))
-    keys = ", ".join(document["metadata"]["key"] for document in documents)
+    metric_keys = [document["metadata"]["key"] for document in documents]
     print(f"Wrote {len(documents)} World-scope metrics to {path}")
-    print(keys)
+    for key in metric_keys:
+        print(f"- {key}")
 
 
 if __name__ == "__main__":

@@ -11,8 +11,9 @@
     "category": "Happiness and life satisfaction",
     "units": "0-10",
     "reversedScale": false,
+    "importance": 1.0,
     "dataSize": 152,
-    "retrievedAt": "2026-11-11T08:39:58Z"
+    "retrievedAt": "2026-11-11T17:39:52Z"
   },
   "data": [
     {

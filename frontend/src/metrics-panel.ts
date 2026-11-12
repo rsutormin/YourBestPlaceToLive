@@ -10,6 +10,7 @@ export interface MetricsPanel {
 export interface MetricsPanelInfo {
   onHover(country: CountryProperties | null): void;
   onSelect(country: CountryProperties | null): void;
+  onColors(colors: ReadonlyMap<string, string> | null): void;
 }
 
 export function createMetricsPanel(
@@ -31,7 +32,7 @@ export function createMetricsPanel(
   select.addEventListener("change", () => {
     const metric = metricsByKey.get(select.value) ?? null;
     renderMetricDetail(metric);
-    map.setMetricColors(metric ? colorsForMetric(metric) : null);
+    info.onColors(metric ? colorsForMetric(metric) : null);
   });
 
   return {

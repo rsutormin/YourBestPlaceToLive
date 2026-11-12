@@ -52,6 +52,7 @@ def test_to_documents_builds_europe_metrics_from_the_fetched_frame(monkeypatch):
     assert house_prices["metadata"]["scope"] == "Europe"
     assert house_prices["metadata"]["source"] == "Eurostat"
     assert house_prices["metadata"]["reversedScale"] is True
+    assert house_prices["metadata"]["importance"] == 0.5
     assert house_prices["data"] == [
         {"country": "Germany", "code": "DEU", "value": 90, "year": 2021},
         {"country": "Greece", "code": "GRC", "value": 110, "year": 2021},

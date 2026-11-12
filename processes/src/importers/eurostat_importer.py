@@ -67,6 +67,7 @@ COUNTRIES = {
 }
 
 # reversed_scale is true when a higher value means worse conditions.
+# importance is the default slider weight: 0, 0.25, 0.5, 0.75, or 1.
 CATEGORIES = (
     {
         "id": "housing_costs",
@@ -79,6 +80,7 @@ CATEGORIES = (
                 "name": "House price index, annual average",
                 "unit": "index, 2015=100",
                 "reversed_scale": True,
+                "importance": 0.5,
                 "summary": "Annual index of dwelling prices paid by households, set to 100 in 2015. National statistical offices report transactions to Eurostat, which publishes one average for each calendar year.",
                 "filters": {"freq": "A", "purchase": "TOTAL", "unit": "I15_A_AVG"},
             },
@@ -89,6 +91,7 @@ CATEGORIES = (
                 "name": "Actual rentals for housing, HICP annual average index",
                 "unit": "index",
                 "reversed_scale": True,
+                "importance": 0.5,
                 "summary": "Annual index of rents households actually pay for their homes, from the harmonised consumer-price basket. National price collectors survey landlords and tenants, and Eurostat publishes the yearly average.",
                 "filters": {"freq": "A", "unit": "INX_A_AVG", "coicop": "CP041"},
             },
@@ -105,6 +108,7 @@ CATEGORIES = (
                 "name": "Monthly minimum wage",
                 "unit": "euro per month",
                 "reversed_scale": False,
+                "importance": 0.5,
                 "summary": "Statutory gross minimum wage for a full-time worker, converted to euros per month. National labour laws set the rate, and Eurostat records the latest figure published in each year.",
                 "filters": {"freq": "S", "currency": "EUR"},
             },
@@ -115,6 +119,7 @@ CATEGORIES = (
                 "name": "Wages and salaries per hour, business economy, NACE B-N",
                 "unit": "euro per hour",
                 "reversed_scale": False,
+                "importance": 0.5,
                 "summary": "Average wages and salaries paid per hour in the business economy, excluding agriculture and public administration. Employers report labour costs to national offices, and Eurostat publishes the annual level.",
                 "filters": {
                     "freq": "A",
@@ -136,6 +141,7 @@ CATEGORIES = (
                 "name": "First residence permits issued",
                 "unit": "persons",
                 "reversed_scale": False,
+                "importance": 0.5,
                 "summary": "First residence permits granted to non-EU citizens for any reason, not renewals. National immigration authorities issue them, and Eurostat totals the records reported by each country.",
                 "filters": {
                     "freq": "A",
@@ -152,6 +158,7 @@ CATEGORIES = (
                 "name": "First residence permits issued for employment",
                 "unit": "persons",
                 "reversed_scale": False,
+                "importance": 0.5,
                 "summary": "First residence permits granted specifically so a non-EU citizen can take a job. National immigration authorities record the employment reason, and Eurostat totals those permits each year.",
                 "filters": {
                     "freq": "A",
@@ -174,6 +181,7 @@ CATEGORIES = (
                 "name": "Length of motorways",
                 "unit": "kilometres",
                 "reversed_scale": False,
+                "importance": 0.5,
                 "summary": "Kilometres of motorway open to traffic. National road administrations measure the network once a year, and Eurostat publishes the reported length. It describes infrastructure, not how busy the roads are.",
                 "filters": {"freq": "A", "tra_infr": "MWAY", "unit": "KM"},
             },
@@ -184,6 +192,7 @@ CATEGORIES = (
                 "name": "Length of railway lines",
                 "unit": "kilometres",
                 "reversed_scale": False,
+                "importance": 0.5,
                 "summary": "Kilometres of railway line in operation, whatever the number of tracks. Infrastructure managers measure the network, and Eurostat publishes the annual length reported by each country.",
                 "filters": {"freq": "A", "tra_infr": "TOTAL", "n_tracks": "TOTAL", "unit": "KM"},
             },
@@ -194,6 +203,7 @@ CATEGORIES = (
                 "name": "Air passengers carried",
                 "unit": "passengers",
                 "reversed_scale": False,
+                "importance": 0.5,
                 "summary": "Passengers carried on commercial flights, counting each boarding. A connecting trip can be counted more than once. Airports and airlines report the traffic, and Eurostat sums the annual total.",
                 "filters": {
                     "freq": "A",
@@ -210,6 +220,7 @@ CATEGORIES = (
                 "name": "Rail passengers",
                 "unit": "thousand passengers",
                 "reversed_scale": False,
+                "importance": 0.5,
                 "summary": "Journeys by rail passengers, published in thousands. One person making two trips counts twice. Railway operators report ticketed travel, and Eurostat compiles the annual total.",
                 "filters": {"freq": "A", "unit": "THS_PAS"},
             },
@@ -290,6 +301,7 @@ class EurostatImporter:
                         "category": category["name"],
                         "units": indicator["unit"],
                         "reversedScale": indicator["reversed_scale"],
+                        "importance": indicator["importance"],
                         "dataSize": len(latest),
                         "retrievedAt": retrieved_at,
                     },

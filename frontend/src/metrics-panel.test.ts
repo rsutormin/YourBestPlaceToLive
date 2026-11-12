@@ -16,7 +16,7 @@ describe("createMetricsPanel", () => {
   });
 
   it("shows the title with units once and colors the map for the chosen metric", () => {
-    const { select, detail, map } = mount();
+    const { select, detail, info } = mount();
 
     choose(select, "life_expectancy");
 
@@ -26,8 +26,8 @@ describe("createMetricsPanel", () => {
     expect(detail.querySelector(".scale-bar")?.getAttribute("aria-label")).toBe(
       "Low values are red, middle values are yellow, and high values are green.",
     );
-    expect(map.setMetricColors).toHaveBeenCalledTimes(1);
-    const colors = vi.mocked(map.setMetricColors).mock.calls[0][0];
+    expect(info.onColors).toHaveBeenCalledTimes(1);
+    const colors = vi.mocked(info.onColors).mock.calls[0][0];
     expect(colors?.get("FRA")).toMatch(/^rgb\(/);
     expect(listValues(detail).every((value) => !value.includes(metric.metadata.units))).toBe(true);
   });
@@ -234,6 +234,7 @@ function mount() {
   const info = {
     onHover: vi.fn(),
     onSelect: vi.fn(),
+    onColors: vi.fn(),
   };
   const panel = createMetricsPanel(select, detail, map, info);
   return { select, detail, map, info, panel };

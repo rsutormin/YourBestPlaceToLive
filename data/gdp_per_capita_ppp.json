@@ -11,8 +11,9 @@
     "category": "Purchasing power parity and inflation",
     "units": "current international $",
     "reversedScale": false,
+    "importance": 0.75,
     "dataSize": 199,
-    "retrievedAt": "2026-11-11T08:40:06Z"
+    "retrievedAt": "2026-11-11T17:42:26Z"
   },
   "data": [
     {

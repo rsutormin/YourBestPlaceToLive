@@ -11,8 +11,9 @@
     "category": "Average annual income",
     "units": "US dollars per person",
     "reversedScale": false,
+    "importance": 0.75,
     "dataSize": 37,
-    "retrievedAt": "2026-11-11T08:40:00Z"
+    "retrievedAt": "2026-11-11T17:39:50Z"
   },
   "data": [
     {

@@ -2,9 +2,11 @@ import { beforeEach, describe, expect, it, vi } from "vitest";
 
 const page = `
   <div id="map"></div>
-  <button id="tab-metrics" type="button" role="tab" aria-selected="true" aria-controls="metrics-panel">Metrics</button>
+  <button id="tab-best" type="button" role="tab" aria-selected="true" aria-controls="best-panel">Your Best List</button>
+  <button id="tab-metrics" type="button" role="tab" aria-selected="false" aria-controls="metrics-panel" tabindex="-1">Metrics</button>
   <button id="tab-countries" type="button" role="tab" aria-selected="false" aria-controls="countries-panel" tabindex="-1">Countries</button>
-  <div id="metrics-panel" class="tab-panel" role="tabpanel">
+  <div id="best-panel" class="tab-panel" role="tabpanel"></div>
+  <div id="metrics-panel" class="tab-panel" role="tabpanel" hidden>
     <select id="metric-select"><option value="">Choose a metric</option></select>
     <div id="metric-detail"></div>
   </div>
@@ -25,13 +27,23 @@ describe("app wiring", () => {
 
   it("switches the visible tab from the tab buttons and arrow keys", async () => {
     await import("./main");
+    const bestTab = button("#tab-best");
     const metricsTab = button("#tab-metrics");
     const countriesTab = button("#tab-countries");
+
+    expect(bestTab.getAttribute("aria-selected")).toBe("true");
+    expect(panel("#best-panel").hidden).toBe(false);
+    expect(panel("#metrics-panel").hidden).toBe(true);
+
+    bestTab.dispatchEvent(new KeyboardEvent("keydown", { key: "ArrowRight", bubbles: true }));
+
+    expect(metricsTab.getAttribute("aria-selected")).toBe("true");
+    expect(panel("#best-panel").hidden).toBe(true);
+    expect(document.activeElement).toBe(metricsTab);
 
     countriesTab.click();
 
     expect(countriesTab.getAttribute("aria-selected")).toBe("true");
-    expect(metricsTab.getAttribute("aria-selected")).toBe("false");
     expect(panel("#metrics-panel").hidden).toBe(true);
     expect(panel("#countries-panel").hidden).toBe(false);
 
@@ -55,8 +67,8 @@ describe("app wiring", () => {
     countrySelect.value = "FRA";
     countrySelect.dispatchEvent(new Event("change"));
 
-    const row = document.querySelector('.country-list-item[data-code="FRA"]');
-    expect(row?.classList.contains("is-selected")).toBe(true);
+    expect(document.querySelector("#metrics-panel .country-list-item[data-code='FRA']")?.classList.contains("is-selected")).toBe(true);
+    expect(document.querySelector("#best-panel .country-list-item[data-code='FRA']")?.classList.contains("is-selected")).toBe(true);
   });
 });
 

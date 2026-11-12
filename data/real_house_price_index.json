@@ -11,8 +11,9 @@
     "category": "House prices",
     "units": "index, 2010=100",
     "reversedScale": true,
+    "importance": 0.75,
     "dataSize": 57,
-    "retrievedAt": "2026-11-11T08:40:04Z"
+    "retrievedAt": "2026-11-11T17:39:52Z"
   },
   "data": [
     {

@@ -11,8 +11,9 @@
     "category": "Residence and work permits",
     "units": "persons",
     "reversedScale": false,
+    "importance": 0.5,
     "dataSize": 32,
-    "retrievedAt": "2026-11-10T18:01:48Z"
+    "retrievedAt": "2026-11-11T17:39:55Z"
   },
   "data": [
     {

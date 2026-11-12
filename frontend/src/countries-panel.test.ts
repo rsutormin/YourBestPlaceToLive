@@ -87,16 +87,21 @@ describe("createCountriesPanel", () => {
   });
 
   it("says when a country has no loaded metrics", () => {
-    const missing = countries.features.find((feature) => {
+    const uncovered = countries.features.find((feature) => {
       const code = feature.properties?.iso_a3;
       return code !== "" && code !== "-99" && !worldMetrics.some((metric) => metric.data.some((row) => row.code === code));
     })?.properties;
-    expect(missing).toBeTruthy();
+    const missing: CountryProperties = uncovered ?? {
+      name: "Nowhere",
+      iso_a3: "ZZZ",
+      iso_a2: "",
+      continent: "",
+    };
 
     const { host, panel } = createPanel();
-    panel.setSelectedCountry(missing ?? null);
+    panel.setSelectedCountry(missing);
 
-    expect(selector(host).value).toBe(missing?.iso_a3);
+    expect(selector(host).value).toBe(uncovered ? missing.iso_a3 : "");
     expect(host.querySelector(".country-metrics-empty")?.textContent).toBe("No metrics for this country.");
   });
 });

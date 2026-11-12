@@ -102,6 +102,7 @@ describe("worldMetrics", () => {
       expect(metric.metadata.description).not.toContain("(");
       expect(metric.metadata.summary.length).toBeGreaterThan(0);
       expect(typeof metric.metadata.reversedScale).toBe("boolean");
+      expect([0, 0.25, 0.5, 0.75, 1]).toContain(metric.metadata.importance);
     }
   });
 });
@@ -120,6 +121,7 @@ function sampleMetric(values: number[], reversedScale: boolean): WorldMetric {
       category: "Test",
       units: "units",
       reversedScale,
+      importance: 0.5,
       dataSize: values.length,
       retrievedAt: "2026-01-01T00:00:00Z",
     },

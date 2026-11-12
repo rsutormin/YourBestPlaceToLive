@@ -1,0 +1,554 @@
+[
+  {
+    "name": "Aland Islands",
+    "iso_a3": "ALA",
+    "iso_a2": "AX",
+    "continent": "Europe",
+    "latitude": 60.1167,
+    "longitude": 19.9
+  },
+  {
+    "name": "American Samoa",
+    "iso_a3": "ASM",
+    "iso_a2": "AS",
+    "continent": "Oceania",
+    "latitude": -14.3333,
+    "longitude": -170
+  },
+  {
+    "name": "Andorra",
+    "iso_a3": "AND",
+    "iso_a2": "AD",
+    "continent": "Europe",
+    "latitude": 42.5,
+    "longitude": 1.5
+  },
+  {
+    "name": "Anguilla",
+    "iso_a3": "AIA",
+    "iso_a2": "AI",
+    "continent": "North America",
+    "latitude": 18.25,
+    "longitude": -63.1667
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "iso_a3": "ATG",
+    "iso_a2": "AG",
+    "continent": "North America",
+    "latitude": 17.05,
+    "longitude": -61.8
+  },
+  {
+    "name": "Aruba",
+    "iso_a3": "ABW",
+    "iso_a2": "AW",
+    "continent": "North America",
+    "latitude": 12.5,
+    "longitude": -69.9667
+  },
+  {
+    "name": "Bahrain",
+    "iso_a3": "BHR",
+    "iso_a2": "BH",
+    "continent": "Asia",
+    "latitude": 26,
+    "longitude": 50.55
+  },
+  {
+    "name": "Barbados",
+    "iso_a3": "BRB",
+    "iso_a2": "BB",
+    "continent": "North America",
+    "latitude": 13.1667,
+    "longitude": -59.5333
+  },
+  {
+    "name": "Bermuda",
+    "iso_a3": "BMU",
+    "iso_a2": "BM",
+    "continent": "North America",
+    "latitude": 32.3333,
+    "longitude": -64.75
+  },
+  {
+    "name": "Bonaire Sint Eustatius and Saba",
+    "iso_a3": "BES",
+    "iso_a2": "BQ",
+    "continent": "North America",
+    "latitude": 12.18,
+    "longitude": -68.25
+  },
+  {
+    "name": "British Virgin Islands",
+    "iso_a3": "VGB",
+    "iso_a2": "VG",
+    "continent": "North America",
+    "latitude": 18.4314,
+    "longitude": -64.6231
+  },
+  {
+    "name": "Cabo Verde",
+    "iso_a3": "CPV",
+    "iso_a2": "CV",
+    "continent": "Africa",
+    "latitude": 16,
+    "longitude": -24
+  },
+  {
+    "name": "Cayman Islands",
+    "iso_a3": "CYM",
+    "iso_a2": "KY",
+    "continent": "North America",
+    "latitude": 19.5,
+    "longitude": -80.5
+  },
+  {
+    "name": "Christmas Island",
+    "iso_a3": "CXR",
+    "iso_a2": "CX",
+    "continent": "Oceania",
+    "latitude": -10.5,
+    "longitude": 105.6667
+  },
+  {
+    "name": "Cocos Islands",
+    "iso_a3": "CCK",
+    "iso_a2": "CC",
+    "continent": "Oceania",
+    "latitude": -12.5,
+    "longitude": 96.8333
+  },
+  {
+    "name": "Comoros",
+    "iso_a3": "COM",
+    "iso_a2": "KM",
+    "continent": "Africa",
+    "latitude": -12.1667,
+    "longitude": 44.25
+  },
+  {
+    "name": "Cook Islands",
+    "iso_a3": "COK",
+    "iso_a2": "CK",
+    "continent": "Oceania",
+    "latitude": -21.2333,
+    "longitude": -159.7667
+  },
+  {
+    "name": "Curacao",
+    "iso_a3": "CUW",
+    "iso_a2": "CW",
+    "continent": "North America",
+    "latitude": 12.1167,
+    "longitude": -68.9333
+  },
+  {
+    "name": "Dominica",
+    "iso_a3": "DMA",
+    "iso_a2": "DM",
+    "continent": "North America",
+    "latitude": 15.4167,
+    "longitude": -61.3333
+  },
+  {
+    "name": "Faroe Islands",
+    "iso_a3": "FRO",
+    "iso_a2": "FO",
+    "continent": "Europe",
+    "latitude": 62,
+    "longitude": -7
+  },
+  {
+    "name": "French Guiana",
+    "iso_a3": "GUF",
+    "iso_a2": "GF",
+    "continent": "South America",
+    "latitude": 4,
+    "longitude": -53
+  },
+  {
+    "name": "French Polynesia",
+    "iso_a3": "PYF",
+    "iso_a2": "PF",
+    "continent": "Oceania",
+    "latitude": -15,
+    "longitude": -140
+  },
+  {
+    "name": "Gibraltar",
+    "iso_a3": "GIB",
+    "iso_a2": "GI",
+    "continent": "Europe",
+    "latitude": 36.1333,
+    "longitude": -5.35
+  },
+  {
+    "name": "Grenada",
+    "iso_a3": "GRD",
+    "iso_a2": "GD",
+    "continent": "North America",
+    "latitude": 12.1167,
+    "longitude": -61.6667
+  },
+  {
+    "name": "Guadeloupe",
+    "iso_a3": "GLP",
+    "iso_a2": "GP",
+    "continent": "North America",
+    "latitude": 16.25,
+    "longitude": -61.5833
+  },
+  {
+    "name": "Guam",
+    "iso_a3": "GUM",
+    "iso_a2": "GU",
+    "continent": "Oceania",
+    "latitude": 13.4667,
+    "longitude": 144.7833
+  },
+  {
+    "name": "Guernsey",
+    "iso_a3": "GGY",
+    "iso_a2": "GG",
+    "continent": "Europe",
+    "latitude": 49.4667,
+    "longitude": -2.5833
+  },
+  {
+    "name": "Hong Kong",
+    "iso_a3": "HKG",
+    "iso_a2": "HK",
+    "continent": "Asia",
+    "latitude": 22.267,
+    "longitude": 114.188
+  },
+  {
+    "name": "Isle of Man",
+    "iso_a3": "IMN",
+    "iso_a2": "IM",
+    "continent": "Europe",
+    "latitude": 54.25,
+    "longitude": -4.5
+  },
+  {
+    "name": "Jersey",
+    "iso_a3": "JEY",
+    "iso_a2": "JE",
+    "continent": "Europe",
+    "latitude": 49.25,
+    "longitude": -2.1667
+  },
+  {
+    "name": "Kiribati",
+    "iso_a3": "KIR",
+    "iso_a2": "KI",
+    "continent": "Oceania",
+    "latitude": 1.4167,
+    "longitude": 173
+  },
+  {
+    "name": "Liechtenstein",
+    "iso_a3": "LIE",
+    "iso_a2": "LI",
+    "continent": "Europe",
+    "latitude": 47.2667,
+    "longitude": 9.5333
+  },
+  {
+    "name": "Macao",
+    "iso_a3": "MAC",
+    "iso_a2": "MO",
+    "continent": "Asia",
+    "latitude": 22.1667,
+    "longitude": 113.55
+  },
+  {
+    "name": "Maldives",
+    "iso_a3": "MDV",
+    "iso_a2": "MV",
+    "continent": "Asia",
+    "latitude": 3.25,
+    "longitude": 73
+  },
+  {
+    "name": "Malta",
+    "iso_a3": "MLT",
+    "iso_a2": "MT",
+    "continent": "Europe",
+    "latitude": 35.8333,
+    "longitude": 14.5833
+  },
+  {
+    "name": "Marshall Islands",
+    "iso_a3": "MHL",
+    "iso_a2": "MH",
+    "continent": "Oceania",
+    "latitude": 9,
+    "longitude": 168
+  },
+  {
+    "name": "Martinique",
+    "iso_a3": "MTQ",
+    "iso_a2": "MQ",
+    "continent": "North America",
+    "latitude": 14.6667,
+    "longitude": -61
+  },
+  {
+    "name": "Mauritius",
+    "iso_a3": "MUS",
+    "iso_a2": "MU",
+    "continent": "Africa",
+    "latitude": -20.2833,
+    "longitude": 57.55
+  },
+  {
+    "name": "Mayotte",
+    "iso_a3": "MYT",
+    "iso_a2": "YT",
+    "continent": "Africa",
+    "latitude": -12.8333,
+    "longitude": 45.1667
+  },
+  {
+    "name": "Micronesia, Fed. Sts.",
+    "iso_a3": "FSM",
+    "iso_a2": "FM",
+    "continent": "Oceania",
+    "latitude": 6.9167,
+    "longitude": 158.25
+  },
+  {
+    "name": "Monaco",
+    "iso_a3": "MCO",
+    "iso_a2": "MC",
+    "continent": "Europe",
+    "latitude": 43.7333,
+    "longitude": 7.4
+  },
+  {
+    "name": "Montserrat",
+    "iso_a3": "MSR",
+    "iso_a2": "MS",
+    "continent": "North America",
+    "latitude": 16.75,
+    "longitude": -62.2
+  },
+  {
+    "name": "Nauru",
+    "iso_a3": "NRU",
+    "iso_a2": "NR",
+    "continent": "Oceania",
+    "latitude": -0.5333,
+    "longitude": 166.9167
+  },
+  {
+    "name": "Niue",
+    "iso_a3": "NIU",
+    "iso_a2": "NU",
+    "continent": "Oceania",
+    "latitude": -19.0333,
+    "longitude": -169.8667
+  },
+  {
+    "name": "Norfolk Island",
+    "iso_a3": "NFK",
+    "iso_a2": "NF",
+    "continent": "Oceania",
+    "latitude": -29.0333,
+    "longitude": 167.95
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "iso_a3": "MNP",
+    "iso_a2": "MP",
+    "continent": "Oceania",
+    "latitude": 15.2,
+    "longitude": 145.75
+  },
+  {
+    "name": "Palau",
+    "iso_a3": "PLW",
+    "iso_a2": "PW",
+    "continent": "Oceania",
+    "latitude": 7.5,
+    "longitude": 134.5
+  },
+  {
+    "name": "Pitcairn",
+    "iso_a3": "PCN",
+    "iso_a2": "PN",
+    "continent": "Oceania",
+    "latitude": -25.0667,
+    "longitude": -130.1
+  },
+  {
+    "name": "Reunion",
+    "iso_a3": "REU",
+    "iso_a2": "RE",
+    "continent": "Africa",
+    "latitude": -21.15,
+    "longitude": 55.5
+  },
+  {
+    "name": "Saint Barthelemy",
+    "iso_a3": "BLM",
+    "iso_a2": "BL",
+    "continent": "North America",
+    "latitude": 18.5,
+    "longitude": -63.4167
+  },
+  {
+    "name": "Saint Helena",
+    "iso_a3": "SHN",
+    "iso_a2": "SH",
+    "continent": "Africa",
+    "latitude": -15.95,
+    "longitude": -5.72
+  },
+  {
+    "name": "Saint Martin (French part)",
+    "iso_a3": "MAF",
+    "iso_a2": "MF",
+    "continent": "North America",
+    "latitude": 18.0833,
+    "longitude": -63.95
+  },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "iso_a3": "SPM",
+    "iso_a2": "PM",
+    "continent": "North America",
+    "latitude": 46.8333,
+    "longitude": -56.3333
+  },
+  {
+    "name": "Samoa",
+    "iso_a3": "WSM",
+    "iso_a2": "WS",
+    "continent": "Oceania",
+    "latitude": -13.5833,
+    "longitude": -172.3333
+  },
+  {
+    "name": "San Marino",
+    "iso_a3": "SMR",
+    "iso_a2": "SM",
+    "continent": "Europe",
+    "latitude": 43.7667,
+    "longitude": 12.4167
+  },
+  {
+    "name": "Sao Tome and Principe",
+    "iso_a3": "STP",
+    "iso_a2": "ST",
+    "continent": "Africa",
+    "latitude": 1,
+    "longitude": 7
+  },
+  {
+    "name": "Seychelles",
+    "iso_a3": "SYC",
+    "iso_a2": "SC",
+    "continent": "Africa",
+    "latitude": -4.5833,
+    "longitude": 55.6667
+  },
+  {
+    "name": "Singapore",
+    "iso_a3": "SGP",
+    "iso_a2": "SG",
+    "continent": "Asia",
+    "latitude": 1.3667,
+    "longitude": 103.8
+  },
+  {
+    "name": "Sint Maarten (Dutch part)",
+    "iso_a3": "SXM",
+    "iso_a2": "SX",
+    "continent": "North America",
+    "latitude": 18.0333,
+    "longitude": -63.05
+  },
+  {
+    "name": "St. Kitts and Nevis",
+    "iso_a3": "KNA",
+    "iso_a2": "KN",
+    "continent": "North America",
+    "latitude": 17.3333,
+    "longitude": -62.75
+  },
+  {
+    "name": "St. Lucia",
+    "iso_a3": "LCA",
+    "iso_a2": "LC",
+    "continent": "North America",
+    "latitude": 13.8833,
+    "longitude": -60.9667
+  },
+  {
+    "name": "St. Vincent and the Grenadines",
+    "iso_a3": "VCT",
+    "iso_a2": "VC",
+    "continent": "North America",
+    "latitude": 13.25,
+    "longitude": -61.2
+  },
+  {
+    "name": "Tokelau",
+    "iso_a3": "TKL",
+    "iso_a2": "TK",
+    "continent": "Oceania",
+    "latitude": -9,
+    "longitude": -172
+  },
+  {
+    "name": "Tonga",
+    "iso_a3": "TON",
+    "iso_a2": "TO",
+    "continent": "Oceania",
+    "latitude": -20,
+    "longitude": -175
+  },
+  {
+    "name": "Turks and Caicos Islands",
+    "iso_a3": "TCA",
+    "iso_a2": "TC",
+    "continent": "North America",
+    "latitude": 21.75,
+    "longitude": -71.5833
+  },
+  {
+    "name": "Tuvalu",
+    "iso_a3": "TUV",
+    "iso_a2": "TV",
+    "continent": "Oceania",
+    "latitude": -8,
+    "longitude": 178
+  },
+  {
+    "name": "Vatican",
+    "iso_a3": "VAT",
+    "iso_a2": "VA",
+    "continent": "Europe",
+    "latitude": 41.9,
+    "longitude": 12.45
+  },
+  {
+    "name": "Virgin Islands (U.S.)",
+    "iso_a3": "VIR",
+    "iso_a2": "VI",
+    "continent": "North America",
+    "latitude": 18.35,
+    "longitude": -64.9333
+  },
+  {
+    "name": "Wallis and Futuna",
+    "iso_a3": "WLF",
+    "iso_a2": "WF",
+    "continent": "Oceania",
+    "latitude": -13.3,
+    "longitude": -176.2
+  }
+]

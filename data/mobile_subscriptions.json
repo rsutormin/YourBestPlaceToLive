@@ -11,8 +11,9 @@
     "category": "Communications and internet access",
     "units": "per 100 people",
     "reversedScale": false,
+    "importance": 0.0,
     "dataSize": 210,
-    "retrievedAt": "2026-11-11T08:40:06Z"
+    "retrievedAt": "2026-11-11T17:42:26Z"
   },
   "data": [
     {

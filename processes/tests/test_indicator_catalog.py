@@ -3,6 +3,7 @@ import pytest
 from importers.bis_importer import CATEGORIES as BIS_CATEGORIES
 from importers.eurostat_importer import CATEGORIES as EUROSTAT_CATEGORIES
 from importers.oecd_importer import CATEGORIES as OECD_CATEGORIES
+from importers.open_meteo_importer import CATEGORIES as OPEN_METEO_CATEGORIES
 from importers.owid_importer import CATEGORIES as OWID_CATEGORIES
 from importers.world_bank_importer import CATEGORIES as WORLD_BANK_CATEGORIES
 
@@ -13,6 +14,7 @@ EXPORTED = (
     ("OECD", OECD_CATEGORIES),
     ("OWID", OWID_CATEGORIES),
     ("BIS", BIS_CATEGORIES),
+    ("Open-Meteo", OPEN_METEO_CATEGORIES),
 )
 
 
@@ -30,6 +32,7 @@ def test_exported_indicators_have_unique_keys_and_summaries(source, categories):
     for indicator in indicators:
         assert "(" not in indicator["name"], indicator["key"]
         assert isinstance(indicator["reversed_scale"], bool)
+        assert indicator["importance"] in {0, 0.25, 0.5, 0.75, 1}
         words = indicator["summary"].split()
         assert 20 <= len(words) <= 45, indicator["key"]
 

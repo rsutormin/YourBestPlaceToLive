@@ -21,6 +21,7 @@ DEFAULT_START_YEAR = 2020
 # Stable app keys sit next to the World Bank series codes. Names and units are
 # the published WDI labels; keys stay fixed even if those labels change.
 # reversed_scale is true when a higher value means worse conditions.
+# importance is the default slider weight: 0, 0.25, 0.5, 0.75, or 1.
 CATEGORIES = (
     {
         "id": "purchasing_power_and_inflation",
@@ -32,6 +33,7 @@ CATEGORIES = (
                 "name": "GDP per capita, PPP",
                 "unit": "current international $",
                 "reversed_scale": False,
+                "importance": 0.75,
                 "summary": "Gross domestic product per person, converted to current international dollars so prices are comparable across countries. The World Bank compiles it from national accounts in the World Development Indicators.",
             },
             {
@@ -40,6 +42,7 @@ CATEGORIES = (
                 "name": "Inflation, consumer prices",
                 "unit": "annual %",
                 "reversed_scale": True,
+                "importance": 0.5,
                 "summary": "Annual percentage change in consumer prices, showing how fast the cost of a typical household basket rises. National statistical offices report the index, and the World Bank republishes it.",
             },
         ),
@@ -54,6 +57,7 @@ CATEGORIES = (
                 "name": "Domestic general government health expenditure",
                 "unit": "% of GDP",
                 "reversed_scale": False,
+                "importance": 0.5,
                 "summary": "Public spending on health by general government, measured as a share of gross domestic product. Figures come from the World Health Organization and are published in the World Bank indicators.",
             },
             {
@@ -62,6 +66,7 @@ CATEGORIES = (
                 "name": "Government expenditure on education, total",
                 "unit": "% of GDP",
                 "reversed_scale": False,
+                "importance": 0.5,
                 "summary": "All government spending on education, from primary school through higher education, as a share of gross domestic product. UNESCO collects the figures and the World Bank publishes them.",
             },
         ),
@@ -76,6 +81,7 @@ CATEGORIES = (
                 "name": "Intentional homicides",
                 "unit": "per 100,000 people",
                 "reversed_scale": True,
+                "importance": 1.0,
                 "summary": "Intentional killings recorded by police, counted per 100,000 people. The United Nations Office on Drugs and Crime compiles national justice statistics, and the World Bank publishes the series.",
             },
         ),
@@ -90,6 +96,7 @@ CATEGORIES = (
                 "name": "Individuals using the Internet",
                 "unit": "% of population",
                 "reversed_scale": False,
+                "importance": 0.25,
                 "summary": "Share of people who used the internet during the past three months. National surveys and operator data are gathered by the International Telecommunication Union and published by the World Bank.",
             },
             {
@@ -98,6 +105,7 @@ CATEGORIES = (
                 "name": "Fixed broadband subscriptions",
                 "unit": "per 100 people",
                 "reversed_scale": False,
+                "importance": 0.25,
                 "summary": "Fixed subscriptions that deliver broadband internet to homes and businesses, counted per 100 people. Telecom operators report the lines to the International Telecommunication Union, which the World Bank republishes.",
             },
             {
@@ -106,6 +114,7 @@ CATEGORIES = (
                 "name": "Mobile cellular subscriptions",
                 "unit": "per 100 people",
                 "reversed_scale": False,
+                "importance": 0.0,
                 "summary": "Active mobile-phone subscriptions, including prepaid accounts, counted per 100 people. A person may hold several lines. Operators report them to the International Telecommunication Union, and the World Bank publishes the series.",
             },
         ),
@@ -186,6 +195,7 @@ class WorldBankImporter:
                         "category": category["name"],
                         "units": indicator["unit"],
                         "reversedScale": indicator["reversed_scale"],
+                        "importance": indicator["importance"],
                         "dataSize": len(latest),
                         "retrievedAt": retrieved_at,
                     },

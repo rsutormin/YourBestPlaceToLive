@@ -78,6 +78,7 @@ body {
   font: inherit;
   font-size: 1rem;
   font-weight: 650;
+  white-space: nowrap;
   cursor: pointer;
 }
 
@@ -104,7 +105,8 @@ body {
   flex: 0 0 auto;
 }
 
-#countries-panel {
+#countries-panel,
+#best-panel {
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -112,8 +114,79 @@ body {
 
 .tab-panel[hidden],
 #metrics-panel[hidden],
-#countries-panel[hidden] {
+#countries-panel[hidden],
+#best-panel[hidden] {
   display: none;
+}
+
+#best-panel {
+  gap: 16px;
+}
+
+.weight-list {
+  flex: 0 0 40%;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  list-style: none;
+  border: 1px solid #e6ebf0;
+  border-radius: 8px;
+}
+
+.weight-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 150px;
+  column-gap: 16px;
+  align-items: center;
+  padding: 10px 12px;
+  border-bottom: 1px solid #f0f3f6;
+}
+
+.weight-row .name {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  line-height: 1.35;
+  white-space: normal;
+}
+
+.weight-control {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.weight-row input[type="range"] {
+  width: 100%;
+  margin: 0;
+  accent-color: #1d4e89;
+}
+
+.weight-label {
+  color: #1c2430;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  text-align: right;
+  white-space: nowrap;
+}
+
+#best-panel > .scale {
+  flex: 0 0 auto;
+  margin: 0;
+}
+
+#best-panel .country-list {
+  flex: 1 1 0;
+  min-height: 0;
+}
+
+#best-panel .country-list-header,
+#best-panel .country-list-item {
+  grid-template-columns: minmax(0, 1fr) max-content;
 }
 
 .field {

@@ -84,6 +84,7 @@ COUNTRIES = {
 }
 
 # reversed_scale is true when a higher value means worse conditions.
+# importance is the default slider weight: 0, 0.25, 0.5, 0.75, or 1.
 CATEGORIES = (
     {
         "id": "house_prices",
@@ -96,6 +97,7 @@ CATEGORIES = (
                 "name": "Real house price index, latest quarter",
                 "unit": "index, 2010=100",
                 "reversed_scale": True,
+                "importance": 0.75,
                 "summary": "Inflation-adjusted index of residential property prices, set to 100 in 2010. National sources report quarterly prices to the Bank for International Settlements, and the latest quarter of each year is kept.",
             },
         ),
@@ -170,6 +172,7 @@ class BisImporter:
                         "category": category["name"],
                         "units": indicator["unit"],
                         "reversedScale": indicator["reversed_scale"],
+                        "importance": indicator["importance"],
                         "dataSize": len(latest),
                         "retrievedAt": retrieved_at,
                     },

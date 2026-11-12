@@ -13,15 +13,26 @@
       <section class="map-pane" aria-label="World map">
         <div id="map"></div>
       </section>
-      <aside class="panel" aria-label="Metrics and countries">
+      <aside class="panel" aria-label="Your best list, metrics, and countries">
         <div class="tabs" role="tablist" aria-label="Panel">
+          <button
+            class="tab"
+            id="tab-best"
+            type="button"
+            role="tab"
+            aria-selected="true"
+            aria-controls="best-panel"
+          >
+            Your Best List
+          </button>
           <button
             class="tab"
             id="tab-metrics"
             type="button"
             role="tab"
-            aria-selected="true"
+            aria-selected="false"
             aria-controls="metrics-panel"
+            tabindex="-1"
           >
             Metrics
           </button>
@@ -37,7 +48,8 @@
             Countries
           </button>
         </div>
-        <div id="metrics-panel" class="tab-panel" role="tabpanel" aria-labelledby="tab-metrics">
+        <div id="best-panel" class="tab-panel" role="tabpanel" aria-labelledby="tab-best"></div>
+        <div id="metrics-panel" class="tab-panel" role="tabpanel" aria-labelledby="tab-metrics" hidden>
           <label class="field" for="metric-select">
             Metric
             <select id="metric-select">

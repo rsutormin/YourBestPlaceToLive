@@ -12,6 +12,7 @@ export interface MetricMetadata {
   category: string;
   units: string;
   reversedScale: boolean;
+  importance: number;
   dataSize: number;
   retrievedAt: string;
 }
@@ -77,6 +78,26 @@ export function colorForScale(scale: number): string {
       ? lerp([255, 0, 0], [255, 255, 0], t / 0.5)
       : lerp([255, 255, 0], [0, 255, 0], (t - 0.5) / 0.5);
   return `rgb(${red}, ${green}, ${blue})`;
+}
+
+/** Robust score in about [-1, 1] for each country that has a finite value. */
+export function robustCountryScores(
+  metric: WorldMetric,
+): Map<string, { country: string; score: number; year: number }> {
+  const scores = new Map<string, { country: string; score: number; year: number }>();
+  const rows = metric.data.filter((row) => Number.isFinite(row.value) && row.code);
+  if (rows.length === 0) {
+    return scores;
+  }
+  const { median, iqr } = robustCenter(rows.map((row) => row.value));
+  for (const row of rows) {
+    scores.set(row.code, {
+      country: row.country,
+      score: robustScale(row.value, median, iqr, metric.metadata.reversedScale),
+      year: row.year,
+    });
+  }
+  return scores;
 }
 
 export function colorsForMetric(metric: WorldMetric): Map<string, string> {
