@@ -11,6 +11,8 @@ const page = `
     <div id="metric-detail"></div>
   </div>
   <div id="countries-panel" class="tab-panel" role="tabpanel" hidden></div>
+  <button id="score-details-open" type="button">More details</button>
+  <dialog id="score-details"><button class="dialog-close" type="button">Close</button><p>How the map score works</p></dialog>
 `;
 
 describe("app wiring", () => {
@@ -52,6 +54,24 @@ describe("app wiring", () => {
     expect(metricsTab.getAttribute("aria-selected")).toBe("true");
     expect(panel("#countries-panel").hidden).toBe(true);
     expect(document.activeElement).toBe(metricsTab);
+  });
+
+  it("opens the score explanation from the header link and closes it", async () => {
+    await import("./main");
+    const dialog = document.querySelector<HTMLDialogElement>("#score-details");
+    if (!dialog) {
+      throw new Error("Score dialog missing");
+    }
+
+    button("#score-details-open").click();
+    expect(dialog.open).toBe(true);
+
+    button("#score-details .dialog-close").click();
+    expect(dialog.open).toBe(false);
+
+    button("#score-details-open").click();
+    dialog.dispatchEvent(new MouseEvent("click", { bubbles: true }));
+    expect(dialog.open).toBe(false);
   });
 
   it("selects the combo country in the metrics list", async () => {

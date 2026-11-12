@@ -61,6 +61,8 @@ countriesPanel = createCountriesPanel(countriesPanelElement, {
   },
 });
 
+wireScoreDetails();
+
 bestList = createBestListPanel(bestPanelElement, countryMap, {
   onHover(country) {
     metricsPanel.setHoveredCountry(country?.iso_a3 ?? null);
@@ -96,6 +98,21 @@ wireTabs([
   { button: metricsTab, panel: metricsPanelElement },
   { button: countriesTab, panel: countriesPanelElement },
 ]);
+
+function wireScoreDetails(): void {
+  const open = document.querySelector<HTMLButtonElement>("#score-details-open");
+  const dialog = document.querySelector<HTMLDialogElement>("#score-details");
+  if (!open || !dialog) {
+    return;
+  }
+  open.addEventListener("click", () => dialog.showModal());
+  dialog.querySelector(".dialog-close")?.addEventListener("click", () => dialog.close());
+  dialog.addEventListener("click", (event) => {
+    if (event.target === dialog) {
+      dialog.close();
+    }
+  });
+}
 
 function countryCode(pointer: CountryPointer | null): string | null {
   const code = pointer?.country.iso_a3;

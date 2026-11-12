@@ -7,7 +7,89 @@
   </head>
   <body>
     <header class="site-header">
-      <h1>Your Best Place To Live</h1>
+      <nav class="site-links" aria-label="Contact">
+        <a
+          class="site-link site-link-linkedin"
+          href="https://www.linkedin.com/in/roman-sutormin-43481044/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+            />
+          </svg>
+        </a>
+        <a
+          class="site-link"
+          href="https://github.com/rsutormin/YourBestPlaceToLive"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+            />
+          </svg>
+        </a>
+        <a class="site-link" href="mailto:rsutormin@gmail.com" aria-label="Email rsutormin@gmail.com">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"
+            />
+          </svg>
+        </a>
+      </nav>
+      <h1 class="site-title">
+        <span class="visually-hidden">Your Best Place To Live</span>
+        <span class="title-3d" aria-hidden="true">
+          <span class="title-word">
+            <span class="title-letter" style="--face: #e6403a">Y</span><span class="title-letter" style="--face: #e74e38">O</span><span class="title-letter" style="--face: #e85c35">U</span><span class="title-letter" style="--face: #e96933">R</span>
+          </span>
+          <span class="title-word">
+            <span class="title-letter" style="--face: #ea7730">B</span><span class="title-letter" style="--face: #ec852e">E</span><span class="title-letter" style="--face: #ed932b">S</span><span class="title-letter" style="--face: #eea029">T</span>
+          </span>
+          <span class="title-word">
+            <span class="title-letter" style="--face: #efae26">P</span><span class="title-letter" style="--face: #f0bc24">L</span><span class="title-letter" style="--face: #dabc2a">A</span><span class="title-letter" style="--face: #c4bc30">C</span><span class="title-letter" style="--face: #aebb35">E</span>
+          </span>
+          <span class="title-word">
+            <span class="title-letter" style="--face: #98bb3b">T</span><span class="title-letter" style="--face: #82bb41">O</span>
+          </span>
+          <span class="title-word">
+            <span class="title-letter" style="--face: #6cbb47">L</span><span class="title-letter" style="--face: #56ba4c">I</span><span class="title-letter" style="--face: #40ba52">V</span><span class="title-letter" style="--face: #2aba58">E</span>
+          </span>
+        </span>
+      </h1>
+      <p class="site-tagline">
+        Move the sliders to set how much each metric matters, and the map colors every country by its overall score.
+        <button type="button" class="tagline-details" id="score-details-open">More details</button>
+      </p>
+      <dialog id="score-details" class="metric-dialog score-dialog" aria-labelledby="score-details-title">
+        <div class="dialog-heading">
+          <h2 id="score-details-title">How the map score works</h2>
+          <button type="button" class="dialog-close">Close</button>
+        </div>
+        <p>
+          Each metric is scored by comparing a country with the others. A typical country lands in the middle.
+          Better results move the score up, toward green, and worse results move it down, toward red.
+          When a lower number is better, such as cost or crime, the score is flipped so that better still means higher.
+        </p>
+        <p>
+          The sliders on Your Best List set how much each metric counts. They step through Not important,
+          Slightly important, Important, Very important, and Extremely important. Not important leaves that metric out.
+        </p>
+        <p>
+          A country's overall score is the average of those metric scores, weighted by the sliders.
+          A metric with no number for that country is left out of its average.
+          Countries with numbers for fewer than about two thirds of the metrics stay uncolored.
+        </p>
+        <p>
+          The map paints the overall score from red, a weaker match for what you marked as important,
+          through yellow to green, a stronger match.
+        </p>
+      </dialog>
     </header>
     <div class="layout">
       <section class="map-pane" aria-label="World map">

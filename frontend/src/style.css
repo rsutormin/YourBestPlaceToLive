@@ -20,17 +20,137 @@ body {
 }
 
 .site-header {
+  position: relative;
   flex: 0 0 auto;
-  padding: 28px 22px;
+  padding: 26px 22px 28px;
   border-bottom: 1px solid #d5dbe3;
   background: #ffffff;
 }
 
+.site-links {
+  position: absolute;
+  top: 18px;
+  right: 22px;
+  z-index: 2;
+  display: flex;
+  gap: 6px;
+}
+
+.site-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  color: #1c2430;
+}
+
+.site-link:hover {
+  color: #1d4e89;
+  background: #f4f7fb;
+}
+
+.site-link-linkedin {
+  color: #0a66c2;
+}
+
+.site-link-linkedin:hover {
+  color: #004182;
+}
+
+.site-link svg {
+  width: 22px;
+  height: 22px;
+  fill: currentColor;
+}
+
 .site-header h1 {
+  position: relative;
   margin: 0;
-  font-size: 2.5rem;
-  font-weight: 650;
-  line-height: 1.2;
+  font-family: Impact, "Arial Black", "Segoe UI", sans-serif;
+  font-size: clamp(1.85rem, 4.6vw, 3rem);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1;
+  padding-right: 128px;
+}
+
+.title-3d {
+  display: inline;
+}
+
+.title-word {
+  display: inline-block;
+  margin-right: 0.32em;
+  white-space: nowrap;
+}
+
+.title-word:last-child {
+  margin-right: 0;
+}
+
+.title-letter {
+  display: inline-block;
+  margin: 0 0.09em;
+  color: var(--face);
+  transform: scaleX(1.28);
+  transform-origin: center;
+  -webkit-text-stroke: 2.5px #000;
+  paint-order: stroke fill;
+  text-shadow:
+    0 0 10px rgba(70, 50, 32, 0.4),
+    0 0 22px rgba(70, 50, 32, 0.28);
+}
+
+.site-tagline {
+  margin: 18px 0 0;
+  max-width: 62rem;
+  color: #5c6775;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 0.86rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.4;
+  padding-right: 128px;
+}
+
+.tagline-details {
+  appearance: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #1d4e89;
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.tagline-details:hover {
+  color: #163e6e;
+}
+
+.score-dialog p {
+  margin: 0 0 12px;
+  line-height: 1.45;
+}
+
+.score-dialog p:last-child {
+  margin-bottom: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .layout {
