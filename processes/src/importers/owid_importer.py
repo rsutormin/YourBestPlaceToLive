@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Roman Sutormin. MIT License.
+
 """Import Our World in Data series into frontend JSON.
 
 Loads air quality, CO2 emissions, life expectancy, infant mortality, education,

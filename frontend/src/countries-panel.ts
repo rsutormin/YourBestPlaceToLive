@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Roman Sutormin. MIT License.
+
 import { countries, type CountryProperties } from "./countries";
 import { worldMetrics } from "./metrics";
 

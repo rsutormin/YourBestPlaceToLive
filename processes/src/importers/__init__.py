@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Roman Sutormin. MIT License.
+
 """Data importers for Your Best Place To Live."""
 
 from .bis_importer import BisImporter

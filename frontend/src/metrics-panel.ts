@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Roman Sutormin. MIT License.
+
 import type { CountryProperties } from "./countries";
 import type { CountryMap } from "./map";
 import { colorsForMetric, worldMetrics, type MetricRow, type WorldMetric } from "./metrics";

@@ -53,4 +53,4 @@ Pass `--keys` to import a subset, for example `import-world-bank --keys gdp_per_
 python -m pytest
 ```
 
-Python 3.9 or newer. Attribution for the redistributed data is in [LICENSE](LICENSE).
+Python 3.9 or newer. The code is released under the MIT License. Attribution for the redistributed data is in [LICENSE](LICENSE).

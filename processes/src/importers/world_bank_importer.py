@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Roman Sutormin. MIT License.
+
 """Import World Bank Open Data series into frontend JSON.
 
 Purchasing power, inflation, public spending, homicides, and communications

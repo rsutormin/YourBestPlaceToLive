@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Roman Sutormin. MIT License.
+
 """Import Wikipedia country tables into frontend JSON.
 
 Each article's country table is chosen by its columns, not by position.

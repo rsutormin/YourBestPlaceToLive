@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Roman Sutormin. MIT License.
+
 import worldMetricsJson from "./world-metrics.json";
 
 export interface MetricMetadata {

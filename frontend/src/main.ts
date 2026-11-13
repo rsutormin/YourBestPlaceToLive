@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Roman Sutormin. MIT License.
+
 import "./style.css";
 
 import { createBestListPanel, type BestListPanel } from "./best-list-panel";

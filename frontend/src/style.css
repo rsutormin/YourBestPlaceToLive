@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 Roman Sutormin. MIT License. */
+
 :root {
   color: #1c2430;
   background: #f4f6f8;
@@ -27,11 +29,28 @@ body {
   background: #ffffff;
 }
 
-.site-links {
+.site-credit {
   position: absolute;
-  top: 18px;
+  top: 14px;
   right: 22px;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.site-byline {
+  margin: 0;
+  color: #5c6775;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.site-links {
   display: flex;
   gap: 6px;
 }

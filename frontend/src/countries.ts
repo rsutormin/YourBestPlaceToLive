@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Roman Sutormin. MIT License.
+
 import type { Feature, FeatureCollection, Geometry, Polygon } from "geojson";
 
 import countryPoints from "./country-points.json";

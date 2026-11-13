@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "yourbestplacetolive-processes"
 version = "0.1.0"
 description = "Data import processes for Your Best Place To Live"
+license = {text = "MIT"}
 requires-python = ">=3.9"
 dependencies = [
     "eurostat>=1.1",

@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Roman Sutormin. MIT License.
+
 import json
 from datetime import date
 from pathlib import Path

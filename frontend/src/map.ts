@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Roman Sutormin. MIT License.
+
 import type { Feature } from "geojson";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";

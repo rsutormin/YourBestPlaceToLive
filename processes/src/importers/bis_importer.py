@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Roman Sutormin. MIT License.
+
 """Import BIS house-price series into frontend JSON.
 
 Loads the selected residential property prices published by the Bank for
