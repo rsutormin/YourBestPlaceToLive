@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Roman Sutormin. MIT License.
+
 """Import OECD series into frontend JSON.
 
 Loads the tax wedge, employees working very long hours, and household income

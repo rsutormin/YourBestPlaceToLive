@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Roman Sutormin. MIT License.
+
 import pytest
 
 from importers.bis_importer import CATEGORIES as BIS_CATEGORIES

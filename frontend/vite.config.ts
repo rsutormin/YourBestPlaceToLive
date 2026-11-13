@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Roman Sutormin. MIT License.
+
 import { defineConfig } from "vite";
 
 export default defineConfig({

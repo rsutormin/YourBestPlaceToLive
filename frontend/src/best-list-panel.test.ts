@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Roman Sutormin. MIT License.
+
 import { describe, expect, it, vi } from "vitest";
 
 import { importanceLabel, scoreCountries } from "./best-list";

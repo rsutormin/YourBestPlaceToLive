@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Roman Sutormin. MIT License.
+
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
 const page = `

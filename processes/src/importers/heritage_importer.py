@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Roman Sutormin. MIT License.
+
 """Import Heritage Foundation Index of Economic Freedom scores.
 
 Each edition is an Excel workbook at a stable public URL. The sheet layout

@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Roman Sutormin. MIT License.
+
 import json
 import math
 from datetime import datetime, timezone

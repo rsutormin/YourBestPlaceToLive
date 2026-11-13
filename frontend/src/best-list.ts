@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Roman Sutormin. MIT License.
+
 import { colorForScale, robustCountryScores, type WorldMetric } from "./metrics";
 
 export interface CountryScoreRow {

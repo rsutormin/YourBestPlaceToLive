@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Roman Sutormin. MIT License.
+
 import L from "leaflet";
 import { afterEach, describe, expect, it, vi } from "vitest";
 

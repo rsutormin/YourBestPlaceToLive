@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Roman Sutormin. MIT License.
+
 """Combine World-scope metric files into one frontend JSON array.
 
 Reads every JSON file in ``data/``, keeps the documents whose metadata scope

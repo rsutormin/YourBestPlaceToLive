@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Roman Sutormin. MIT License.
+
 """Import weather-day counts from the Open-Meteo historical archive.
 
 Each country is requested on its own, at the center of its capital city.

@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Roman Sutormin. MIT License.
+
 """Import Eurostat series into frontend JSON.
 
 Loads house prices, rents, minimum and average hourly wages, first

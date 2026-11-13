@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Roman Sutormin. MIT License.
+
 """Import V-Dem liberal democracy scores into frontend JSON.
 
 Downloads the Country-Year Core dataset and keeps each country's liberal
